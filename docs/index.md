@@ -1,39 +1,26 @@
-# International reporting and urgent outreach
+---
+hide:
+  - navigation
+---
 
-**Flamingo Revolution — Albania | Updated 15 October 2026**
+# Protecting civic rights in Albania
 
-!!! warning "Urgent — developing events in Tirana"
-    Reports cover three days of unrest, injuries, detentions and interference with journalists. Seek immediate protection and independent review; verify every claim and do not presume responsibility.
+**An Illyrian Brains public-information and outreach guide**  
+Updated 15 October 2026
 
-## Start here
+This resource helps people contact media, public representatives and civil society organizations about reported rights concerns during protests in Albania. It does not endorse a party or prejudge responsibility for any incident.
 
-- **[Urgent evidence brief — 13–15 October](briefs/tirana-2026-10-13-15-urgent.md)**
-- [Urgent letter to foreign representatives](outreach/urgent-representative.md)
-- [Urgent international media pitch](outreach/urgent-media.md)
-- [Urgent civil society and institutional request](outreach/urgent-partners.md)
-- **[Country routing guide — 21 network countries](countries/routing.md)**
-- [Original 13 October incident brief](briefs/tirana-2026-10-13.md)
-- [Verification and safeguarding](methodology/verification.md)
-- [Country coverage and follow-up tracker](tracking/country-coverage.md)
+## What can I do?
 
-## Languages
+<div class="steps-grid">
+<a class="step-card" href="countries/"><span class="step-num">01</span><strong>Choose your country →</strong><span>Find the appropriate outreach guide for one of 21 countries.</span></a>
+<a class="step-card" href="languages/en/"><span class="step-num">02</span><strong>Copy a letter →</strong><span>Use a short, editable message and attach dated evidence.</span></a>
+</div>
 
-Ready-to-review language packs contain a media pitch, a representative letter and a short brief:
+[**Start here: choose your country →**](countries/index.md) · [Latest evidence briefing →](briefs/tirana-2026-10-13-15-urgent.md)
 
-- [Albanian](outreach/languages/albanian.md)
-- [German](outreach/languages/german.md)
-- [French](outreach/languages/french.md)
-- [Italian](outreach/languages/italian.md)
+## Before sharing
 
-!!! note "Review before sending"
-    These are working translations. Have a fluent or native speaker check names, titles, institutional terminology and local conventions before use. Update the facts and links if events have developed.
+Check the date, source and context of each claim. Distinguish reporting, allegations and verified findings. Protect people pictured or named in footage. Request accountability for violence by **any** actor, while recognizing the rights of peaceful participants, journalists, bystanders and detainees.
 
-## Editorial approach
-
-This is a source-led outreach resource, not an independent investigation or an endorsement request. Distinguish official findings, attributed claims and independent reporting. Include violence committed by any actor, protect victims and minors, and publish corrections transparently.
-
-## Network coverage
-
-Country-specific routing is available for Austria, Belgium, Czechia, Denmark, Finland, France, Germany, the Netherlands, Ireland, Italy, Kosovo, Luxembourg, Malta, the United Kingdom, Norway, Poland, Spain, Sweden, Albania, the United States and Switzerland. The guide suggests institutions by mandate; always verify the current recipient and contact route before sending.
-
-[Flamingo Revolution website](https://flamingorevolution.eu/) · [Protest archive](https://www.flamingorevolution.eu/protestat/)
+For context and documentation, see [Background](background/index.md), [Gallery](evidence-gallery.md), and [Sources](directory.md). Original work by [ADCN](assets/briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) is separately credited.

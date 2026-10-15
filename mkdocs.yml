@@ -1,30 +1,89 @@
-site_name: Flamingo Revolution | International Reporting & Outreach
-site_description: Source-led, neutral urgent reporting and international outreach resources
-site_url: https://www.flamingorevolution.eu/
+site_name: Outreach
 theme:
   name: material
   language: en
-  features: [navigation.sections, navigation.indexes, search.highlight, content.copy]
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+extra_css:
+  - assets/extra.css
+extra_javascript:
+  - assets/evidence.js
+  - assets/directory.js
+plugins:
+  - search
 nav:
   - Home: index.md
-  - Evidence briefs:
-      - Urgent — Tirana, 13–15 October 2026: briefs/tirana-2026-10-13-15-urgent.md
-      - Original — 13 October: briefs/tirana-2026-10-13.md
-  - Urgent outreach:
-      - Country routing — 21 countries: countries/routing.md
-      - Foreign representatives: outreach/urgent-representative.md
-      - International media: outreach/urgent-media.md
-      - Civil society and institutions: outreach/urgent-partners.md
-      - Albanian language pack: outreach/languages/albanian.md
-      - German language pack: outreach/languages/german.md
-      - French language pack: outreach/languages/french.md
-      - Italian language pack: outreach/languages/italian.md
-  - Outreach tracking:
-      - Country coverage and follow-up: tracking/country-coverage.md
-  - Methodology:
-      - Verification and safeguards: methodology/verification.md
+  - Countries:
+      - Choose a country: countries/index.md
+      - "🇦🇹 Austria": countries/austri.md
+      - "🇧🇪 Belgium": countries/belgjike.md
+      - "🇨🇿 Czechia": countries/ceki.md
+      - "🇩🇰 Denmark": countries/danimarke.md
+      - "🇫🇮 Finland": countries/finlande.md
+      - "🇫🇷 France": countries/france.md
+      - "🇩🇪 Germany": countries/gjermani.md
+      - "🇳🇱 Netherlands": countries/holande.md
+      - "🇮🇪 Ireland": countries/irlande.md
+      - "🇮🇹 Italy": countries/itali.md
+      - "🇽🇰 Kosovo": countries/kosove.md
+      - "🇱🇺 Luxembourg": countries/luksemburg.md
+      - "🇲🇹 Malta": countries/malte.md
+      - "🇬🇧 United Kingdom": countries/mbreteria-e-bashkuar.md
+      - "🇳🇴 Norway": countries/norvegji.md
+      - "🇵🇱 Poland": countries/poloni.md
+      - "🇪🇸 Spain": countries/spanje.md
+      - "🇸🇪 Sweden": countries/suedi.md
+      - "🇦🇱 Albania": countries/shqiperi.md
+      - "🇺🇸 United States": countries/shba.md
+      - "🇨🇭 Switzerland": countries/zvicer.md
+  - Letters:
+      - English master: languages/en.md
+      - Albanian: languages/sq.md
+      - German: languages/de.md
+      - Italian: languages/it.md
+      - French: languages/fr.md
+      - Dutch: languages/nl.md
+      - Spanish: languages/es.md
+      - Swedish: languages/sv.md
+      - Polish: languages/pl.md
+      - Media: templates/urgent-media.md
+      - Civil society: templates/urgent-partners.md
+  - Background:
+      - Why: background/index.md
+      - Who: background/who.md
+      - What: background/demands.md
+      - Where: background/where.md
+      - How: background/how.md
+  - Evidence:
+      - Incident records: incidents.md
+      - Latest briefing: briefs/tirana-2026-10-13-15-urgent.md
+      - Photo gallery: evidence-gallery.md
+      - Search sources: directory.md
+      - How we verify: methodology/verification.md
+      - Editorial standards: editorial-policy.md
 markdown_extensions:
   - admonition
   - tables
+  - attr_list
   - toc:
       permalink: true

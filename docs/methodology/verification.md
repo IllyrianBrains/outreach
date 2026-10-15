@@ -22,8 +22,10 @@
 
 Maintain a restricted contact register with organization, role, country, public contact channel, relevance, date sent, reply and next action. Do not publish personal email addresses, track political views of individuals, or mass-message recipients without regard to relevance. Use one carefully tailored follow-up and honor requests not to be contacted.
 
-Before using the [country routing guide](../countries/routing.md), confirm on the institution's official site that the office, mandate and public contact channel remain current. Record the verification date. A national ombuds institution or human-rights body may have no jurisdiction over events in Albania; frame the request as advice, referral, monitoring or engagement with the competent domestic authority unless an express international mandate applies.
-
 ## Editorial independence
 
 Avoid claims that an entire assembly was violent or peaceful based on isolated footage. Do not treat police disciplinary action as proof of criminal guilt. Request accountability for alleged violations by any party and offer meaningful opportunity for response.
+
+## Update log and corrections
+
+For each substantive change, record **date/time (with timezone), editor, changed claim, supporting source, and reason**. Correct inaccurate claims visibly, rather than silently replacing them. If a source is inaccessible, mark it as unconfirmed and do not quote it as verified.

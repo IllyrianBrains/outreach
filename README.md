@@ -1,18 +1,27 @@
-# Flamingo Revolution — Urgent International Outreach
+# Illyrian Brains — action-first civic rights guide
 
-Updated 15 October 2026. This MkDocs Material project includes a source-linked urgent briefing on the Tirana demonstrations of 13–15 October, audience-specific neutral outreach templates, and a routing guide for all 21 countries in the Flamingo Revolution network. Claims are attributed, not treated as adjudicated facts.
+MkDocs Material website for nonpartisan human-rights outreach related to Albania.
 
-Published site: https://illyrianbrains.github.io/outreach/ (built and deployed automatically on every push to `main` via GitHub Actions).
+**Main tabs:** Home · Countries · Letters · Background.
 
-Run locally:
+The public-facing entry points prioritize practical outreach. Context, incident analysis, evidence and bibliography are grouped under Background.
+
+## Edit the CSVs
+
+All CSVs are at `docs/assets/`:
+- `sources.csv` — publications and original URLs
+- `incidents.csv` — reported incidents and affected groups
+- `incident_evidence.csv` — evidence items linked by source and incident ID
+
+The site provides examples and direct links in Sources → CSV files and examples.
+Downloadable fictional templates are in `docs/assets/examples/`.
+
+## Run
 
 ```bash
 pip install -r requirements.txt
 mkdocs serve
+mkdocs build --strict
 ```
 
-Review developing news, evidence, consent and privacy before sending. Do not claim a PDF is attached unless one has actually been created and attached.
-
-The site now includes Albanian, German, French and Italian working translations for media and representative outreach, short localized briefs, and a country coverage/follow-up tracker. Translations require fluent review before use.
-
-Updated 15 October 2026 with Citizens.al reporting from 13–15 October. All allegations remain attributed.
+The ADCN evidence brief is attributed to its original author. External images remain subject to publishers' permissions.

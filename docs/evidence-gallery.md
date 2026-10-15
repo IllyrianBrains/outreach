@@ -4,6 +4,8 @@ Browse photographs, reporting and documented rights concerns in one searchable d
 
 **Filter by topic** using the search box (for example, `protest`, `journalist`, `police`, `bystander`, or `ADCN`). Open each original publication to review its context.
 
+**Video evidence:** select `video` in the media-type filter to find anonymously submitted video clips. These are shared via a third-party folder link and have **not** been individually reviewed, dated, or matched to specific incidents — treat each clip as unverified until checked.
+
 <input id="evidence-search" placeholder="Search evidence, date, people or publisher" aria-label="Search evidence" />
 <select id="evidence-filter" aria-label="Filter by media type"><option value="">All media types</option></select>
 <p id="evidence-count"></p>

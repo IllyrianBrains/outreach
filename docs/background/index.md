@@ -1,4 +1,4 @@
-> **Context note:** This section describes the Flamingo Revolution’s published account and positions. Illyrian Brains documents them for context without endorsing every claim. [Editorial standards](../editorial-policy.md).
+> **Context note:** This section describes the Flamingo Revolution’s published account and positions. Illyrian Brains documents them for context without endorsing every claim.
 
 # Why did the protests begin?
 
@@ -20,6 +20,19 @@ The protests began in opposition to development affecting the **Vjosë–Nartë 
 
 Dates and participation figures should not be treated as independently verified merely because they appear on the movement's site.
 
+<div class="figure-pair">
+<figure class="content-figure">
+  <img src="../assets/images/protests/akerni.jpg" alt="Demonstrators carrying handmade signs march along a fenced construction site at Akërni." loading="lazy">
+  <figcaption>16 May, Akërni. Photo: Citizens.al, via Flamingo Revolution movement archive.</figcaption>
+</figure>
+<figure class="content-figure">
+  <img src="../assets/images/protests/studentet.jpg" alt="Students in graduation gowns hold signs during a protest in Tirana." loading="lazy">
+  <figcaption>13–15 October, Tirana. Photo: Citizens.al, via Flamingo Revolution movement archive.</figcaption>
+</figure>
+</div>
+
 Read next: [Who is involved?](who.md) · [What do they want?](demands.md) · [Where did it happen?](where.md) · [How can people respond?](how.md)
+
+[About this project and its documentation approach](../editorial-policy.md)
 
 Sources: [movement chronology](https://www.flamingorevolution.eu/protestat/) · [independent source directory](../directory.md)

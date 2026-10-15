@@ -24,6 +24,8 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+copyright: >
+  Published by <strong>Illyrian Brains</strong>.
 extra_css:
   - assets/extra.css
 extra_javascript:
@@ -58,6 +60,7 @@ nav:
       - "🇺🇸 United States": countries/shba.md
       - "🇨🇭 Switzerland": countries/zvicer.md
   - Letters:
+      - Three email templates: messages/index.md
       - English master: languages/en.md
       - Albanian: languages/sq.md
       - German: languages/de.md
@@ -67,8 +70,6 @@ nav:
       - Spanish: languages/es.md
       - Swedish: languages/sv.md
       - Polish: languages/pl.md
-      - Media: messages/urgent-media.md
-      - Civil society: messages/urgent-partners.md
   - Background:
       - Overview: background/index.md
       - Chapters:
@@ -78,11 +79,16 @@ nav:
           - "4. When": timeline.md
           - "5. How": background/how.md
       - More information:
+          - Legal framework: background/legal-framework.md
+          - Documentation and methods: background/documentation.md
+          - About this project: editorial-policy.md
           - Incidents: incidents.md
           - GenZ video: genz.md
 markdown_extensions:
   - admonition
   - tables
   - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true

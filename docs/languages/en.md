@@ -1,26 +1,102 @@
-> **Editorial note:** Adapt this draft to your circumstances and the latest verified reporting. Send in your own name; do not imply organizational authorization.
+> **Before sending:** Choose one recipient tab, personalize the email and verify the latest reporting. Send in your own name; do not imply organizational authorization.
+# Flamingo Protests in Albania — English awareness emails
+=== "Media"
+    **Subject:** Flamingo Protests in Albania: reported police abuses during Tirana student demonstrations
 
-# Urgent: Protest-related injuries and policing in Tirana
+    Dear [Editor/Journalist],
 
-**Date:** 15 October 2026  
-**To:** [Representative / editor / organization]  
-**From:** [Your full name, postal address, email]
+    I am asking your newsroom to examine reported human-rights abuses during the student-led demonstrations in Tirana from 13–15 October 2026.
 
-**Subject:** Urgent: Protest-related injuries and policing in Tirana
+    These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
 
-Dear [Name],
+    The reported abuses concern:
 
-I am writing as a resident of [country] concerned about reports from the protests in Tirana on 13–15 October 2026. News outlets have reported the use of tear gas and water cannon, injuries, and clashes. Some participants reportedly threw objects or lit fires. Individual allegations, including a serious injury described in a hospital interview, require independent examination.
+    - **Crowd-control weapons:** police use of tear gas, water cannon, batons and irritant spray against protesters and bystanders.
+    - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
+    - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
+    - **Detention safeguards:** possible procedural-rights violations following 23 reported detentions.
+    - **Treatment of minors:** high school students reportedly participated and may have been exposed to force or detention; available sources do not establish how many affected people were minors.
+    - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
-Please seek information about measures to protect peaceful demonstrators, students, journalists, bystanders, detainees and police; preservation of relevant evidence; and impartial investigation of alleged unlawful force or violence by any party. Please tell me what steps your office can appropriately take.
+    These are attributed allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. The Albanian Helsinki Committee said the acts of individuals cannot make an entire assembly violent, and that police force must remain lawful, necessary and proportionate.
 
-I attach a source-linked evidence brief. Thank you for your consideration.
+    Please assign a reporter, seek responses from the authorities and affected people, press for preservation of police video and medical records alongside an independent inquiry into the serious injury allegation, and bring these concerns—especially the possible treatment of minors and interference with journalists—to wider public attention.
 
-Yours sincerely,
-[Full name]
-[City, postal address, email]
+    - Reuters — gas and water cannon: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+    - Vizion Plus — video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+    - Euronews Albania — hospital interview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+    - News24 — photographs: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+    - Albanian Helsinki Committee — statement: <https://www.instagram.com/p/DecbanfI2ME/>
+    - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
-**Attachment:** [Link to the latest source-linked briefing](../briefs/tirana-2026-10-13-15-urgent.md) (export to PDF if needed).
+    Kind regards,
 
-!!! note "Adapt before sending"
-    Replace all placeholders. Do not claim citizenship, residency, affiliations or first-hand knowledge you do not have. Verify current facts and source links. The English master is the reference text; translations should be reviewed by a fluent speaker.
+    [Name, role, contact]
+
+=== "International institution"
+
+    **Subject:** Flamingo Protests in Albania: urgent alert on reported rights abuses
+
+    Dear [Institution / Country Desk],
+
+    I am writing to alert your institution to serious reported human-rights concerns during the student-led demonstrations in Tirana from 13–15 October 2026.
+
+    These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+
+    The reported abuses concern:
+
+    - **Crowd-control weapons:** police use of tear gas, water cannon, batons and irritant spray against protesters and bystanders.
+    - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
+    - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
+    - **Detention safeguards:** possible procedural-rights violations following 23 reported detentions.
+    - **Treatment of minors:** high school students reportedly participated and may have been exposed to force or detention; available sources do not establish how many affected people were minors.
+    - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
+
+    These are attributed allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. The Albanian Helsinki Committee said the acts of individuals cannot make an entire assembly violent, and that police force must remain lawful, necessary and proportionate.
+
+    Please place this situation on your monitoring agenda, engage the Albanian authorities, seek preservation of police video and medical records, and press for an independent inquiry into the serious injury allegation. A visible response can help ensure that these allegations are not ignored.
+
+    - Reuters — gas and water cannon: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+    - Vizion Plus — video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+    - Euronews Albania — hospital interview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+    - News24 — photographs: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+    - Albanian Helsinki Committee — statement: <https://www.instagram.com/p/DecbanfI2ME/>
+    - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+
+    Sincerely,
+
+    [Name, organization if applicable, contact]
+
+=== "International representative"
+
+    **Subject:** Flamingo Protests in Albania: please raise reported human-rights abuses
+
+    Dear [Representative name],
+
+    I am writing as [a constituent / a member of the Albanian diaspora / a concerned resident] to ask you to raise reported human-rights abuses during the Tirana demonstrations of 13–15 October 2026. Watching the reports has been frightening, and I want everyone protesting, passing by or reporting the news to come home safely.
+
+    These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+
+    The reported abuses concern:
+
+    - **Crowd-control weapons:** police use of tear gas, water cannon, batons and irritant spray against protesters and bystanders.
+    - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
+    - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
+    - **Detention safeguards:** possible procedural-rights violations following 23 reported detentions.
+    - **Treatment of minors:** high school students reportedly participated and may have been exposed to force or detention; available sources do not establish how many affected people were minors.
+    - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
+
+    These are attributed allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. The Albanian Helsinki Committee said the acts of individuals cannot make an entire assembly violent, and that police force must remain lawful, necessary and proportionate.
+
+    Please raise these concerns with the responsible minister, parliamentary committee or diplomatic mission, seek preservation of police video and medical records, and press for an independent inquiry into the serious injury allegation. I would be grateful for a reply explaining what you can do and when I might expect a response.
+
+    - Reuters — gas and water cannon: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+    - Vizion Plus — video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+    - Euronews Albania — hospital interview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+    - News24 — photographs: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+    - Albanian Helsinki Committee — statement: <https://www.instagram.com/p/DecbanfI2ME/>
+    - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+
+    Yours sincerely,
+
+    [Full name, postal address, country, email]

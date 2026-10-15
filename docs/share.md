@@ -12,6 +12,6 @@
 
 **Suggested subject:** Urgent: Tirana protests — protect participants and journalists; preserve evidence and investigate reported injuries
 
-[Read the source index](sources.md) · [Download the evidence brief](assets/briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) · [Choose a country](countries/index.md)
+[Read the source index](sources.md) · [Download the evidence brief](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) · [Choose a country](countries/index.md)
 
 **Before sending:** Write in your own name and capacity. Do not claim to represent Illyrian Brains, ADCN or the Flamingo Revolution unless authorized. Adapt the request to the recipient’s actual mandate and cite dated sources.

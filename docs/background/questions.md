@@ -1,4 +1,4 @@
-> **Context note:** This section describes the Flamingo Revolution’s published account and positions. Illyrian Brains documents them for context without endorsing every claim. [Editorial standards](../editorial-policy.md).
+> **Context note:** This section describes the Flamingo Revolution’s published account and positions. Illyrian Brains documents them for context without endorsing every claim.
 
 # Questions international readers may ask
 
@@ -12,4 +12,4 @@
 
 **How can I help without taking a political side?** Share verified reporting, request protection of fundamental rights, ask for independent investigations, and seek dialogue.
 
-**What evidence is available for 13 October?** See the [ADCN public-source brief](../assets/briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) and [source directory](../directory.md). The brief explicitly distinguishes images, reporting and unresolved claims.
+**What evidence is available for 13 October?** See the [ADCN public-source brief](../assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) and [source directory](../directory.md). The brief explicitly distinguishes images, reporting and unresolved claims.

@@ -1,4 +1,4 @@
-> **Illyrian Brains documentation:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same standards to every affected group. [Editorial policy](editorial-policy.md).
+> **Documentation note:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same care to every affected group.
 
 # Incident and harm records
 
@@ -17,4 +17,4 @@ Add one record per distinct incident where possible. Use `source_ids` to referen
 
 The **Albanian Diaspora Civic Network (ADCN)** published a four-page public-source review dated 14 October 2026 concerning the 13 October Tirana protest. It includes visual analysis (pages 1–2), cross-source reporting (page 3) and preservation/investigation requests (page 4). The `adcn_reference` field points to relevant pages. These records are a **new organizational layer**, not an ADCN investigation or a replacement for its original publication.
 
-[Read the ADCN evidence brief](briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf)
+[Read the ADCN evidence brief](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf)

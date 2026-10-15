@@ -1,4 +1,4 @@
-# About this project and editorial standards
+# About this project and documentation approach
 
 **Publisher:** Illyrian Brains. **Purpose:** Support human rights protection, public understanding and responsible communication about protests in Albania.
 
@@ -17,7 +17,7 @@ This website is **not an official Flamingo Revolution website** and does not spe
 ## Attribution and provenance
 
 - **Flamingo Revolution:** cited for its published chronology, stated demands and original movement materials. [Movement website](https://flamingorevolution.eu/) · [Chronology](https://www.flamingorevolution.eu/protestat/).
-- **Albanian Diaspora Civic Network (ADCN):** author of the separate *Tirana: force and injuries, 13 October 2026* public-source evidence brief dated 14 October. Its images and analysis remain ADCN's work. [Read the original brief](briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf).
+- **Albanian Diaspora Civic Network (ADCN):** author of the separate *Tirana: force and injuries, 13 October 2026* public-source evidence brief dated 14 October. Its images and analysis remain ADCN's work. [Read the original brief](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf).
 - **Media and rights organizations:** retain responsibility for their original publications and statements; links are provided for verification.
 
 ## Corrections and contributions

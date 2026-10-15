@@ -1,4 +1,4 @@
-> **Illyrian Brains documentation:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same standards to every affected group. [Editorial policy](editorial-policy.md).
+> **Documentation note:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same care to every affected group.
 
 # Sources and reporting links
 
@@ -28,7 +28,7 @@ For additional Instagram reporting, add **individual verified post URLs**, not g
 
 ## Evidence attachment
 
-[Download the ADCN 13 October evidence brief (PDF)](assets/briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf){: download="ADCN_Tirana_13_October_2026_Evidence_Brief.pdf" }
+[Download the ADCN 13 October evidence brief (PDF)](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf){: download="ADCN_Tirana_13_October_2026_Evidence_Brief.pdf" }
 
 This **four-page brief is dated 14 October**, and covers **13 October**, not the entire 13–15 October period. It distinguishes visible footage from publisher descriptions and allegations. Page 2 presents separate photo frames, not a proven sequence. Page 3 lists unverified rumors explicitly. Page 4 proposes evidence preservation and independent investigation. Credit the *Albanian Diaspora Civic Network (ADCN)*; do not rebrand it as a Flamingo-authored report.
 

@@ -1,5 +1,10 @@
 # How to communicate responsibly about civic rights
 
+<figure class="content-figure">
+  <img src="assets/images/protests/parlamenti-evropian.jpg" alt="A banner reading 'Europe, can you hear us?' held up at a protest, alongside a view inside the European Parliament chamber." loading="lazy">
+  <figcaption>International audiences are part of this conversation too. Photo: Citizens.al, via Flamingo Revolution movement archive.</figcaption>
+</figure>
+
 ## A short citizen guide
 
 1. **Collect facts.** Use reputable reporting, original documents and human-rights sources. Note the date, location, attribution and uncertainties. Do not spread rumours.
@@ -13,6 +18,6 @@
 
 ## Ready to send
 
-[Choose country](countries/index.md) · [English letter](languages/en.md) · [Media email](messages/urgent-media.md) · [Evidence briefing](briefs/tirana-2026-10-13-15-urgent.md)
+[Choose one of three email templates](messages/index.md) · [Choose country](countries/index.md) · [Translated emails](languages/en.md) · [Evidence briefing](briefs/tirana-2026-10-13-15-urgent.md)
 
 **Before sending:** Write in your own name and capacity. Do not claim to represent Illyrian Brains, ADCN or the Flamingo Revolution unless authorized. Adapt the request to the recipient’s actual mandate and cite dated sources.

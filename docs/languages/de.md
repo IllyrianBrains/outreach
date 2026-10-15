@@ -1,25 +1,102 @@
-> **Editorial note:** Adapt this draft to your circumstances and the latest verified reporting. Send in your own name; do not imply organizational authorization.
+> **Vor dem Versenden:** Wählen Sie einen Empfänger-Tab, personalisieren Sie die E-Mail und prüfen Sie die neuesten Berichte. Versenden Sie sie in Ihrem eigenen Namen.
+# Flamingo-Proteste in Albanien — deutsche E-Mails
+=== "Medien"
+    **Betreff:** Flamingo-Proteste in Albanien: gemeldete Polizeigewalt bei Demonstrationen in Tirana
 
-# Dringend: Verletzte und Polizeieinsatz bei Protesten in Tirana
+    Sehr geehrte/r [Redakteur/in / Journalist/in],
 
-**Date:** 15 October 2026  
-**To:** [Representative / editor / organization]  
-**From:** [Your full name, postal address, email]
+    ich bitte Ihre Redaktion, Berichte über Menschenrechtsverletzungen bei den studentisch geführten Demonstrationen in Tirana vom 13. bis 15. Oktober 2026 zu untersuchen.
 
-**Subject:** Dringend: Verletzte und Polizeieinsatz bei Protesten in Tirana
+    Diese Demonstrationen sind Teil von mehr als 130 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
 
-Sehr geehrte/r [Name],
+    Zu den gemeldeten Übergriffen gehören:
 
-ich wende mich als in [Land] lebende Person an Sie. Berichte über die Proteste in Tirana vom 13. bis 15. Oktober 2026 beschreiben den Einsatz von Tränengas und Wasserwerfern, Verletzungen und Zusammenstöße. Auch gewaltsame Handlungen einzelner Demonstrierender wurden gemeldet. Vorwürfe zu schweren Verletzungen und unverhältnismäßiger Gewalt müssen unabhängig geprüft werden.
+    - **Mittel zur Kontrolle von Menschenmengen:** Tränengas, Wasserwerfer, Schlagstöcke und Reizspray der Polizei gegen Demonstrierende und Unbeteiligte.
+    - **Körperliche Gewalt und Fixierung:** möglicherweise unverhältnismäßige Gewalt, darunter am Boden festgehaltene Personen.
+    - **Schwere Verletzung:** ein im Krankenhaus Befragter gab an, die Polizei habe seine schwere Beinverletzung verursacht.
+    - **Rechte Inhaftierter:** mögliche Verfahrensverstöße nach 23 gemeldeten Festnahmen.
+    - **Umgang mit Minderjährigen:** Schülerinnen und Schüler nahmen Berichten zufolge teil und könnten Polizeigewalt oder Festnahmen ausgesetzt gewesen sein; wie viele Betroffene minderjährig waren, ist nicht belegt.
+    - **Pressefreiheit:** Angriffe, Drohungen, Verletzungen, Behinderungen und das erzwungene Entfernen von Medienschaffenden.
 
-Ich bitte Sie, sich im Rahmen Ihrer Zuständigkeit für den Schutz friedlich Demonstrierender, Studierender, Medienschaffender, Unbeteiligter, Festgenommener und Polizeikräfte, die Sicherung relevanter Beweise sowie unparteiische Ermittlungen zu möglichen Rechtsverletzungen einzusetzen. Über eine Rückmeldung zu möglichen Schritten würde ich mich freuen.
+    Dies sind Vorwürfe, die unabhängig geprüft werden müssen, keine festgestellten Rechtsverstöße. Einige Teilnehmende sollen Steine geworfen und Feuer gelegt haben; das rechtfertigt keine Gewalt gegen Unbeteiligte. Das Albanian Helsinki Committee erklärte, einzelne Handlungen könnten eine gesamte Versammlung nicht gewalttätig machen, und Polizeigewalt müsse rechtmäßig, notwendig und verhältnismäßig bleiben.
 
-Ein Quellenbriefing ist beigefügt.
+    Bitte beauftragen Sie eine Recherche, holen Sie Stellungnahmen der Behörden und Betroffenen ein, drängen Sie auf die Sicherung von Polizeivideos und medizinischen Unterlagen sowie eine unabhängige Untersuchung der schweren Verletzung, und machen Sie insbesondere den möglichen Umgang mit Minderjährigen und die Behinderung von Medienschaffenden öffentlich bekannt.
 
-Mit freundlichen Grüßen
-[Name, Anschrift, E-Mail]
+    - Reuters — Gas und Wasserwerfer: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+    - Vizion Plus — Video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+    - Euronews Albania — Krankenhausinterview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+    - News24 — Fotografien: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+    - Albanian Helsinki Committee — Erklärung: <https://www.instagram.com/p/DecbanfI2ME/>
+    - ADCN — Beweisgrundlage: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
-**Attachment:** [Link to the latest source-linked briefing](../briefs/tirana-2026-10-13-15-urgent.md) (export to PDF if needed).
+    Mit freundlichen Grüßen
 
-!!! note "Adapt before sending"
-    Replace all placeholders. Do not claim citizenship, residency, affiliations or first-hand knowledge you do not have. Verify current facts and source links. The English master is the reference text; translations should be reviewed by a fluent speaker.
+    [Name, Funktion, Kontakt]
+
+=== "Internationale Institution"
+
+    **Betreff:** Flamingo-Proteste in Albanien: dringender Hinweis auf gemeldete Rechtsverletzungen
+
+    Sehr geehrte Damen und Herren,
+
+    ich möchte Ihre Institution auf ernste Menschenrechtsbedenken bei den Demonstrationen in Tirana vom 13. bis 15. Oktober 2026 aufmerksam machen.
+
+    Diese Demonstrationen sind Teil von mehr als 130 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
+
+    Zu den gemeldeten Übergriffen gehören:
+
+    - **Mittel zur Kontrolle von Menschenmengen:** Tränengas, Wasserwerfer, Schlagstöcke und Reizspray der Polizei.
+    - **Körperliche Gewalt und Fixierung:** möglicherweise unverhältnismäßige Gewalt und am Boden festgehaltene Personen.
+    - **Schwere Verletzung:** der Vorwurf, die Polizei habe eine schwere Beinverletzung verursacht.
+    - **Rechte Inhaftierter:** mögliche Verfahrensverstöße nach 23 gemeldeten Festnahmen.
+    - **Umgang mit Minderjährigen:** Teilnahme von Schülerinnen und Schülern und mögliche Gewalt oder Festnahme, ohne bestätigte Zahl minderjähriger Betroffener.
+    - **Pressefreiheit:** Angriffe, Drohungen, Verletzungen, Behinderungen und Entfernung von Medienschaffenden.
+
+    Dies sind Vorwürfe, die unabhängig geprüft werden müssen. Einige Teilnehmende sollen Steine geworfen und Feuer gelegt haben; das rechtfertigt keine Gewalt gegen Unbeteiligte. Das Albanian Helsinki Committee erklärte, einzelne Handlungen könnten eine gesamte Versammlung nicht gewalttätig machen, und Polizeigewalt müsse rechtmäßig, notwendig und verhältnismäßig bleiben.
+
+    Bitte nehmen Sie die Situation in Ihr Monitoring auf, treten Sie mit den albanischen Behörden in Kontakt, drängen Sie auf die Sicherung von Polizeivideos und medizinischen Unterlagen sowie eine unabhängige Untersuchung der schweren Verletzung, und bekräftigen Sie öffentlich die Rechte auf friedliche Versammlung, Kinderschutz, ein rechtsstaatliches Verfahren und unabhängigen Journalismus.
+
+    - Reuters — Gas und Wasserwerfer: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+    - Vizion Plus — Video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+    - Euronews Albania — Krankenhausinterview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+    - News24 — Fotografien: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+    - Albanian Helsinki Committee — Erklärung: <https://www.instagram.com/p/DecbanfI2ME/>
+    - ADCN — Beweisgrundlage: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+
+    Mit freundlichen Grüßen
+
+    [Name, Organisation falls zutreffend, Kontakt]
+
+=== "Internationale Vertretung"
+
+    **Betreff:** Flamingo-Proteste in Albanien: Bitte sprechen Sie die gemeldeten Menschenrechtsverletzungen an
+
+    Sehr geehrte/r [Name],
+
+    ich schreibe als [Wähler/in / Mitglied der albanischen Diaspora / besorgte Person] und bitte Sie, die gemeldeten Menschenrechtsverletzungen bei den Demonstrationen in Tirana vom 13. bis 15. Oktober 2026 anzusprechen. Die Berichte aus Tirana zu verfolgen war erschreckend, und ich möchte, dass alle, die protestieren, vorbeigehen oder darüber berichten, sicher nach Hause kommen.
+
+    Diese Demonstrationen sind Teil von mehr als 130 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
+
+    Zu den gemeldeten Übergriffen gehören:
+
+    - **Mittel zur Kontrolle von Menschenmengen:** Tränengas, Wasserwerfer, Schlagstöcke und Reizspray der Polizei.
+    - **Körperliche Gewalt und Fixierung:** möglicherweise unverhältnismäßige Gewalt und am Boden festgehaltene Personen.
+    - **Schwere Verletzung:** der Vorwurf, die Polizei habe eine schwere Beinverletzung verursacht.
+    - **Rechte Inhaftierter:** mögliche Verfahrensverstöße nach 23 gemeldeten Festnahmen.
+    - **Umgang mit Minderjährigen:** Teilnahme von Schülerinnen und Schülern und mögliche Gewalt oder Festnahme, ohne bestätigte Zahl minderjähriger Betroffener.
+    - **Pressefreiheit:** Angriffe, Drohungen, Verletzungen, Behinderungen und Entfernung von Medienschaffenden.
+
+    Dies sind Vorwürfe, die unabhängig geprüft werden müssen. Einige Teilnehmende sollen Steine geworfen und Feuer gelegt haben; das rechtfertigt keine Gewalt gegen Unbeteiligte. Das Albanian Helsinki Committee erklärte, einzelne Handlungen könnten eine gesamte Versammlung nicht gewalttätig machen, und Polizeigewalt müsse rechtmäßig, notwendig und verhältnismäßig bleiben.
+
+    Bitte sprechen Sie diese Bedenken gegenüber dem zuständigen Ministerium, Parlamentsausschuss oder der diplomatischen Vertretung an, drängen Sie auf die Sicherung von Polizeivideos und medizinischen Unterlagen und auf eine unabhängige Untersuchung der schweren Verletzung. Ich wäre für eine Antwort dankbar, die erläutert, was Sie tun können und bis wann ich mit einer Rückmeldung rechnen kann.
+
+    - Reuters — Gas und Wasserwerfer: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+    - Vizion Plus — Video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+    - Euronews Albania — Krankenhausinterview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+    - News24 — Fotografien: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+    - Albanian Helsinki Committee — Erklärung: <https://www.instagram.com/p/DecbanfI2ME/>
+    - ADCN — Beweisgrundlage: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+
+    Mit freundlichen Grüßen
+
+    [Vollständiger Name, Anschrift, Land, E-Mail]

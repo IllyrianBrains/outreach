@@ -1,30 +1,41 @@
-> **Template use:** Personalize and verify before sending. This is an Illyrian Brains public-interest resource, not an official statement from the Flamingo Revolution or ADCN. Do not assert unverified allegations as facts.
+> **Template use:** Personalize and verify before sending. Write in your own name and do not claim to represent Illyrian Brains, ADCN or the Flamingo Revolution unless authorized.
+# Flamingo Protests in Albania — international representative email
 
-# Urgent letter — foreign elected representative
-
-**Date:** 15 October 2026  
-**To:** [Representative name]  
-**From:** [Full name, postal address, country, email]  
-**Subject:** Urgent: Protection of demonstrators and journalists in Tirana, 13–15 October
+**Subject:** Flamingo Protests in Albania: please raise reported human-rights abuses
 
 Dear [Representative name],
 
-I am writing as [a constituent / a member of the Albanian diaspora living in country] to request your urgent attention to three consecutive days of unrest in Tirana, Albania.
+I am writing as [a constituent / a member of the Albanian diaspora / a concerned resident] to ask you to draw urgent attention to reported human-rights abuses during student-led demonstrations in Tirana from 13–15 October 2026. Watching the reports from Tirana has been frightening, and I want everyone protesting, passing by or reporting the news to come home safely.
 
-Reports from Reuters and Associated Press describe clashes during student-led demonstrations on 13–15 October, including police use of tear gas and water cannon, injuries and detentions, as well as objects thrown and damage caused by some protesters. The Association of Journalists of Albania has documented at least ten incidents affecting twelve media workers on 13–14 October. The Committee to Protect Journalists and its partners have called for urgent investigation and protection. Albania's Ombudsman has opened an inquiry into the use of police force.
+These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
 
-The safety of peaceful demonstrators, students, journalists, bystanders, detainees and police officers must be protected. Violence by individuals should be investigated without treating an entire assembly as violent. Allegations against police likewise require impartial, person-specific examination.
+Source-linked reporting raises concerns about:
 
-Could you urgently ask the responsible minister or parliamentary committee to raise these concerns with the Albanian authorities; seek confirmation that video, police orders, custody and medical records are preserved; and request information on independent investigations, detainee safeguards and journalist protection? Please also consider appropriate bilateral engagement and dialogue through the OSCE, Council of Europe or EU institutions, where relevant to your office.
+- **Crowd-control weapons:** police use of tear gas, water cannon, batons and irritant spray against protesters and bystanders.
+- **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
+- **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
+- **Detention safeguards:** possible violations of procedural rights following 23 reported detentions.
+- **Treatment of minors:** high school students reportedly participated and may have been exposed to police force or detention; available sources do not yet establish how many affected people were minors.
+- **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
-I would appreciate a written response indicating what steps you can take and when an update may be expected. A concise, source-linked brief is attached or available online.
+These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
 
-Yours sincerely,  
-[Full name]
+I would be grateful if you could:
 
-**Evidence brief:** [Tirana, 13–15 October 2026](../briefs/tirana-2026-10-13-15-urgent.md)
+- Raise the safety of demonstrators, bystanders, journalists and detainees with the Albanian authorities now.
+- Seek preservation of police video, deployment orders and medical records relevant to the reported injuries and detentions.
+- Press for an independent, person-specific inquiry into the serious leg-injury case and any allegations of excessive force.
+- Tell me what your government will do through its bilateral relations with Albania and through the OSCE or the Council of Europe.
 
+I would be grateful for a reply explaining what you can do and when I might expect a response. I have attached the ADCN evidence brief, which links directly to the reporting and original posts below.
 
-### Additional reporting to cite (15 October update)
+- Reuters — gas and water cannon: <https://www.marketscreener.com/news/albanian-students-protest-over-education-jobs-clash-with-police-ce785dddd180f522>
+- Vizion Plus — video: <https://www.vizionplus.tv/tensione-ne-proteste-policia-perdor-uje-dhe-gaz-per-te-shperndare-turmen-video/>
+- Euronews Albania — hospital interview: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
+- News24 — photographs: <https://www.balkanweb.com/video-foto-protesta-e-studenteve-ndezi-tiranen-rreth-9-ore-revolte-dhune-dhe-perplasje-me-policine-studente-te-rrahur-nga-efektivet-e-mbi-40-te-shoqeruar/>
+- Albanian Helsinki Committee — statement: <https://www.instagram.com/p/DecbanfI2ME/>
+- ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
-Citizens.al reports that protests began with education-related demands on 13 October, expanded to class boycotts on 14 October, and continued near parliament on 15 October. Its reporting describes both violence by some demonstrators and allegations of excessive police force, including injuries to journalists. Cite the [13 October account](https://citizens.al/2026/10/13/studentet-rizgjojne-protesten-policia-pergjigjet-me-dhune/), [14 October boycott report](https://citizens.al/2026/10/14/protesta-e-studenteve-nis-me-bojkot/), and [15 October institutional reactions](https://citizens.al/2026/10/15/organizatat-vendase-dhe-nderkombetare-reagojne-ndaj-dhunes-policore-ne-proteste/). Request urgent protection, evidence preservation and impartial investigation without prejudging findings.
+Yours sincerely,
+
+[Full name, postal address, country, email]

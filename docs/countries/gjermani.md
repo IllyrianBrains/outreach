@@ -1,4 +1,3 @@
-> **Public-interest guide by Illyrian Brains.** Use factual, nonpartisan language and contact institutions within their mandate. [Editorial standards](../editorial-policy.md).
 
 # 🇩🇪 Germany
 

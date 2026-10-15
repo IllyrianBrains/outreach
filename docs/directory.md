@@ -1,4 +1,4 @@
-> **Illyrian Brains documentation:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same standards to every affected group. [Editorial policy](editorial-policy.md).
+> **Documentation note:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same care to every affected group.
 
 # Source directory
 

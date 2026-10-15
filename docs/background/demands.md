@@ -1,4 +1,4 @@
-> **Context note:** This section describes the Flamingo Revolution’s published account and positions. Illyrian Brains documents them for context without endorsing every claim. [Editorial standards](../editorial-policy.md).
+> **Context note:** This section describes the Flamingo Revolution’s published account and positions. Illyrian Brains documents them for context without endorsing every claim.
 
 # What do protesters want?
 

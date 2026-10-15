@@ -7,8 +7,8 @@ Evidence and reporting concerning alleged violence, injuries, detentions and res
 
 ## Original documentation and safeguards
 
-The [Albanian Diaspora Civic Network (ADCN) evidence brief](briefs/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) is an independently authored public-source review dated 14 October. Entries referencing its figures credit ADCN explicitly. Illyrian Brains maintains a secondary index and does not claim to have authenticated original footage or determined individual responsibility.
+The [Albanian Diaspora Civic Network (ADCN) evidence brief](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) is an independently authored public-source review dated 14 October. Entries referencing its figures credit ADCN explicitly. Illyrian Brains maintains a secondary index and does not claim to have authenticated original footage or determined individual responsibility.
 
 Images of identifiable people, especially minors or injured persons, should not be republished without appropriate authorization and a safety review.
 
-[Incident register](incidents.md) · [Download evidence CSV](assets/incident_evidence.csv) · [Editorial standards](editorial-policy.md)
+[Incident register](incidents.md) · [Download evidence CSV](assets/incident_evidence.csv)

@@ -29,6 +29,7 @@ extra_css:
 extra_javascript:
   - assets/evidence.js
   - assets/directory.js
+  - assets/timeline.js
 plugins:
   - search
 nav:
@@ -69,18 +70,16 @@ nav:
       - Media: messages/urgent-media.md
       - Civil society: messages/urgent-partners.md
   - Background:
-      - Why: background/index.md
-      - Who: background/who.md
-      - What: background/demands.md
-      - Where: background/where.md
-      - How: background/how.md
-  - Evidence:
-      - Incident records: incidents.md
-      - Latest briefing: briefs/tirana-2026-10-13-15-urgent.md
-      - Photo gallery: evidence-gallery.md
-      - Search sources: directory.md
-      - How we verify: methodology/verification.md
-      - Editorial standards: editorial-policy.md
+      - Overview: background/index.md
+      - Chapters:
+          - "1. Who": background/who.md
+          - "2. What": background/demands.md
+          - "3. Where": background/where.md
+          - "4. When": timeline.md
+          - "5. How": background/how.md
+      - More information:
+          - Incidents: incidents.md
+          - GenZ video: genz.md
 markdown_extensions:
   - admonition
   - tables

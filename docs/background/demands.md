@@ -2,6 +2,8 @@
 
 # What do protesters want?
 
+The movement began with opposition to development affecting the **Vjosë–Nartë protected coastal landscape**. Its concerns later expanded to public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+
 The movement's website distinguishes **initial demands** from a later, broader platform. These are political positions of the movement, not the neutral requests in our international outreach letters.
 
 ## The movement's demands

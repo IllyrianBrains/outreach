@@ -7,6 +7,6 @@ The source bibliography is maintained in **`docs/assets/sources.csv`**. Search b
 <div class="source-controls"><input id="source-search" type="search" placeholder="Search sources…" aria-label="Search sources"><select id="source-filter" aria-label="Source category"><option value="">All source types</option></select></div>
 <p id="source-count" role="status"></p><div id="source-results" class="source-grid">Loading sources…</div>
 
-[Download sources.csv](../assets/sources.csv) · [View incident records](../incidents/) · [Verification guidance](../methodology/verification/)
+[Download sources.csv](assets/sources.csv) · [View incident records](incidents.md) · [Verification guidance](methodology/verification.md)
 
 A movement statement documents the movement's position, not independent verification. Published allegations and organization statements must remain attributed. The ADCN brief is credited separately.

@@ -13,6 +13,6 @@
 
 ## Ready to send
 
-[Choose country](countries/index.md) · [English letter](languages/en.md) · [Media email](templates/urgent-media.md) · [Evidence briefing](briefs/tirana-2026-10-13-15-urgent.md)
+[Choose country](countries/index.md) · [English letter](languages/en.md) · [Media email](messages/urgent-media.md) · [Evidence briefing](briefs/tirana-2026-10-13-15-urgent.md)
 
 **Before sending:** Write in your own name and capacity. Do not claim to represent Illyrian Brains, ADCN or the Flamingo Revolution unless authorized. Adapt the request to the recipient’s actual mandate and cite dated sources.

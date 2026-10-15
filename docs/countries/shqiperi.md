@@ -14,7 +14,7 @@ Use this page to share a factual, source-linked briefing about the protests in A
 
 ## 2. Copy the letter
 
-[**Local-language template**](../languages/sq.md) · [English master](../languages/en.md) · [Media template](../templates/urgent-media.md) · [Partner template](../templates/urgent-partners.md)
+[**Local-language template**](../languages/sq.md) · [English master](../languages/en.md) · [Media template](../messages/urgent-media.md) · [Partner template](../messages/urgent-partners.md)
 
 ## 3. Attach evidence and follow up
 

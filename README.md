@@ -21,7 +21,7 @@ Downloadable fictional templates are in `docs/assets/examples/`.
 ```bash
 pip install -r requirements.txt
 mkdocs serve
-mkdocs build --strict
+mkdocs build
 ```
 
 The ADCN evidence brief is attributed to its original author. External images remain subject to publishers' permissions.

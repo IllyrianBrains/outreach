@@ -66,8 +66,8 @@ nav:
       - Spanish: languages/es.md
       - Swedish: languages/sv.md
       - Polish: languages/pl.md
-      - Media: templates/urgent-media.md
-      - Civil society: templates/urgent-partners.md
+      - Media: messages/urgent-media.md
+      - Civil society: messages/urgent-partners.md
   - Background:
       - Why: background/index.md
       - Who: background/who.md

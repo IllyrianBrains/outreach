@@ -1,0 +1,30 @@
+site_name: Flamingo Revolution | International Reporting & Outreach
+site_description: Source-led, neutral urgent reporting and international outreach resources
+site_url: https://www.flamingorevolution.eu/
+theme:
+  name: material
+  language: en
+  features: [navigation.sections, navigation.indexes, search.highlight, content.copy]
+nav:
+  - Home: index.md
+  - Evidence briefs:
+      - Urgent — Tirana, 13–15 October 2026: briefs/tirana-2026-10-13-15-urgent.md
+      - Original — 13 October: briefs/tirana-2026-10-13.md
+  - Urgent outreach:
+      - Country routing — 21 countries: countries/routing.md
+      - Foreign representatives: outreach/urgent-representative.md
+      - International media: outreach/urgent-media.md
+      - Civil society and institutions: outreach/urgent-partners.md
+      - Albanian language pack: outreach/languages/albanian.md
+      - German language pack: outreach/languages/german.md
+      - French language pack: outreach/languages/french.md
+      - Italian language pack: outreach/languages/italian.md
+  - Outreach tracking:
+      - Country coverage and follow-up: tracking/country-coverage.md
+  - Methodology:
+      - Verification and safeguards: methodology/verification.md
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true

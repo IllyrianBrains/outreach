@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Help bring verified attention to the Flamingo protests
+# Outreach to raise the voice against violent protests in Albania
 
 Choose a ready-to-personalize letter, find an organization that still needs outreach, and record the result so others do not duplicate your work.
 

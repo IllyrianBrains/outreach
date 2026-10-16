@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Outreach to raise the voice against violent protests in Albania
+# Help document and respond to violence against Albania's protesters
 
 Choose a ready-to-personalize letter, find an organization that still needs outreach, and record the result so others do not duplicate your work.
 

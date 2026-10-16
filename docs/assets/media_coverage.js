@@ -21,12 +21,14 @@ function classifyCountries(data) {
         notFound: new Set(),
         notChecked: new Set(),
         allOutlets: new Set(),
+        outlets: [],
         candidates: []
       });
     }
 
     const entry = countries.get(item.country);
     entry.allOutlets.add(item.outlet);
+    entry.outlets.push(item);
     if (item.coverage_status === 'Covered') entry.covered.add(item.outlet);
     else if (item.coverage_status === 'Mentioned' || item.coverage_status === 'Unclear') {
       entry.partial.add(item.outlet);
@@ -60,10 +62,10 @@ function classifyCountries(data) {
     const statusRank = { 'Not found': 0, 'Not checked': 0, Unclear: 1, Mentioned: 2 };
     const nextOutlets = [...entry.candidates]
       .filter(item => !((item.outreach_status || '').trim()) || item.outreach_status === 'Not contacted')
-      .sort((a, b) => {
-        const statusDifference = (statusRank[a.coverage_status] ?? 9) - (statusRank[b.coverage_status] ?? 9);
-        return statusDifference || a.outlet.localeCompare(b.outlet);
-      })
+      .sort((a, b) =>
+        (statusRank[a.coverage_status] ?? 9) - (statusRank[b.coverage_status] ?? 9) ||
+        a.outlet.localeCompare(b.outlet)
+      )
       .slice(0, 3);
 
     return {
@@ -86,7 +88,8 @@ function classifyCountries(data) {
 const A2_TO_A3 = {
   AT: 'AUT', BE: 'BEL', CZ: 'CZE', DK: 'DNK', FI: 'FIN', FR: 'FRA', DE: 'DEU',
   NL: 'NLD', IE: 'IRL', IT: 'ITA', XK: 'CS-KM', LU: 'LUX', MT: 'MLT', GB: 'GBR',
-  NO: 'NOR', PL: 'POL', ES: 'ESP', SE: 'SWE', AL: 'ALB', US: 'USA', CH: 'CHE'
+  NO: 'NOR', PL: 'POL', ES: 'ESP', SE: 'SWE', AL: 'ALB', US: 'USA', CH: 'CHE',
+  VA: 'VAT'
 };
 
 let coverageMapInstance = null;
@@ -174,16 +177,23 @@ function renderPriorityList(data) {
     row.className = 'coverage-priority-item';
     row.style.setProperty('--status-color', LEVEL_META[item.level].color);
 
+    const details = document.createElement('details');
+    details.className = 'coverage-country-details';
+    const countrySummary = document.createElement('summary');
+    countrySummary.className = 'coverage-country-summary';
+
     const rank = document.createElement('span');
     rank.className = 'coverage-priority-rank';
     rank.textContent = index + 1;
 
-    const content = document.createElement('div');
-    content.className = 'coverage-priority-content';
+    const summaryContent = document.createElement('div');
+    summaryContent.className = 'coverage-priority-content';
 
     const heading = document.createElement('div');
     heading.className = 'coverage-priority-heading';
+
     const country = document.createElement('strong');
+    country.className = 'coverage-country-name';
     country.textContent = item.country;
     const badge = document.createElement('span');
     badge.className = 'coverage-status-badge';
@@ -206,10 +216,10 @@ function renderPriorityList(data) {
 
     const next = document.createElement('p');
     next.className = 'coverage-priority-next';
+    const nextLabel = document.createElement('strong');
+    nextLabel.textContent = 'Next: ';
+    next.append(nextLabel);
     if (item.nextOutlets.length) {
-      const label = document.createElement('strong');
-      label.textContent = 'Next: ';
-      next.append(label);
       item.nextOutlets.forEach((outlet, outletIndex) => {
         if (outletIndex) next.append(document.createTextNode(', '));
         if (outlet.outlet_url) {
@@ -219,24 +229,85 @@ function renderPriorityList(data) {
           link.rel = 'noopener noreferrer';
           link.textContent = outlet.outlet;
           link.title = `Visit ${outlet.outlet}`;
+          link.addEventListener('click', event => event.stopPropagation());
           next.append(link);
         } else {
           next.append(document.createTextNode(outlet.outlet));
         }
       });
     } else {
-      next.textContent = item.level === 'high' ? 'No immediate outreach priority.' : 'No uncontacted outlet is listed.';
+      next.append(document.createTextNode(item.level === 'high' ? 'No immediate outreach priority.' : 'No uncontacted outlet is listed.'));
     }
 
-    content.append(heading, facts, next);
-    row.append(rank, content);
+    summaryContent.append(heading, facts, next);
+    countrySummary.append(rank, summaryContent);
+
+    const outletList = document.createElement('ul');
+    outletList.className = 'coverage-outlet-list';
+    const outletStatusRank = { Covered: 0, Mentioned: 1, Unclear: 1, 'Not found': 2, 'Not checked': 3 };
+    [...item.outlets]
+      .sort((a, b) =>
+        (outletStatusRank[a.coverage_status] ?? 9) - (outletStatusRank[b.coverage_status] ?? 9) ||
+        a.outlet.localeCompare(b.outlet)
+      )
+      .forEach(outlet => {
+        const outletItem = document.createElement('li');
+        outletItem.className = 'coverage-outlet-item';
+        if (outlet.coverage_status === 'Covered') {
+          outletItem.classList.add('coverage-outlet-item--covered');
+        }
+        const outletInfo = document.createElement('div');
+        const outletName = document.createElement('strong');
+        outletName.textContent = outlet.outlet;
+        const outletStatus = document.createElement('span');
+        outletStatus.className = 'coverage-outlet-status';
+        outletStatus.textContent = outlet.coverage_status;
+        outletInfo.append(outletName, outletStatus);
+
+        if (outlet.headline) {
+          const headline = outlet.article_url
+            ? document.createElement('a')
+            : document.createElement('span');
+          headline.className = 'coverage-outlet-headline';
+          headline.textContent = outlet.headline;
+          if (outlet.article_url) {
+            headline.href = outlet.article_url;
+            headline.target = '_blank';
+            headline.rel = 'noopener noreferrer';
+          }
+          outletInfo.append(headline);
+        }
+
+        const links = document.createElement('div');
+        links.className = 'coverage-outlet-links';
+        const addLink = (url, label) => {
+          if (!url) return;
+          const link = document.createElement('a');
+          link.href = url;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.textContent = label;
+          links.append(link);
+        };
+        addLink(outlet.outlet_url, 'Website');
+        addLink(outlet.instagram_url, 'Instagram');
+        if (!links.childElementCount) {
+          const missing = document.createElement('span');
+          missing.textContent = 'No link listed';
+          links.append(missing);
+        }
+
+        outletItem.append(outletInfo, links);
+        outletList.append(outletItem);
+      });
+
+    details.append(countrySummary, outletList);
+    row.append(details);
     root.append(row);
   });
 
   if (summary) {
-    const actionable = priorities.filter(item => item.needsOutreach > 0).length;
-    const outlets = priorities.reduce((total, item) => total + item.needsOutreach, 0);
-    summary.textContent = `${actionable} countries have open actions across ${outlets} outlets. Highest priority: ${priorities[0]?.country || 'none'}.`;
+    summary.textContent = `${priorities.length} countries · ${data.length} outlets · lowest coverage first`;
   }
 }
 

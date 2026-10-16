@@ -1,78 +1,28 @@
-const evidenceAssetsBase=new URL('.',document.currentScript.src),evidenceSiteBase=new URL('../',evidenceAssetsBase);
-function evidenceBadge(status){
-  const s=(status||'').toLowerCase();
-  if(s.includes('unverified'))return['Unverified','warn'];
-  if(s.includes('alleg'))return['Alleged','warn'];
-  if(s.includes('reported'))return['Reported','info'];
-  if(s.includes('visible'))return['Visible in footage','ok'];
-  if(s.includes('photograph'))return['Published photo','ok'];
-  if(s.includes('caption'))return['Publisher caption','neutral'];
-  return[status||'Unlabeled','neutral'];
-}
-function evidenceLightbox(){
-  let lb=document.getElementById('evidence-lightbox');
-  if(lb)return lb;
-  lb=document.createElement('div');lb.id='evidence-lightbox';lb.className='evidence-lightbox';
-  const img=document.createElement('img');
-  const close=document.createElement('button');close.type='button';close.className='evidence-lightbox-close';close.setAttribute('aria-label','Close image');close.textContent='×';
-  lb.append(img,close);
-  lb.addEventListener('click',e=>{if(e.target===lb||e.target===close)lb.classList.remove('is-open')});
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('is-open')});
-  document.body.append(lb);
-  return lb;
-}
-function openEvidenceLightbox(src,alt){
-  const lb=evidenceLightbox();
-  const img=lb.querySelector('img');img.src=src;img.alt=alt||'';
-  lb.classList.add('is-open');
-}
-function setupEvidence(){const root=document.getElementById('evidence-results');if(!root||root.dataset.ready)return;root.dataset.ready='1';
-  const search=document.getElementById('evidence-search'),filter=document.getElementById('evidence-filter'),sort=document.getElementById('evidence-sort'),clear=document.getElementById('evidence-clear'),count=document.getElementById('evidence-count');
-  fetch(new URL('incident_evidence.csv',evidenceAssetsBase)).then(r=>{if(!r.ok)throw Error(r.status);return r.text()}).then(t=>{
-    const data=csvRows(t);
-    [...new Set(data.map(x=>x.media_type).filter(Boolean))].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;filter.append(o)});
+const evidenceAssetsBase = new URL('.', document.currentScript.src);
+const evidenceSiteBase = new URL('../', evidenceAssetsBase);
+function evidenceBadge(status){const value=(status||'').toLowerCase();if(value.includes('unverified')||value.includes('alleg'))return['Unverified','warn'];if(value.includes('confirmed')||value.includes('verified'))return[status,'ok'];if(value.includes('reported'))return[status,'info'];return[status||'Status not recorded','neutral']}
+function setupEvidence(){
+  const root=document.getElementById('evidence-results');if(!root||root.dataset.ready)return;root.dataset.ready='1';
+  const controls={search:document.getElementById('evidence-search'),category:document.getElementById('evidence-category'),tag:document.getElementById('evidence-tag'),location:document.getElementById('evidence-location'),status:document.getElementById('evidence-status'),date:document.getElementById('evidence-date'),sort:document.getElementById('evidence-sort')};
+  const count=document.getElementById('evidence-count'),clear=document.getElementById('evidence-clear');
+  Promise.all([
+    fetch(new URL('issues_gallery.csv',evidenceAssetsBase)).then(response=>{if(!response.ok)throw Error(response.status);return response.text()}),
+    fetch(new URL('issue_media.csv',evidenceAssetsBase)).then(response=>response.ok?response.text():'').catch(()=>'')
+  ]).then(([text,mediaText])=>{
+    const mediaByIssue=Object.fromEntries(csvRows(mediaText).map(row=>[row.issue_id,row]));
+    const data=csvRows(text).map(item=>{const media=mediaByIssue[item.issue_id];return media?{...item,media_url:media.image_url,media_credit:media.image_credit}:item}),populate=(control,values)=>[...new Set(values.filter(Boolean))].sort().forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value;control.append(option)});
+    populate(controls.category,data.map(item=>item.category));populate(controls.location,data.map(item=>item.location));populate(controls.status,data.map(item=>item.status));populate(controls.date,data.map(item=>item.date));populate(controls.tag,data.flatMap(item=>item.tags.split(',').map(tag=>tag.trim())));
     function render(){
-      const q=search.value.toLowerCase();
-      let items=data.filter(x=>(!filter.value||x.media_type===filter.value)&&(!q||Object.values(x).join(' ').toLowerCase().includes(q)));
-      items=items.slice().sort((a,b)=>{
-        const da=Date.parse(a.event_date),db=Date.parse(b.event_date),ua=isNaN(da),ub=isNaN(db);
-        if(ua||ub)return ua===ub?0:ua?1:-1;
-        return sort.value==='date-asc'?da-db:db-da;
-      });
-      count.textContent=items.length===data.length?data.length+' entries':items.length+' of '+data.length+' entries';
-      root.replaceChildren();
-      if(!items.length){
-        const empty=document.createElement('p');empty.className='evidence-empty';empty.textContent='No evidence matches that search or filter.';root.append(empty);return;
-      }
-      for(const x of items){
-        const card=document.createElement('article');card.className='evidence-card';
-        const publisherUrl=x.publisher_url&&(x.publisher_url.startsWith('http')?x.publisher_url:new URL(x.publisher_url,evidenceSiteBase).href);
-        const media=document.createElement('div');media.className='evidence-media';
-        if(x.image_url){
-          const imgUrl=x.image_url.startsWith('http')?x.image_url:new URL(x.image_url,evidenceSiteBase).href;
-          const im=document.createElement('img');im.src=imgUrl;im.alt='';im.loading='lazy';media.append(im);
-          const zoom=document.createElement('button');zoom.type='button';zoom.className='evidence-zoom';zoom.setAttribute('aria-label','View full image');zoom.textContent='⤢';
-          zoom.addEventListener('click',e=>{e.stopPropagation();openEvidenceLightbox(imgUrl,x.evidence_title)});
-          media.append(zoom);
-        }else{
-          media.classList.add('evidence-media--empty');media.textContent=(x.media_type||'Evidence').split('/')[0];
-        }
-        const[badgeText,badgeTone]=evidenceBadge(x.observation);
-        const badge=document.createElement('span');badge.className='evidence-badge evidence-badge--'+badgeTone;badge.textContent=badgeText;media.append(badge);
-        card.append(media);
-        const body=document.createElement('div');body.className='evidence-body';
-        const h=document.createElement('h3');h.textContent=x.evidence_title;
-        const meta=document.createElement('p');meta.className='evidence-meta';meta.textContent=[x.event_date,x.media_type].filter(Boolean).join(' · ');
-        const p=document.createElement('p');p.textContent=x.description;
-        body.append(meta,h,p);
-        const noteParts=[x.incident_id,x.source_id,x.adcn_reference].filter(Boolean).join(' · ');
-        if(noteParts){const ref=document.createElement('small');ref.className='evidence-reference';ref.textContent=noteParts;body.append(ref)}
-        if(publisherUrl){const link=document.createElement('a');link.className='evidence-source-link';link.textContent='Open source ↗';link.href=publisherUrl;link.target='_blank';link.rel='noopener noreferrer';body.append(link)}
-        card.append(body);
-        root.append(card);
-      }
+      const query=controls.search.value.trim().toLowerCase();let items=data.filter(item=>{const tags=item.tags.split(',').map(tag=>tag.trim());return(!query||Object.values(item).join(' ').toLowerCase().includes(query))&&(!controls.category.value||item.category===controls.category.value)&&(!controls.tag.value||tags.includes(controls.tag.value))&&(!controls.location.value||item.location===controls.location.value)&&(!controls.status.value||item.status===controls.status.value)&&(!controls.date.value||item.date===controls.date.value)});
+      items.sort((a,b)=>{const left=Date.parse(a.date),right=Date.parse(b.date),delta=(Number.isNaN(left)?-Infinity:left)-(Number.isNaN(right)?-Infinity:right);return controls.sort.value==='date-asc'?delta:-delta});
+      count.textContent=items.length===data.length?`${data.length} entries`:`${items.length} of ${data.length} entries`;root.replaceChildren();
+      if(!items.length){const empty=document.createElement('p');empty.className='evidence-empty';empty.textContent='No issues match these filters.';root.append(empty);return}
+      items.forEach(item=>{const card=document.createElement('article');card.className='evidence-card';const media=document.createElement('div');media.className='evidence-media';if(item.media_url){const image=document.createElement('img');image.src=item.media_url.startsWith('http')?item.media_url:new URL(item.media_url,evidenceSiteBase).href;image.alt='';image.loading='lazy';const credit=item.media_credit?document.createElement('span'):null;if(credit){credit.className='evidence-credit';credit.textContent=item.media_credit}image.addEventListener('error',()=>{media.classList.add('evidence-media--empty');media.textContent=item.category||'Issue';image.remove();credit?.remove()},{once:true});media.append(image);if(credit)media.append(credit)}else{media.classList.add('evidence-media--empty');media.textContent=item.category||'Issue'}const[badgeText,badgeTone]=evidenceBadge(item.status),badge=document.createElement('span');badge.className=`evidence-badge evidence-badge--${badgeTone}`;badge.textContent=badgeText;media.append(badge);card.append(media);
+        const body=document.createElement('div');body.className='evidence-body';const meta=document.createElement('p');meta.className='evidence-meta';meta.textContent=[item.date,item.location,item.category].filter(Boolean).join(' · ');const heading=document.createElement('h3');heading.textContent=item.issue_title;const description=document.createElement('p');description.textContent=item.description;body.append(meta,heading,description);
+        const tagList=document.createElement('div');tagList.className='evidence-tags';item.tags.split(',').map(tag=>tag.trim()).filter(Boolean).forEach(tag=>{const chip=document.createElement('button');chip.type='button';chip.textContent=tag;chip.addEventListener('click',()=>{controls.tag.value=tag;render()});tagList.append(chip)});if(tagList.childElementCount)body.append(tagList);
+        if(item.notes){const note=document.createElement('small');note.className='evidence-reference';note.textContent=item.notes;body.append(note)}if(item.source_url){const link=document.createElement('a');link.className='evidence-source-link';link.href=item.source_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Open source ↗';body.append(link)}card.append(body);root.append(card)});
     }
-    search.addEventListener('input',render);filter.addEventListener('change',render);sort.addEventListener('change',render);
-    clear.addEventListener('click',()=>{search.value='';filter.value='';sort.value='date-desc';search.focus();render()});render();
-  }).catch(()=>root.textContent='Unable to load evidence CSV. Use mkdocs serve.')}
+    Object.values(controls).forEach(control=>control.addEventListener(control===controls.search?'input':'change',render));clear.addEventListener('click',()=>{controls.search.value='';['category','tag','location','status','date'].forEach(key=>controls[key].value='');controls.sort.value='date-desc';render();controls.search.focus()});render();
+  }).catch(()=>{root.textContent='Unable to load the Issues Gallery data.'})
+}
 document.addEventListener('DOMContentLoaded',setupEvidence);if(typeof document$!=='undefined')document$.subscribe(setupEvidence);

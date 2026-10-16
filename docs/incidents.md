@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 > **Documentation note:** Entries are source-linked reports or allegations, not determinations of wrongdoing. Apply the same care to every affected group.
 
 # Incident and harm records

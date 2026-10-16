@@ -1,19 +1,20 @@
 ---
 hide:
-  - navigation
+  - toc
 ---
 
-# Evidence gallery
+# Issues gallery
 
-Browse source-attributed photos, videos, and reports. Inclusion does not establish misconduct; each card states how the item was observed or reported.
-
-!!! warning "About video submissions"
-    Anonymous video clips have not been individually reviewed, dated, or matched to incidents. Filter by **video** and treat each clip as unverified until checked.
+Browse documented issues, incidents, policy concerns, and institutional responses from the shared outreach workbook. Inclusion does not establish misconduct; reported and unverified claims remain clearly labelled.
 
 <div class="evidence-gallery">
-  <div class="evidence-toolbar" role="search" aria-label="Filter evidence">
-    <input id="evidence-search" type="search" placeholder="Search evidence…" aria-label="Search evidence">
-    <select id="evidence-filter" aria-label="Media type"><option value="">All media types</option></select>
+  <div class="evidence-toolbar" role="search" aria-label="Filter issues">
+    <input id="evidence-search" type="search" placeholder="Search issues and tags…" aria-label="Search issues">
+    <select id="evidence-category" aria-label="Category"><option value="">All categories</option></select>
+    <select id="evidence-tag" aria-label="Tag"><option value="">All tags</option></select>
+    <select id="evidence-location" aria-label="Location"><option value="">All locations</option></select>
+    <select id="evidence-status" aria-label="Verification status"><option value="">All statuses</option></select>
+    <select id="evidence-date" aria-label="Date"><option value="">All dates</option></select>
     <select id="evidence-sort" aria-label="Sort order">
       <option value="date-desc">Newest first</option>
       <option value="date-asc">Oldest first</option>
@@ -21,11 +22,11 @@ Browse source-attributed photos, videos, and reports. Inclusion does not establi
     <button id="evidence-clear" type="button">Clear</button>
   </div>
   <p id="evidence-count" role="status" aria-live="polite"></p>
-  <div id="evidence-results" class="evidence-grid">Loading evidence…</div>
+  <div id="evidence-results" class="evidence-grid">Loading issues…</div>
 </div>
 
 ## Data and methodology
 
-[Sources CSV](assets/sources.csv) · [Incidents CSV](assets/incidents.csv) · [Evidence CSV](assets/incident_evidence.csv) · [Editing guide](data-guide.md)
+[Issues Gallery CSV](assets/issues_gallery.csv) · [Photo credits](assets/issue_media.csv) · [Update the shared workbook](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing) · [Editing guide](data-guide.md)
 
 *Protect the identity of minors and witnesses.*

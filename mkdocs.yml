@@ -37,24 +37,31 @@ extra_javascript:
   - assets/directory.js
   - assets/timeline.js
   - assets/media_coverage.js
+  - assets/outreach_directory.js
 plugins:
   - search
 nav:
   - Home: index.md
-  - Gallery: evidence-gallery.md
-  - Media coverage: media-coverage.md
   - Letters:
-      - Choose a country: countries/index.md
-      - Three email templates: messages/index.md
-      - English master: languages/en.md
-      - Albanian: languages/sq.md
-      - German: languages/de.md
-      - Italian: languages/it.md
-      - French: languages/fr.md
-      - Dutch: languages/nl.md
-      - Spanish: languages/es.md
-      - Swedish: languages/sv.md
-      - Polish: languages/pl.md
+      - Overview: messages/index.md
+      - By recipient:
+          - Media: messages/urgent-media.md
+          - International institution: messages/urgent-partners.md
+          - International representative: messages/urgent-representative.md
+      - Languages:
+          - English: languages/en.md
+          - Albanian: languages/sq.md
+          - German: languages/de.md
+          - Italian: languages/it.md
+          - French: languages/fr.md
+          - Dutch: languages/nl.md
+          - Spanish: languages/es.md
+          - Swedish: languages/sv.md
+          - Polish: languages/pl.md
+  - Outreach:
+      - Media: media-coverage.md
+      - Institutions: institutions.md
+      - Parties: parties.md
   - Background:
       - Overview: background/index.md
       - Chapters:
@@ -66,6 +73,7 @@ nav:
       - More information:
           - Legal framework: background/legal-framework.md
           - Documentation and methods: background/documentation.md
+          - Gallery: evidence-gallery.md
           - About this project: editorial-policy.md
           - Incidents: incidents.md
           - GenZ video: genz.md

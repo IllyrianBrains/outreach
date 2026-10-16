@@ -7,7 +7,8 @@
 | Sources | [sources.csv](assets/sources.csv) | A new news report, Instagram post or statement |
 | Incidents | [incidents.csv](assets/incidents.csv) | A new event or reported rights concern |
 | Evidence | [incident_evidence.csv](assets/incident_evidence.csv) | A photo, video or statement supporting an incident |
-| Media coverage | [Excel source](https://docs.google.com/spreadsheets/d/1OuPFT575XmlAN68Y7XG983mnTHT7q4-F/edit?usp=sharing) · [generated CSV](assets/media_coverage.csv) | A check of whether a country's own outlet covered the protests |
+| Issues gallery photos | [issue_media.csv](assets/issue_media.csv) | A locally hosted photo for an `issue_id` from `issues_gallery.csv` |
+| Media coverage | [Excel source](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing) · [generated CSV](assets/media_coverage.csv) | A check of whether a country's own outlet covered the protests |
 
 Each record uses a unique ID. `source_id` in evidence must match `sources.csv`, and `incident_id` must match `incidents.csv`. One incident can have many evidence entries.
 
@@ -48,9 +49,18 @@ EVD-001,INC-001,SRC-102,2026-10-13,article/photo,Tear gas and police interventio
 
 ### Media coverage workbook
 
-Edit the [online Excel workbook](https://docs.google.com/spreadsheets/d/1OuPFT575XmlAN68Y7XG983mnTHT7q4-F/edit?usp=sharing), not the generated CSVs. `Media Coverage` is required. Its `Media Outlet URL` makes each outlet clickable for contributors. Sheets named `Sources`, `Incidents`, and `Evidence` (or `Incident Evidence`) update the downloadable example CSVs only; they do not replace the live source, incident, or evidence data. `Protest Timeline` (or `Timeline`) is also loaded when present. Use the exact header row shown in each existing destination file.
+Edit the [online Excel workbook](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing), not the generated CSVs. `Media Coverage` is required. Its `Media Outlet URL` and `Instagram URL` fields make each outlet clickable for contributors. The Institutions, Embassies, Political Parties, and Issues Gallery sheets publish their matching site directories. A sixth guide sheet is optional and is not required by the importer.
 
 Leave `Coverage Status` empty when an outlet has not been checked; the importer records it as `Not checked`. Otherwise, use exactly one of `Covered`, `Mentioned`, `Unclear` or `Not found`. Leave `Coverage Date` and `Article URL` blank for `Not found`; never invent a URL. The media sheet does not require a `Language` column. Re-checking the same article updates its existing row; a distinct article from the same outlet may have its own row. The workbook is validated and converted every six hours.
+
+### `issue_media.csv`
+
+```csv
+issue_id,image_url,image_credit
+ENV-01,assets/images/issues/env-protest-train.jpg,Citizens.al
+```
+
+`issues_gallery.csv` is generated from the workbook's Issues Gallery sheet, so its `media_url` column is overwritten on every sync. `issue_media.csv` is edited by hand and is never touched by the importer: the gallery looks up each card's `issue_id` here first and only falls back to `issues_gallery.csv`'s own `media_url` when there is no match. To add a photo, save it under `assets/images/issues/` and add a row here with the matching `issue_id` and a credit for the publisher.
 
 ## Add a new entry
 

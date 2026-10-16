@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # GenZ
 
 ## Protest video coming soon

@@ -8,13 +8,14 @@ import csv
 import io
 import re
 import sys
+import urllib.parse
 import urllib.request
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
 
-FILE_ID = "1OuPFT575XmlAN68Y7XG983mnTHT7q4-F"
+FILE_ID = "19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX"
 WORKBOOK_URL = (
     "https://drive.usercontent.google.com/download"
     f"?id={FILE_ID}&export=download&confirm=t"
@@ -25,6 +26,7 @@ SOURCE_HEADERS = [
     "Country",
     "Media Outlet",
     "Media Outlet URL",
+    "Instagram URL",
     "Coverage Status",
     "Coverage Date",
     "Headline",
@@ -40,6 +42,7 @@ OUTPUT_HEADERS = [
     "country",
     "outlet",
     "outlet_url",
+    "instagram_url",
     "coverage_status",
     "first_date",
     "headline",
@@ -72,6 +75,7 @@ COUNTRY_CODES = {
     "Switzerland": "CH",
     "United Kingdom": "GB",
     "United States": "US",
+    "Vatican City": "VA",
 }
 
 ALLOWED_STATUSES = {"Covered", "Mentioned", "Unclear", "Not found", "Not checked"}
@@ -80,6 +84,10 @@ REL_NS = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
 PACKAGE_REL_NS = "{http://schemas.openxmlformats.org/package/2006/relationships}"
 
 CSV_SHEETS = {
+    "Institutions & Actors": "institutions.csv",
+    "Embassies by Country": "embassies.csv",
+    "Political Parties": "political_parties.csv",
+    "Issues Gallery": "issues_gallery.csv",
     "Sources": "examples/sources-example.csv",
     "Incidents": "examples/incidents-example.csv",
     "Evidence": "examples/incident-evidence-example.csv",
@@ -89,6 +97,10 @@ CSV_SHEETS = {
 }
 
 CSV_HEADERS = {
+    "institutions.csv": ["category", "institution", "scope", "relevance", "official_website", "instagram_url", "contact_email", "priority", "outreach_status", "notes", "country_representation"],
+    "embassies.csv": ["country", "representation", "category", "official_website", "instagram_url", "verification"],
+    "political_parties.csv": ["category", "country_region", "party_group", "political_family", "official_website", "instagram_url", "relevant_issues", "outreach_status", "date_contacted", "response_statement_url", "contact_email", "notes"],
+    "issues_gallery.csv": ["issue_id", "category", "issue_title", "location", "date", "description", "media_url", "source_url", "status", "notes", "tags"],
     "sources-example.csv": [
         "source_id", "published_date", "event_date", "publisher", "title", "url",
         "category", "format", "topic", "verification", "origin", "notes",
@@ -182,19 +194,39 @@ def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
     if not rows:
         raise ValueError("The workbook contains no rows.")
 
-    headers = rows[0] + [""] * (len(SOURCE_HEADERS) - len(rows[0]))
-    if headers[: len(SOURCE_HEADERS)] != SOURCE_HEADERS:
+    workbook_headers = rows[0]
+    comparable_headers = [header for header in workbook_headers if header != "Language"]
+    if comparable_headers != SOURCE_HEADERS:
         raise ValueError(
-            "Unexpected workbook columns. Expected: " + ", ".join(SOURCE_HEADERS)
+            "Unexpected workbook columns. Expected: "
+            + ", ".join(SOURCE_HEADERS)
+            + " (an optional Language column is ignored)"
+            + ". Received: "
+            + ", ".join(value or "<blank>" for value in rows[0])
         )
 
     output: list[dict[str, str]] = []
+    previous_country = ""
     for spreadsheet_row, values in enumerate(rows[1:], start=2):
-        padded = values + [""] * (len(SOURCE_HEADERS) - len(values))
-        source = dict(zip(SOURCE_HEADERS, padded, strict=False))
+        padded = values + [""] * (len(workbook_headers) - len(values))
+        source = dict(zip(workbook_headers, padded, strict=False))
         country = source["Country"]
         outlet = source["Media Outlet"]
+        if country and not outlet and not any(
+            value for header, value in source.items() if header != "Country"
+        ):
+            continue
         status = source["Coverage Status"] or "Not checked"
+        if status.startswith(("https://", "http://")):
+            if not source["Article URL"]:
+                source["Article URL"] = status
+            status = "Covered"
+            if not country and not outlet and previous_country:
+                parsed_url = urllib.parse.urlparse(source["Article URL"])
+                host = parsed_url.netloc.removeprefix("www.")
+                country = previous_country
+                outlet = host.split(".")[0].replace("-", " ").title()
+                source["Media Outlet URL"] = f"{parsed_url.scheme}://{parsed_url.netloc}/"
 
         if not country or not outlet:
             raise ValueError(f"Row {spreadsheet_row}: Country and Media Outlet are required.")
@@ -202,6 +234,7 @@ def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
             raise ValueError(f'Row {spreadsheet_row}: unknown country "{country}".')
         if status not in ALLOWED_STATUSES:
             raise ValueError(f'Row {spreadsheet_row}: invalid Coverage Status "{status}".')
+        previous_country = country
 
         output.append(
             {
@@ -209,6 +242,7 @@ def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
                 "country": country,
                 "outlet": outlet,
                 "outlet_url": source["Media Outlet URL"],
+                "instagram_url": source["Instagram URL"],
                 "coverage_status": status,
                 "first_date": source["Coverage Date"],
                 "headline": source["Headline"],
@@ -226,23 +260,30 @@ def publish_csv(name: str, rows: list[list[str]], output: Path) -> int:
     """Publish a sheet whose headings are already the site's CSV headings."""
     if not rows:
         raise ValueError(f'The "{name}" sheet contains no rows.')
-    headers = [value.lstrip("\ufeff") for value in rows[0]]
+    source_headers = [value.lstrip("\ufeff") for value in rows[0]]
     expected = CSV_HEADERS[output.name]
-    if headers != expected:
+    workbook_headers = {
+        "Institutions & Actors": ["Category", "Institution / Actor", "Scope", "Relevance", "Official Website", "Instagram URL", "Contact Email", "Priority", "Outreach Status", "Notes", "Country / Representation"],
+        "Embassies by Country": ["Country", "Representation", "Category", "Official Website", "Instagram URL", "Verification"],
+        "Political Parties": ["Category", "Country / Region", "Party / Group", "Political family", "Official website", "Instagram URL", "Relevant issues", "Outreach status", "Date contacted", "Response / Statement URL", "Contact email", "Notes"],
+        "Issues Gallery": ["Issue ID", "Category", "Issue / Title", "Location", "Date", "Description", "Photo / Video URL", "Source URL", "Status", "Notes", "Tags"],
+    }
+    required_headers = workbook_headers.get(name, expected)
+    if source_headers != required_headers:
         raise ValueError(
             f'The "{name}" sheet headings do not match {output.name}. Expected: '
-            + ", ".join(expected)
+            + ", ".join(required_headers)
         )
 
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle, lineterminator="\n")
-        writer.writerow(headers)
+        writer.writerow(expected)
         for values in rows[1:]:
-            padded = values + [""] * (len(headers) - len(values))
-            if len(padded) > len(headers) and any(padded[len(headers) :]):
+            padded = values + [""] * (len(expected) - len(values))
+            if len(padded) > len(expected) and any(padded[len(expected) :]):
                 raise ValueError(f'The "{name}" sheet has data beyond its headings.')
-            writer.writerow(padded[: len(headers)])
+            writer.writerow(padded[: len(expected)])
     return len(rows) - 1
 
 

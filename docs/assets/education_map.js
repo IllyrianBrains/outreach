@@ -9,6 +9,7 @@ function setupEducationMap() {
   const category = document.getElementById('education-map-category');
   const status = document.getElementById('education-map-status');
   const municipalitiesToggle = document.getElementById('education-map-municipalities');
+  const radiusToggle = document.getElementById('education-map-radius');
   const clear = document.getElementById('education-map-clear');
   const count = document.getElementById('education-map-count');
   const map = L.map(container, { center: [41.15, 20.1], zoom: 7, minZoom: 6, maxZoom: 18 });
@@ -16,11 +17,32 @@ function setupEducationMap() {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
     maxZoom: 19
   }).addTo(map);
+  map.createPane('municipalitiesPane');
+  map.getPane('municipalitiesPane').style.zIndex = 350;
   const municipalities = L.geoJSON(null, {
+    pane: 'municipalitiesPane',
     style: { color: '#6b7280', weight: 1, opacity: .55, fillOpacity: 0 },
     onEachFeature: (feature, layer) => layer.bindTooltip(`${feature.properties.name} municipality`, { sticky: true })
   });
   if (municipalitiesToggle.checked) municipalities.addTo(map);
+  const Legend = L.Control.extend({
+    options: { position: 'bottomleft' },
+    onAdd() {
+      const div = L.DomUtil.create('div', 'education-map-legend');
+      div.setAttribute('aria-label', 'Map legend');
+      div.innerHTML = '<span class="education-map-legend__active">Directly reported</span>'
+        + '<span class="education-map-legend__assumed">Assumed from city report</span>'
+        + '<span class="education-map-legend__municipality">Municipality boundary</span>'
+        + '<span class="education-map-legend__radius">Approx. area affected</span>'
+        + '<span class="education-map-legend__university">University</span>'
+        + '<span class="education-map-legend__gymnasium">Gymnasium</span>';
+      return div;
+    }
+  });
+  new Legend().addTo(map);
+  map.createPane('radiusPane');
+  map.getPane('radiusPane').style.zIndex = 380;
+  const radiusCircles = L.layerGroup().addTo(map);
   fetch(new URL('education_municipality_boundaries.geojson', educationMapAssetsBase))
     .then(response => {
       if (!response.ok) throw Error(response.status);
@@ -65,14 +87,42 @@ function setupEducationMap() {
       const gymnasiums = data.filter(item => item.category === 'Gymnasium').length;
       const active = data.filter(item => item.protest).length;
       const directlyReported = data.filter(item => item.protest?.status === 'Reported participating').length;
-      const websites = data.filter(item => item.website).length;
       document.getElementById('education-stat-total').textContent = data.length.toLocaleString();
       document.getElementById('education-stat-universities').textContent = universities.toLocaleString();
       document.getElementById('education-stat-gymnasiums').textContent = gymnasiums.toLocaleString();
       document.getElementById('education-stat-active').textContent = active.toLocaleString();
       document.getElementById('education-stat-active').title = `${directlyReported} directly reported; ${active - directlyReported} assumed from city-level reporting`;
-      document.getElementById('education-stat-websites').textContent = `${Math.round(websites / data.length * 100)}%`;
-      document.getElementById('education-stat-websites').title = `${websites} of ${data.length} records include a website`;
+
+      const STUDENTS_PER_GYMNASIUM = 300;
+      const STUDENTS_PER_UNIVERSITY = 1000;
+      const PROTEST_PARTICIPATION_RATE = 0.75;
+      const UNKNOWN_GYMNASIUMS = 20;
+      const UNKNOWN_UNIVERSITIES = 5;
+      const mappedGymnasiums = data.filter(item => item.protest && item.category === 'Gymnasium').length;
+      const mappedUniversities = data.filter(item => item.protest && item.category === 'University').length;
+      const activeGymnasiums = mappedGymnasiums + UNKNOWN_GYMNASIUMS;
+      const activeUniversities = mappedUniversities + UNKNOWN_UNIVERSITIES;
+      const gymStudents = activeGymnasiums * STUDENTS_PER_GYMNASIUM;
+      const uniStudents = activeUniversities * STUDENTS_PER_UNIVERSITY;
+      const setCell = (id, value) => {
+        const cell = document.getElementById(id);
+        if (cell) cell.textContent = value.toLocaleString();
+      };
+      setCell('education-estimate-gym-count', mappedGymnasiums);
+      setCell('education-estimate-uni-count', mappedUniversities);
+      setCell('education-estimate-total-count', mappedGymnasiums + mappedUniversities);
+      setCell('education-estimate-gym-unknown', UNKNOWN_GYMNASIUMS);
+      setCell('education-estimate-uni-unknown', UNKNOWN_UNIVERSITIES);
+      setCell('education-estimate-total-unknown', UNKNOWN_GYMNASIUMS + UNKNOWN_UNIVERSITIES);
+      setCell('education-estimate-gym-active-total', activeGymnasiums);
+      setCell('education-estimate-uni-active-total', activeUniversities);
+      setCell('education-estimate-total-active-total', activeGymnasiums + activeUniversities);
+      setCell('education-estimate-gym-students', gymStudents);
+      setCell('education-estimate-uni-students', uniStudents);
+      setCell('education-estimate-total-students', gymStudents + uniStudents);
+      setCell('education-estimate-gym-protesting', Math.round(gymStudents * PROTEST_PARTICIPATION_RATE));
+      setCell('education-estimate-uni-protesting', Math.round(uniStudents * PROTEST_PARTICIPATION_RATE));
+      setCell('education-estimate-total-protesting', Math.round((gymStudents + uniStudents) * PROTEST_PARTICIPATION_RATE));
 
       function render() {
         const term = search.value.trim().toLocaleLowerCase();
@@ -82,18 +132,26 @@ function setupEducationMap() {
           (!term || [item.name, item.city, item.street].join(' ').toLocaleLowerCase().includes(term))
         );
         markers.clearLayers();
+        radiusCircles.clearLayers();
         const bounds = [];
 
         visible.forEach(item => {
           const lat = Number(item.latitude);
           const lon = Number(item.longitude);
           if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+          if (radiusToggle.checked) {
+            L.circle([lat, lon], {
+              pane: 'radiusPane',
+              radius: item.category === 'University' ? 6000 : 3000,
+              color: '#ad1457', weight: 1.5, opacity: .5, fillColor: '#ad1457', fillOpacity: .15
+            }).addTo(radiusCircles);
+          }
           const directlyReported = item.protest?.status === 'Reported participating';
           const assumedActive = item.protest?.status === 'Assumed active from city report';
-          const color = directlyReported ? '#d81b60' : (assumedActive ? '#e09b24' : (item.category === 'University' ? '#e15d34' : '#26758a'));
+          const color = directlyReported ? '#ad1457' : (assumedActive ? '#f06292' : (item.category === 'University' ? '#e15d34' : '#26758a'));
           const marker = L.circleMarker([lat, lon], {
             radius: item.protest ? 9 : (item.category === 'University' ? 7 : 6),
-            color: directlyReported ? '#7a1038' : (assumedActive ? '#7a5310' : '#fff'), weight: item.protest ? 3 : 1.5, fillColor: color, fillOpacity: .92
+            color: directlyReported ? '#6a0937' : (assumedActive ? '#ad1457' : '#fff'), weight: item.protest ? 3 : 1.5, fillColor: color, fillOpacity: .92
           });
           const popup = document.createElement('div');
           popup.className = 'education-map-popup';
@@ -153,12 +211,14 @@ function setupEducationMap() {
       search.addEventListener('input', render);
       category.addEventListener('change', render);
       status.addEventListener('change', render);
+      radiusToggle.addEventListener('change', render);
       clear.addEventListener('click', () => {
         search.value = '';
         category.value = '';
         status.value = '';
-        municipalitiesToggle.checked = false;
-        municipalities.removeFrom(map);
+        municipalitiesToggle.checked = true;
+        municipalities.addTo(map);
+        radiusToggle.checked = true;
         render();
         search.focus();
       });

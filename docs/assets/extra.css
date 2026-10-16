@@ -573,26 +573,40 @@
 .education-statistics article { display: grid; align-content: center; min-height: 6rem; padding: .85rem 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .65rem; background: linear-gradient(145deg, color-mix(in srgb, var(--md-accent-fg-color) 9%, var(--md-default-bg-color)), var(--md-default-bg-color)); }
 .education-statistics strong { color: var(--md-accent-fg-color); font-size: clamp(1.55rem, 4vw, 2.25rem); line-height: 1; font-variant-numeric: tabular-nums; }
 .education-statistics span { margin-top: .45rem; color: var(--md-default-fg-color--light); font-size: .72rem; font-weight: 700; line-height: 1.25; }
-.education-statistics__active strong { color: #d81b60; }
+.education-statistics__active strong { color: #ad1457; }
 .education-map-card { margin: 1rem 0 1.5rem; padding: 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .7rem; background: var(--md-default-bg-color); box-shadow: 0 .2rem .8rem rgba(0, 0, 0, .07); }
-.education-map-toolbar { display: flex; flex-wrap: wrap; gap: .65rem; align-items: end; }
+.education-map-toolbar { display: flex; flex-wrap: wrap; gap: .65rem; align-items: end; margin-top: 1rem; }
 .education-map-toolbar label { display: grid; flex: 1 1 13rem; gap: .2rem; color: var(--md-default-fg-color--light); font-size: .72rem; font-weight: 700; }
 .education-map-toolbar input, .education-map-toolbar select { width: 100%; min-height: 2.3rem; padding: .45rem .6rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .35rem; background: var(--md-default-bg-color); color: var(--md-default-fg-color); font: inherit; font-size: .82rem; }
 .education-map-toolbar .education-map-toggle { display: flex; flex: 0 1 auto; align-items: center; align-self: center; gap: .4rem; min-height: 2.3rem; margin-top: .9rem; color: var(--md-default-fg-color); font-size: .76rem; }
 .education-map-toolbar .education-map-toggle input { width: 1rem; min-height: auto; margin: 0; accent-color: #e09b24; }
 .education-map-toolbar button { min-height: 2.3rem; padding: .45rem .9rem; border: 0; border-radius: .35rem; background: var(--md-accent-fg-color); color: var(--md-accent-bg-color); cursor: pointer; font-weight: 700; }
 .education-map-count { margin: .65rem 0; color: var(--md-default-fg-color--light); font-size: .78rem; }
-.education-map-legend { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .7rem; font-size: .75rem; }
+.education-estimate-card { margin: 1rem 0 1.5rem; padding: 1.1rem 1.2rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .7rem; background: var(--md-default-bg-color); box-shadow: 0 .2rem .8rem rgba(0, 0, 0, .07); }
+.education-estimate-table { width: 100%; margin: 0 !important; border: none !important; font-size: .85rem; }
+.education-estimate-table thead th { padding: .5rem .75rem; border-bottom: 2px solid var(--md-default-fg-color--lightest) !important; color: var(--md-default-fg-color--light); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.education-estimate-table tbody th, .education-estimate-table tbody td { padding: .55rem .75rem; border-bottom: 1px solid var(--md-default-fg-color--lightest) !important; background: transparent !important; }
+.education-estimate-table tbody tr:last-child th, .education-estimate-table tbody tr:last-child td { border-bottom: none !important; }
+.education-estimate-table td, .education-estimate-table th { text-align: center; }
+.education-estimate-table th[scope="row"] { color: var(--md-default-fg-color); font-weight: 600; text-align: left; }
+.education-estimate-table td { color: var(--md-default-fg-color); font-variant-numeric: tabular-nums; }
+.education-estimate-table__subtotal th, .education-estimate-table__subtotal td { font-weight: 700; border-top: 1px solid var(--md-default-fg-color--lightest) !important; }
+.education-estimate-table__highlight th, .education-estimate-table__highlight td { background: color-mix(in srgb, #ad1457 10%, transparent) !important; }
+.education-estimate-table__highlight th, .education-estimate-table__highlight td { color: #ad1457; font-size: 1rem; font-weight: 800; }
+.education-estimate-note { margin: .85rem 0 0; color: var(--md-default-fg-color--light); font-size: .72rem; line-height: 1.5; }
+@media (max-width: 40rem) { .education-estimate-table { font-size: .76rem; } .education-estimate-table thead th, .education-estimate-table tbody th, .education-estimate-table tbody td { padding: .4rem .4rem; } }
+.education-map-legend { display: flex; flex-wrap: wrap; gap: .4rem .85rem; max-width: 12rem; padding: .5rem .65rem; border-radius: .45rem; background: color-mix(in srgb, var(--md-default-bg-color) 85%, transparent); box-shadow: 0 .15rem .6rem rgba(0, 0, 0, .2); font-size: .72rem; line-height: 1.3; pointer-events: none; }
 .education-map-legend span::before { display: inline-block; width: .72rem; height: .72rem; margin-right: .35rem; border: 1.5px solid #fff; border-radius: 50%; box-shadow: 0 0 0 1px rgba(0, 0, 0, .15); content: ''; vertical-align: -.06rem; }
 .education-map-legend__university::before { background: #e15d34; }
 .education-map-legend__gymnasium::before { background: #26758a; }
-.education-map-legend__active::before { background: #d81b60; box-shadow: 0 0 0 2px #7a1038; }
-.education-map-legend__assumed::before { background: #e09b24; box-shadow: 0 0 0 2px #7a5310; }
+.education-map-legend__active::before { background: #ad1457; box-shadow: 0 0 0 2px #6a0937; }
+.education-map-legend__assumed::before { background: #f06292; box-shadow: 0 0 0 2px #ad1457; }
 .education-map-legend__municipality::before { width: 1rem; height: .55rem; border: 1.5px solid #6b7280; border-radius: .1rem; background: none; box-shadow: none; }
+.education-map-legend__radius::before { border: 1.5px solid #ad1457; background: rgba(173, 20, 87, .12); box-shadow: none; }
 .education-map-popup { display: grid; gap: .22rem; min-width: 11rem; }
 .education-map-popup strong { line-height: 1.25; }
-.education-map-popup .education-map-popup__active { width: max-content; padding: .15rem .4rem; border-radius: 999px; background: #f9d7e4; color: #8f123f; font-size: .68rem; }
-.education-map-popup .education-map-popup__active--assumed { background: #f8e8c7; color: #704805; }
+.education-map-popup .education-map-popup__active { width: max-content; padding: .15rem .4rem; border-radius: 999px; background: #f9d7e4; color: #6a0937; font-size: .68rem; }
+.education-map-popup .education-map-popup__active--assumed { background: #fce4ec; color: #ad1457; }
 .education-map-popup span { color: #555; font-size: .76rem; }
 .education-map-popup small { max-width: 16rem; color: #555; font-size: .7rem; line-height: 1.35; }
 .education-map-popup div { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .25rem; }

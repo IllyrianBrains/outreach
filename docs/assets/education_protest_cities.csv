@@ -1,0 +1,15 @@
+city,latitude,longitude,radius_km,status,evidence_date,source_url,source_name,note
+Tirane,41.3281482,19.8184435,15,Assumed active from city report,2026-10-15,https://rtsh.al/rti/en/student-and-pupil-protests-continue-tensions-flare-in-tirana/,RTSH,Pupils and students were reported boycotting classes and protesting in Tirana.
+Durres,41.3132550,19.4462348,10,Assumed active from city report,2026-10-15,https://rtsh.al/rti/en/student-and-pupil-protests-continue-tensions-flare-in-tirana/,RTSH,Pupils and students were reported protesting or boycotting classes in Durrës.
+Elbasan,41.1126792,20.0820858,10,Assumed active from city report,,,,Classified active from the supplied city list.
+Rreshen,41.7680840,19.8769608,7,Assumed active from city report,,,,Classified active from the supplied city list.
+Lezhe,41.7816638,19.6433538,8,Assumed active from city report,,,,Classified active from the supplied city list.
+Shkoder,42.0681371,19.5121437,10,Assumed active from city report,2026-10-15,https://rtsh.al/rti/en/student-and-pupil-protests-continue-tensions-flare-in-tirana/,RTSH,Students were reported boycotting classes and marching in Shkodra.
+Korce,40.6158967,20.7772187,10,Assumed active from city report,2026-10-15,https://rtsh.al/rti/en/student-and-pupil-protests-continue-tensions-flare-in-tirana/,RTSH,Pupils were reported boycotting classes in Korça.
+Gramsh,40.8654273,20.1864495,7,Assumed active from city report,,,,Classified active from the supplied city list.
+Burrel,41.6104290,20.0130651,7,Assumed active from city report,,,,Classified active from the supplied city list.
+Lac,41.6357410,19.7123916,7,Assumed active from city report,,,,Classified active from the supplied city list.
+Kukes,42.0768978,20.4163203,8,Assumed active from city report,,,,Classified active from the supplied city list.
+Tropoja,42.3576482,20.0753026,12,Assumed active from city report,,,,Classified active from the supplied Tropoja city list entry; proximity is measured from Bajram Curri.
+Divjake,40.9956207,19.5331220,7,Assumed active from city report,2026-10-15,https://rtsh.al/rti/en/student-and-pupil-protests-continue-tensions-flare-in-tirana/,RTSH,Pupils were reported boycotting classes in Divjakë.
+Vlore,40.4707602,19.4912716,10,Assumed active from city report,2026-10-15,https://rtsh.al/rti/en/student-and-pupil-protests-continue-tensions-flare-in-tirana/,RTSH,Pupils were reported boycotting classes in Vlorë.

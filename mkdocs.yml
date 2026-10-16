@@ -38,6 +38,7 @@ extra_javascript:
   - assets/timeline.js
   - assets/media_coverage.js
   - assets/outreach_directory.js
+  - assets/education_map.js
 plugins:
   - search
 nav:
@@ -71,6 +72,7 @@ nav:
           - "4. When": timeline.md
           - "5. How": background/how.md
       - More information:
+          - Universities and gymnasiums: background/education-map.md
           - Legal framework: background/legal-framework.md
           - Documentation and methods: background/documentation.md
           - Gallery: evidence-gallery.md

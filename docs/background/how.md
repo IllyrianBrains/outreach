@@ -8,6 +8,6 @@ You can support fundamental rights without endorsing a party or every demand of 
 4. **Protect people.** Do not expose private information or share graphic material without a clear public-interest reason.
 5. **Follow up respectfully.** Keep a record of replies and correct errors openly.
 
-[Choose your country](../countries/index.md) · [Copy a letter](../languages/en.md) · [Read the latest evidence brief](../briefs/tirana-2026-10-13-15-urgent.md)
+[Choose your country](../countries/index.md) · [Copy a letter](../languages/en.md)
 
 For more detail, see [How to communicate responsibly](../outreach.md), [How we verify information](../methodology/verification.md) and the [legal framework for police use of force](legal-framework.md) behind these requests.

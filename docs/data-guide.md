@@ -1,12 +1,13 @@
 # Edit the CSV files
 
-**All three CSVs are in `docs/assets/`.** Download them here and edit in Excel, LibreOffice or a text editor. Keep the column names unchanged.
+**All CSVs are in `docs/assets/`, but the linked online Excel workbook is their source of truth.** Keep each worksheet's first-row column names unchanged. A single scheduled download regenerates every corresponding CSV.
 
 | File | Download | What to add |
 |---|---|---|
 | Sources | [sources.csv](assets/sources.csv) | A new news report, Instagram post or statement |
 | Incidents | [incidents.csv](assets/incidents.csv) | A new event or reported rights concern |
 | Evidence | [incident_evidence.csv](assets/incident_evidence.csv) | A photo, video or statement supporting an incident |
+| Media coverage | [Excel source](https://docs.google.com/spreadsheets/d/1OuPFT575XmlAN68Y7XG983mnTHT7q4-F/edit?usp=sharing) · [generated CSV](assets/media_coverage.csv) | A check of whether a country's own outlet covered the protests |
 
 Each record uses a unique ID. `source_id` in evidence must match `sources.csv`, and `incident_id` must match `incidents.csv`. One incident can have many evidence entries.
 
@@ -44,6 +45,12 @@ INC-001,2026-10-13,"Tirana, Ministry of Education area",Protesters; bystanders,P
 evidence_id,incident_id,source_id,event_date,media_type,evidence_title,description,publisher_url,image_url,adcn_reference,observation,verification_status,rights_and_safety_notes
 EVD-001,INC-001,SRC-102,2026-10-13,article/photo,Tear gas and police intervention,"Citizens.al coverage describes tear gas, batons and spray, and contains protest imagery",https://citizens.al/2026/10/13/studentet-rizgjojne-protesten-policia-pergjigjet-me-dhune/,,,reported,Published source; original media not independently authenticated,Publisher retains rights; link rather than copy
 ```
+
+### Media coverage workbook
+
+Edit the [online Excel workbook](https://docs.google.com/spreadsheets/d/1OuPFT575XmlAN68Y7XG983mnTHT7q4-F/edit?usp=sharing), not the generated CSVs. `Media Coverage` is required. Its `Media Outlet URL` makes each outlet clickable for contributors. Sheets named `Sources`, `Incidents`, and `Evidence` (or `Incident Evidence`) update the downloadable example CSVs only; they do not replace the live source, incident, or evidence data. `Protest Timeline` (or `Timeline`) is also loaded when present. Use the exact header row shown in each existing destination file.
+
+Leave `Coverage Status` empty when an outlet has not been checked; the importer records it as `Not checked`. Otherwise, use exactly one of `Covered`, `Mentioned`, `Unclear` or `Not found`. Leave `Coverage Date` and `Article URL` blank for `Not found`; never invent a URL. The media sheet does not require a `Language` column. Re-checking the same article updates its existing row; a distinct article from the same outlet may have its own row. The workbook is validated and converted every six hours.
 
 ## Add a new entry
 

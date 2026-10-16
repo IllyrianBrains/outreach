@@ -16,6 +16,26 @@ All CSVs are at `docs/assets/`:
 The site provides examples and direct links in Sources → CSV files and examples.
 Downloadable fictional templates are in `docs/assets/examples/`.
 
+## Media coverage data pipeline
+
+The public Excel workbook is the source of truth. `scripts/update-media-coverage.py`
+downloads it, validates its sheets, and writes the CSV files the site loads.
+`Media Coverage` is required. The `Sources`, `Incidents`, and `Evidence` (or
+`Incident Evidence`) sheets populate the downloadable examples under
+`docs/assets/examples/`; they never overwrite the live evidence datasets.
+Optional `Protest Timeline` (or `Timeline`) sheets are also imported. First rows
+must contain the exact CSV column names used by their destination files.
+
+Run it manually with:
+
+```bash
+python scripts/update-media-coverage.py
+```
+
+The `Update outreach data` GitHub Actions workflow runs every six hours
+and commits the generated CSV when it changes. It can also be run manually from
+the Actions tab.
+
 ## Run
 
 ```bash

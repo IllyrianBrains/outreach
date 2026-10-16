@@ -20,4 +20,4 @@ Each translated page contains the same three emails in tabs: [English](../langua
 
 Personalize the selected email, verify current facts, use professional contact channels and protect minors and vulnerable people.
 
-**Evidence brief for all three emails:** [Tirana protests, 13–15 October 2026](../briefs/tirana-2026-10-13-15-urgent.md) — sources, open questions and verification standards for every claim above are collected once in [Background → Documentation and methods](../background/documentation.md).
+Sources, open questions and verification standards for every claim above are collected once in [Background → Documentation and methods](../background/documentation.md).

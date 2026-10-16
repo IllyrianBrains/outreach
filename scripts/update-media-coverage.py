@@ -1,0 +1,305 @@
+#!/usr/bin/env python3
+"""Download the outreach workbook and publish every recognized sheet as CSV."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import io
+import re
+import sys
+import urllib.request
+import zipfile
+from pathlib import Path
+from xml.etree import ElementTree as ET
+
+
+FILE_ID = "1OuPFT575XmlAN68Y7XG983mnTHT7q4-F"
+WORKBOOK_URL = (
+    "https://drive.usercontent.google.com/download"
+    f"?id={FILE_ID}&export=download&confirm=t"
+)
+ASSETS_DIR = Path("docs/assets")
+
+SOURCE_HEADERS = [
+    "Country",
+    "Media Outlet",
+    "Media Outlet URL",
+    "Coverage Status",
+    "Coverage Date",
+    "Headline",
+    "Article URL",
+    "Contact Email",
+    "Outreach Status",
+    "Verification",
+    "Notes",
+]
+
+OUTPUT_HEADERS = [
+    "country_code",
+    "country",
+    "outlet",
+    "outlet_url",
+    "coverage_status",
+    "first_date",
+    "headline",
+    "article_url",
+    "contact_email",
+    "outreach_status",
+    "verification_level",
+    "notes",
+]
+
+COUNTRY_CODES = {
+    "Albania": "AL",
+    "Austria": "AT",
+    "Belgium": "BE",
+    "Czechia": "CZ",
+    "Denmark": "DK",
+    "Finland": "FI",
+    "France": "FR",
+    "Germany": "DE",
+    "Ireland": "IE",
+    "Italy": "IT",
+    "Kosovo": "XK",
+    "Luxembourg": "LU",
+    "Malta": "MT",
+    "Netherlands": "NL",
+    "Norway": "NO",
+    "Poland": "PL",
+    "Spain": "ES",
+    "Sweden": "SE",
+    "Switzerland": "CH",
+    "United Kingdom": "GB",
+    "United States": "US",
+}
+
+ALLOWED_STATUSES = {"Covered", "Mentioned", "Unclear", "Not found", "Not checked"}
+XML_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+REL_NS = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}"
+PACKAGE_REL_NS = "{http://schemas.openxmlformats.org/package/2006/relationships}"
+
+CSV_SHEETS = {
+    "Sources": "examples/sources-example.csv",
+    "Incidents": "examples/incidents-example.csv",
+    "Evidence": "examples/incident-evidence-example.csv",
+    "Incident Evidence": "examples/incident-evidence-example.csv",
+    "Protest Timeline": "protest_timeline.csv",
+    "Timeline": "protest_timeline.csv",
+}
+
+CSV_HEADERS = {
+    "sources-example.csv": [
+        "source_id", "published_date", "event_date", "publisher", "title", "url",
+        "category", "format", "topic", "verification", "origin", "notes",
+    ],
+    "incidents-example.csv": [
+        "incident_id", "event_date", "location", "affected_group", "alleged_actor",
+        "incident_type", "summary", "evidence_status", "source_ids", "adcn_reference",
+        "reported_count", "limitations",
+    ],
+    "incident-evidence-example.csv": [
+        "evidence_id", "incident_id", "source_id", "event_date", "media_type",
+        "evidence_title", "description", "publisher_url", "image_url", "adcn_reference",
+        "observation", "verification_status", "rights_and_safety_notes",
+    ],
+    "protest_timeline.csv": [
+        "date_iso", "date_label", "title", "location", "category", "summary",
+        "source_name", "source_url", "source_status",
+    ],
+}
+
+
+def column_index(reference: str) -> int:
+    letters = re.match(r"[A-Z]+", reference)
+    if not letters:
+        raise ValueError(f"Invalid spreadsheet cell reference: {reference}")
+    result = 0
+    for character in letters.group():
+        result = result * 26 + ord(character) - ord("A") + 1
+    return result - 1
+
+
+def read_workbook(workbook: bytes) -> dict[str, list[list[str]]]:
+    """Read all XLSX worksheets using only the Python standard library."""
+    try:
+        archive = zipfile.ZipFile(io.BytesIO(workbook))
+        workbook_root = ET.fromstring(archive.read("xl/workbook.xml"))
+        relationships_root = ET.fromstring(
+            archive.read("xl/_rels/workbook.xml.rels")
+        )
+    except (KeyError, zipfile.BadZipFile, ET.ParseError) as error:
+        raise ValueError(f"Downloaded file is not a supported XLSX workbook: {error}") from error
+
+    try:
+        shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+        shared_strings = [
+            "".join(node.text or "" for node in item.iter(f"{XML_NS}t"))
+            for item in shared_root.findall(f"{XML_NS}si")
+        ]
+    except KeyError:
+        shared_strings = []
+
+    targets = {
+        relationship.get("Id"): relationship.get("Target", "")
+        for relationship in relationships_root.findall(f"{PACKAGE_REL_NS}Relationship")
+    }
+    sheets: dict[str, list[list[str]]] = {}
+    for sheet in workbook_root.iter(f"{XML_NS}sheet"):
+        name = sheet.get("name", "").strip()
+        target = targets.get(sheet.get(f"{REL_NS}id"), "")
+        if not target:
+            raise ValueError(f'Could not locate worksheet "{name}" in the workbook.')
+        sheet_path = target.lstrip("/")
+        if not sheet_path.startswith("xl/"):
+            sheet_path = f"xl/{sheet_path}"
+        sheet_root = ET.fromstring(archive.read(sheet_path))
+        sheets[name] = read_sheet(sheet_root, shared_strings)
+    return sheets
+
+
+def read_sheet(sheet_root: ET.Element, shared_strings: list[str]) -> list[list[str]]:
+    rows: list[list[str]] = []
+    for row_node in sheet_root.iter(f"{XML_NS}row"):
+        values: dict[int, str] = {}
+        for cell in row_node.findall(f"{XML_NS}c"):
+            value_node = cell.find(f"{XML_NS}v")
+            value = "" if value_node is None else (value_node.text or "")
+            if cell.get("t") == "s" and value:
+                value = shared_strings[int(value)]
+            elif cell.get("t") == "inlineStr":
+                value = "".join(
+                    node.text or "" for node in cell.iter(f"{XML_NS}t")
+                )
+            values[column_index(cell.get("r", ""))] = value.strip()
+        if values and any(values.values()):
+            width = max(values) + 1
+            rows.append([values.get(index, "") for index in range(width)])
+    return rows
+
+
+def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
+    if not rows:
+        raise ValueError("The workbook contains no rows.")
+
+    headers = rows[0] + [""] * (len(SOURCE_HEADERS) - len(rows[0]))
+    if headers[: len(SOURCE_HEADERS)] != SOURCE_HEADERS:
+        raise ValueError(
+            "Unexpected workbook columns. Expected: " + ", ".join(SOURCE_HEADERS)
+        )
+
+    output: list[dict[str, str]] = []
+    for spreadsheet_row, values in enumerate(rows[1:], start=2):
+        padded = values + [""] * (len(SOURCE_HEADERS) - len(values))
+        source = dict(zip(SOURCE_HEADERS, padded, strict=False))
+        country = source["Country"]
+        outlet = source["Media Outlet"]
+        status = source["Coverage Status"] or "Not checked"
+
+        if not country or not outlet:
+            raise ValueError(f"Row {spreadsheet_row}: Country and Media Outlet are required.")
+        if country not in COUNTRY_CODES:
+            raise ValueError(f'Row {spreadsheet_row}: unknown country "{country}".')
+        if status not in ALLOWED_STATUSES:
+            raise ValueError(f'Row {spreadsheet_row}: invalid Coverage Status "{status}".')
+
+        output.append(
+            {
+                "country_code": COUNTRY_CODES[country],
+                "country": country,
+                "outlet": outlet,
+                "outlet_url": source["Media Outlet URL"],
+                "coverage_status": status,
+                "first_date": source["Coverage Date"],
+                "headline": source["Headline"],
+                "article_url": source["Article URL"],
+                "contact_email": source["Contact Email"],
+                "outreach_status": source["Outreach Status"] or "Not contacted",
+                "verification_level": source["Verification"],
+                "notes": source["Notes"],
+            }
+        )
+    return output
+
+
+def publish_csv(name: str, rows: list[list[str]], output: Path) -> int:
+    """Publish a sheet whose headings are already the site's CSV headings."""
+    if not rows:
+        raise ValueError(f'The "{name}" sheet contains no rows.')
+    headers = [value.lstrip("\ufeff") for value in rows[0]]
+    expected = CSV_HEADERS[output.name]
+    if headers != expected:
+        raise ValueError(
+            f'The "{name}" sheet headings do not match {output.name}. Expected: '
+            + ", ".join(expected)
+        )
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with output.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.writer(handle, lineterminator="\n")
+        writer.writerow(headers)
+        for values in rows[1:]:
+            padded = values + [""] * (len(headers) - len(values))
+            if len(padded) > len(headers) and any(padded[len(headers) :]):
+                raise ValueError(f'The "{name}" sheet has data beyond its headings.')
+            writer.writerow(padded[: len(headers)])
+    return len(rows) - 1
+
+
+def publish_workbook(workbook: bytes) -> list[tuple[str, int]]:
+    sheets = read_workbook(workbook)
+    published: list[tuple[str, int]] = []
+
+    media_rows = sheets.get("Media Coverage")
+    if media_rows is None:
+        raise ValueError('Required worksheet "Media Coverage" is missing.')
+    records = normalize_media_coverage(media_rows)
+    media_output = ASSETS_DIR / "media_coverage.csv"
+    media_output.parent.mkdir(parents=True, exist_ok=True)
+    with media_output.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=OUTPUT_HEADERS, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(records)
+    published.append((str(media_output), len(records)))
+
+    claimed_outputs: set[str] = set()
+    for sheet_name, filename in CSV_SHEETS.items():
+        if sheet_name not in sheets or filename in claimed_outputs:
+            continue
+        output = ASSETS_DIR / filename
+        count = publish_csv(sheet_name, sheets[sheet_name], output)
+        published.append((str(output), count))
+        claimed_outputs.add(filename)
+    return published
+
+
+def download() -> bytes:
+    request = urllib.request.Request(
+        WORKBOOK_URL, headers={"User-Agent": "flamingo-outreach-data-updater"}
+    )
+    with urllib.request.urlopen(request, timeout=60) as response:
+        return response.read()
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--source-file",
+        type=Path,
+        help="Use a local XLSX file instead of downloading the public workbook.",
+    )
+    args = parser.parse_args()
+
+    workbook = args.source_file.read_bytes() if args.source_file else download()
+    published = publish_workbook(workbook)
+    for output, count in published:
+        print(f"Saved {count} rows to {output}.")
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except (OSError, ValueError) as error:
+        print(f"error: {error}", file=sys.stderr)
+        raise SystemExit(1)

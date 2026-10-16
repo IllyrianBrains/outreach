@@ -1,22 +1,31 @@
-# Photo & evidence gallery
+---
+hide:
+  - navigation
+---
 
-Browse photographs, reporting and documented rights concerns in one searchable directory. Entries are source-attributed; inclusion does not establish misconduct.
+# Evidence gallery
 
-**Filter by topic** using the search box (for example, `protest`, `journalist`, `police`, `bystander`, or `ADCN`). Open each original publication to review its context.
+Browse source-attributed photos, videos, and reports. Inclusion does not establish misconduct; each card states how the item was observed or reported.
 
-**Video evidence:** select `video` in the media-type filter to find anonymously submitted video clips. These are shared via a third-party folder link and have **not** been individually reviewed, dated, or matched to specific incidents — treat each clip as unverified until checked.
+!!! warning "About video submissions"
+    Anonymous video clips have not been individually reviewed, dated, or matched to incidents. Filter by **video** and treat each clip as unverified until checked.
 
-<input id="evidence-search" placeholder="Search evidence, date, people or publisher" aria-label="Search evidence" />
-<select id="evidence-filter" aria-label="Filter by media type"><option value="">All media types</option></select>
-<p id="evidence-count"></p>
-<div id="evidence-results"></div>
+<div class="evidence-gallery">
+  <div class="evidence-toolbar" role="search" aria-label="Filter evidence">
+    <input id="evidence-search" type="search" placeholder="Search evidence…" aria-label="Search evidence">
+    <select id="evidence-filter" aria-label="Media type"><option value="">All media types</option></select>
+    <select id="evidence-sort" aria-label="Sort order">
+      <option value="date-desc">Newest first</option>
+      <option value="date-asc">Oldest first</option>
+    </select>
+    <button id="evidence-clear" type="button">Clear</button>
+  </div>
+  <p id="evidence-count" role="status" aria-live="polite"></p>
+  <div id="evidence-results" class="evidence-grid">Loading evidence…</div>
+</div>
 
-## Download the data
+## Data and methodology
 
-- [Sources CSV](assets/sources.csv) — one row per publication or statement
-- [Incidents CSV](assets/incidents.csv) — one row per documented incident or allegation
-- [Incident evidence CSV](assets/incident_evidence.csv) — one row per photo, video or other evidence item
+[Sources CSV](assets/sources.csv) · [Incidents CSV](assets/incidents.csv) · [Evidence CSV](assets/incident_evidence.csv) · [Editing guide](data-guide.md)
 
-See [CSV examples and editing instructions](data-guide.md).
-
-The ADCN evidence brief is credited as a separate public-source review, not as Illyrian Brains' original investigation. Protect the identity of minors and witnesses.
+*Protect the identity of minors and witnesses.*

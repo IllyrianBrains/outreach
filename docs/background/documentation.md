@@ -3,8 +3,6 @@
 This section holds contextual material rather than instructions for sending outreach.
 
 - [Incident records](../incidents.md): reports concerning protesters, bystanders, journalists, police and others
-- [Evidence brief](../briefs/tirana-2026-10-13-15-urgent.md): dated reporting and open questions
-- [13 October archive](../briefs/tirana-2026-10-13.md): earlier record
 - [Verification approach](../methodology/verification.md): source and evidence standards
 - [Documentation approach](../editorial-policy.md): attribution, privacy and corrections
 - [CSV data guide](../data-guide.md): examples and data downloads

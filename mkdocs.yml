@@ -2,6 +2,8 @@ site_name: Outreach
 theme:
   name: material
   language: en
+  icon:
+    logo: material/bullhorn
   palette:
     - scheme: default
       primary: blue grey
@@ -28,38 +30,21 @@ copyright: >
   Published by <strong>Illyrian Brains</strong>.
 extra_css:
   - assets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css
 extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js
   - assets/evidence.js
   - assets/directory.js
   - assets/timeline.js
+  - assets/media_coverage.js
 plugins:
   - search
 nav:
   - Home: index.md
-  - Countries:
-      - Choose a country: countries/index.md
-      - "🇦🇹 Austria": countries/austri.md
-      - "🇧🇪 Belgium": countries/belgjike.md
-      - "🇨🇿 Czechia": countries/ceki.md
-      - "🇩🇰 Denmark": countries/danimarke.md
-      - "🇫🇮 Finland": countries/finlande.md
-      - "🇫🇷 France": countries/france.md
-      - "🇩🇪 Germany": countries/gjermani.md
-      - "🇳🇱 Netherlands": countries/holande.md
-      - "🇮🇪 Ireland": countries/irlande.md
-      - "🇮🇹 Italy": countries/itali.md
-      - "🇽🇰 Kosovo": countries/kosove.md
-      - "🇱🇺 Luxembourg": countries/luksemburg.md
-      - "🇲🇹 Malta": countries/malte.md
-      - "🇬🇧 United Kingdom": countries/mbreteria-e-bashkuar.md
-      - "🇳🇴 Norway": countries/norvegji.md
-      - "🇵🇱 Poland": countries/poloni.md
-      - "🇪🇸 Spain": countries/spanje.md
-      - "🇸🇪 Sweden": countries/suedi.md
-      - "🇦🇱 Albania": countries/shqiperi.md
-      - "🇺🇸 United States": countries/shba.md
-      - "🇨🇭 Switzerland": countries/zvicer.md
+  - Gallery: evidence-gallery.md
+  - Media coverage: media-coverage.md
   - Letters:
+      - Choose a country: countries/index.md
       - Three email templates: messages/index.md
       - English master: languages/en.md
       - Albanian: languages/sq.md

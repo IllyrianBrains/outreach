@@ -18,7 +18,7 @@ It helps readers contact media, public representatives and civil-society organiz
 <a class="step-card" href="languages/en/"><span class="step-num">02</span><strong>Choose an email →</strong><span>Select the Media, Institution or Representative tab in your language.</span></a>
 </div>
 
-[**Start here: choose your country →**](countries/index.md) · [Latest evidence briefing →](briefs/tirana-2026-10-13-15-urgent.md)
+[**Start here: choose your country →**](countries/index.md)
 
 ## Gallery
 
@@ -50,5 +50,16 @@ It helps readers contact media, public representatives and civil-society organiz
 ## Before sharing
 
 Check the date, source and context of each claim. Distinguish reporting, allegations and verified findings. Protect people pictured or named in footage. Request accountability for violence by **any** actor, while recognizing the rights of peaceful participants, journalists, bystanders and detainees.
+
+Information on this site is compiled from, among others:
+
+- [ADCN](https://albaniandiasporacivicnetwork.com/)
+- [Flamingo Berlin](https://flamingo-berlin.github.io/)
+- [Flamingo Revolution](https://flamingorevolution.eu/)
+- [International media](sources.md#international-reporting)
+- [Citizens.al](https://citizens.al/)
+- [Faktoje.al](https://faktoje.al/)
+
+This project compiles and links to these sources to help people carry out the procedure of contacting media, representatives and organizations. It does not independently verify third-party claims and holds no accountability for how the linked information is used, interpreted or acted upon; responsibility for each claim rests with its original source.
 
 For context and documentation, see [Background](background/index.md), [Gallery](evidence-gallery.md), and [Sources](directory.md).

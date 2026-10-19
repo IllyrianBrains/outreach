@@ -15,6 +15,30 @@ Choose a ready-to-personalize letter, find an organization that still needs outr
 <a class="step-card" href="https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing"><span class="step-num">04</span><strong>Record the result →</strong><span>Update the shared workbook with coverage, contact status, dates, and direct links.</span></a>
 </div>
 
+## Reporting on Instagram { .home-section-heading }
+
+<div class="instagram-post-grid">
+  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/citizens.al/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+    <a href="https://www.instagram.com/citizens.al/" target="_blank" rel="noopener noreferrer">View Citizens.al on Instagram →</a>
+  </blockquote>
+  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/faktoje.al/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+    <a href="https://www.instagram.com/faktoje.al/" target="_blank" rel="noopener noreferrer">View Faktoje.al on Instagram →</a>
+  </blockquote>
+  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/flamingo_revolution_/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+    <a href="https://www.instagram.com/flamingo_revolution_/" target="_blank" rel="noopener noreferrer">View Flamingo Revolution on Instagram →</a>
+  </blockquote>
+  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/newspiranjat/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+    <a href="https://www.instagram.com/newspiranjat/" target="_blank" rel="noopener noreferrer">View News Piranjat on Instagram →</a>
+  </blockquote>
+</div>
+
+<script async src="https://www.instagram.com/embed.js"></script>
+
+[**Open @citizens.al →**](https://www.instagram.com/citizens.al/){ .md-button }
+[**Open @faktoje.al →**](https://www.instagram.com/faktoje.al/){ .md-button }
+[**Open @flamingo_revolution_ →**](https://www.instagram.com/flamingo_revolution_/){ .md-button }
+[**Open @newspiranjat →**](https://www.instagram.com/newspiranjat/){ .md-button }
+
 ## Update the shared tracker { .home-section-heading }
 
 1. Find a media outlet, institution, or political party in the relevant workbook sheet.

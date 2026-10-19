@@ -1001,6 +1001,23 @@
   color: var(--md-default-fg-color--light);
 }
 #coverage-map .leaflet-control-attribution a, #institutions-map .leaflet-control-attribution a, #parties-outreach-map .leaflet-control-attribution a { color: inherit; }
+.instagram-post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.instagram-post-grid .instagram-media {
+  width: 100% !important;
+  max-width: 540px !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+}
+@media (max-width: 760px) {
+  .instagram-post-grid { grid-template-columns: 1fr; }
+}
+
 .coverage-map-legend {
   display: flex;
   flex-wrap: wrap;

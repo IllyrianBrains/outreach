@@ -1,0 +1,97 @@
+site_name: Outreach
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/bullhorn
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+copyright: >
+  Published by this project's volunteer contributors.
+extra_css:
+  - assets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js
+  - assets/directory.js
+  - assets/timeline.js
+  - assets/media_coverage.js
+  - assets/institutions.js
+  - assets/parties.js
+  - assets/outreach_directory.js
+  - assets/education_map.js
+  - assets/email_templates.js
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Letters:
+      - Overview: messages/index.md
+      - Languages:
+          - Albanian: languages/sq.md
+          - German: languages/de.md
+          - Italian: languages/it.md
+          - French: languages/fr.md
+          - Dutch: languages/nl.md
+          - Spanish: languages/es.md
+          - Swedish: languages/sv.md
+          - Polish: languages/pl.md
+  - Status:
+      - Media: media-coverage.md
+      - Institutions: institutions.md
+      - Parties: parties.md
+  - Background:
+      - Overview: background/index.md
+      - Movement: background/context.md
+      - Timeline: timeline.md
+      - Academics: background/education-map.md
+      - Actions:
+          - Overview: actions/index.md
+          - Legal Action: actions/legal-action.md
+          - Referendums: actions/referendums.md
+          - Moratorium: actions/moratorium.md
+          - Crowdfunding: actions/funding.md
+          - Civic Projects: actions/civic-projects.md
+          - Open Letter: actions/open-letters.md
+      - Sources:
+          - Evidence: background/evidence.md
+          - Verification: background/sources.md
+      - External:
+          - Flamingo protest map ↗: https://pomodoren.github.io/flamingo-map/
+          - Flamingo Revolution protests ↗: https://flamingorevolution.eu/protestat/
+          - Violence archive ↗: https://hajdenshesh.com/dhuna
+  - About: about.md
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - tables
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true

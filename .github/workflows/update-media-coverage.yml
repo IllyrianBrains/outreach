@@ -1,0 +1,59 @@
+name: Update outreach data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-outreach-data
+  cancel-in-progress: false
+
+jobs:
+  update-outreach-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Install site dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Download, validate, and convert workbook
+        run: python3 scripts/update-media-coverage.py
+
+      - name: Validate generated site
+        run: mkdocs build --strict --site-dir _site
+
+      - name: Commit updated outreach data
+        run: |
+          git config user.name "flamingo-outreach-bot"
+          git config user.email "flamingo-outreach-bot@users.noreply.github.com"
+
+          git add docs/assets/media_coverage.csv \
+            docs/assets/institutions.csv \
+            docs/assets/political_parties.csv \
+            docs/assets/issues_gallery.csv \
+            docs/assets/embassies.csv \
+            docs/assets/examples/sources-example.csv \
+            docs/assets/examples/incidents-example.csv \
+            docs/assets/examples/incident-evidence-example.csv \
+            docs/assets/protest_timeline.csv
+
+          if git diff --cached --quiet; then
+            echo "No outreach data changes."
+            exit 0
+          fi
+
+          git commit -m "Update outreach data"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push

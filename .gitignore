@@ -1,0 +1,13 @@
+data
+
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# mkdocs build output
+site/
+
+# OS / editor
+.DS_Store
+.vscode/

@@ -59,3 +59,18 @@ mkdocs build
 ```
 
 The ADCN evidence brief is attributed to its original author. External images remain subject to publishers' permissions.
+
+## Licensing
+
+This is a community-maintained, dual-licensed project:
+
+- Original code is licensed under
+  [GNU AGPL-3.0-only](LICENSE-CODE.md), including its network source-sharing
+  requirement.
+- Original community datasets are available under
+  [CC BY-NC 4.0](LICENSE-DATA.md), with attribution and non-commercial use
+  requirements.
+
+See [the licensing overview](LICENSE.md) for the exact scope and third-party
+material exceptions. Contributions, corrections, and responsible community
+reuse are welcome.

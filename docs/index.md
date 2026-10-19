@@ -55,6 +55,6 @@ Choose a ready-to-personalize letter, find an organization that still needs outr
 - Check dates and context, and protect minors and vulnerable people.
 - Personalize every letter and send it through a verified channel.
 
-[Evidence brief (PDF)](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) · [Background](background/index.md) · [Evidence](background/evidence.md) · [Sources and verification](background/sources.md)
+[Evidence brief (PDF)](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) · [Background](background/index.md) · [Evidence](background/evidence.md) · [Sources and verification](background/sources.md) · [Protest safety guide](background/safety.md)
 
 This independent outreach resource does not speak for the Flamingo Revolution or ADCN, endorse a political party, or determine responsibility for any incident.

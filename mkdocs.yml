@@ -60,11 +60,13 @@ nav:
       - Media: media-coverage.md
       - Institutions: institutions.md
       - Parties: parties.md
+  - Donate: donate.md
   - Background:
       - Overview: background/index.md
       - Movement: background/context.md
       - Timeline: timeline.md
       - Academics: background/education-map.md
+      - Safety: background/safety.md
       - Actions:
           - Overview: actions/index.md
           - Legal Action: actions/legal-action.md

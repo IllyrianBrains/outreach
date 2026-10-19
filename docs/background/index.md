@@ -7,49 +7,67 @@ The protests began around opposition to development affecting the **Vjosë–Nar
 
 ## Explore the background
 
-<div class="grid cards" markdown>
+=== "Movement & timeline"
 
--   :material-account-group-outline: **[Movement context](context.md)**
+    <div class="grid cards" markdown>
 
-    Who is involved, what the movement demands and where protests were reported.
+    -   :material-account-group-outline: **[Movement context](context.md)**
 
--   :material-timeline-clock-outline: **[Timeline](../timeline.md)**
+        Who is involved, what the movement demands and where protests were reported.
 
-    Follow a sourced chronology of major events.
+    -   :material-timeline-clock-outline: **[Timeline](../timeline.md)**
 
--   :material-school-outline: **[Academic protests](education-map.md)**
+        Follow a sourced chronology of major events.
 
-    Explore mapped universities and gymnasiums, with the limits of the available data.
+    -   :material-school-outline: **[Academic protests](education-map.md)**
 
--   :material-file-document-check-outline: **[Evidence](evidence.md)**
+        Explore mapped universities and gymnasiums, with the limits of the available data.
 
-    Review sourced incident records, affected groups and documented issues.
+    </div>
 
--   :material-bookshelf: **[Sources and verification](sources.md)**
+=== "Evidence & sources"
 
-    Search the source directory and understand the verification standard.
+    <div class="grid cards" markdown>
 
-</div>
+    -   :material-file-document-check-outline: **[Evidence](evidence.md)**
 
-## External resources
+        Review sourced incident records, affected groups and documented issues.
 
-These resources open on independently maintained websites. Their content and presentation are controlled by their respective publishers.
+    -   :material-bookshelf: **[Sources and verification](sources.md)**
 
-<div class="grid cards" markdown>
+        Search the source directory and understand the verification standard.
 
--   :material-map-marker-multiple-outline: **[Flamingo protest map ↗](https://pomodoren.github.io/flamingo-map/)**
+    </div>
 
-    Explore protest activity by location.
+=== "Safety"
 
--   :material-video-outline: **[Violence archive ↗](https://hajdenshesh.com/dhuna)**
+    <div class="grid cards" markdown>
 
-    View the Hajde n’Shesh video archive.
+    -   :material-shield-alert-outline: **[Protest safety guide](safety.md)**
 
--   :material-bullhorn-outline: **[Flamingo Revolution protests ↗](https://flamingorevolution.eu/protestat/)**
+        Know-your-rights, digital security and tear-gas response information for anyone attending a protest.
 
-    Read the movement’s protest chronology and published account.
+    </div>
 
-</div>
+=== "External resources"
+
+    These resources open on independently maintained websites. Their content and presentation are controlled by their respective publishers.
+
+    <div class="grid cards" markdown>
+
+    -   :material-map-marker-multiple-outline: **[Flamingo protest map ↗](https://pomodoren.github.io/flamingo-map/)**
+
+        Explore protest activity by location.
+
+    -   :material-video-outline: **[Violence archive ↗](https://hajdenshesh.com/dhuna)**
+
+        View the Hajde n’Shesh video archive.
+
+    -   :material-bullhorn-outline: **[Flamingo Revolution protests ↗](https://flamingorevolution.eu/protestat/)**
+
+        Read the movement’s protest chronology and published account.
+
+    </div>
 
 ## Scope
 

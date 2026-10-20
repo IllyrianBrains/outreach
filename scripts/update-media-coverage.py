@@ -7,18 +7,17 @@ import argparse
 import csv
 import datetime as dt
 import io
+import os
 import re
 import sys
 import urllib.request
 import zipfile
 from pathlib import Path
+from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 
-FILE_ID = "19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX"
-WORKBOOK_URL = (
-    f"https://docs.google.com/spreadsheets/d/{FILE_ID}/export?format=xlsx"
-)
+DEFAULT_WORKBOOK_URL = "https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit"
 ASSETS_DIR = Path("docs/assets")
 
 MEDIA_HEADERS = [
@@ -57,6 +56,7 @@ COUNTRY_CODES = {
     "Brazil": "BR",
     "Bulgaria": "BG",
     "Canada": "CA",
+    "China": "CN",
     "Croatia": "HR",
     "Cyprus": "CY",
     "Czechia": "CZ",
@@ -95,11 +95,13 @@ COUNTRY_CODES = {
     "Serbia": "RS",
     "Slovakia": "SK",
     "Slovenia": "SI",
+    "South Africa": "ZA",
     "Spain": "ES",
     "Social media": "SOC",
     "Sweden": "SE",
     "Switzerland": "CH",
     "Turkey": "TR",
+    "UAE": "AE",
     "Ukraine": "UA",
     "United Kingdom": "GB",
     "United States": "US",
@@ -235,7 +237,7 @@ def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
         padded = values + [""] * (len(workbook_headers) - len(values))
         source = dict(zip(workbook_headers, padded, strict=False))
         country = source["Country"]
-        outlet = source["Media Outlet"]
+        outlet = source["Media Outlet"] or infer_outlet_name(source["Website"])
         if not any(source.values()):
             continue
 
@@ -258,6 +260,17 @@ def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
             }
         )
     return output
+
+
+def infer_outlet_name(website: str) -> str:
+    """Derive a readable name when a row supplies a website but no outlet."""
+    parsed = urlparse(website)
+    domain = (parsed.hostname or "").removeprefix("www.").split(".")[0]
+    if not domain:
+        return ""
+    domain_name = domain.upper() if len(domain) <= 4 else domain.replace("-", " ").title()
+    path_name = parsed.path.strip("/").split("/", 1)[0].replace("-", " ").title()
+    return " ".join(value for value in (domain_name, path_name) if value)
 
 
 def normalize_dates(value: str) -> str:
@@ -344,11 +357,31 @@ def publish_workbook(workbook: bytes) -> list[tuple[str, int]]:
 
 
 def download() -> bytes:
+    load_dotenv(Path(".env"))
+    workbook_url = os.environ.get("OUTREACH_WORKBOOK_URL", DEFAULT_WORKBOOK_URL)
+    match = re.search(r"/spreadsheets/d/([^/]+)", workbook_url)
+    if not match:
+        raise ValueError("OUTREACH_WORKBOOK_URL is not a valid Google Sheets URL.")
+    export_url = (
+        f"https://docs.google.com/spreadsheets/d/{match.group(1)}/export?format=xlsx"
+    )
     request = urllib.request.Request(
-        WORKBOOK_URL, headers={"User-Agent": "flamingo-outreach-data-updater"}
+        export_url, headers={"User-Agent": "flamingo-outreach-data-updater"}
     )
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read()
+
+
+def load_dotenv(path: Path) -> None:
+    """Load simple KEY=VALUE pairs without overriding the process environment."""
+    if not path.is_file():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip("'\""))
 
 
 def main() -> int:

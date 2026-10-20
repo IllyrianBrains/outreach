@@ -179,7 +179,7 @@ FR,France,AFP,https://afp.com/,https://www.instagram.com/afpfr/,,,,
 FR,France,BFMTV,https://bfmtv.com/,https://www.instagram.com/bfmtv/,,,,
 FR,France,Courrier des Balkans,https://www.courrierdesbalkans.fr,,https://www.courrierdesbalkans.fr/fil-info-albanie-la-diaspora-se-mobilise-massivement-et-met-un-ultimatum-a-edi-rama-95062/,Government,,
 FR,France,Courrier International,https://www.courrierinternational.com,,https://www.courrierinternational.com/article/reportage-tirana-est-en-flammes-en-albanie-les-manifestations-anticorruption-s-enveniment_279223,Protests,,
-FR,France,France 24,https://france24.com/,https://www.instagram.com/france24/,,,,
+FR,France,France 24,https://france24.com/,https://www.instagram.com/france24/,https://www.france24.com/fr/info-en-continu/20261017-conditions-d-enseignement-5e-jour-d-affrontements-%C3%A0-tirana,Protests;Violence,,2026-10-17
 FR,France,France24,https://france24.com/,https://f24.my/IGfr,,,,
 FR,France,Franceinfo,https://francetvinfo.fr/,https://www.instagram.com/franceinfo/,,,,
 FR,France,La Croix,https://la-croix.com/,,,,,
@@ -192,6 +192,7 @@ FR,France,L’Express,https://lexpress.fr/,https://www.instagram.com/lexpressfr/
 FR,France,Mediapart,https://mediapart.fr/,https://www.instagram.com/mediapart/,,,,
 FR,France,RFI,https://rfi.fr/,https://www.instagram.com/rfi/,,,,
 FR,France,TV5Monde,https://information.tv5monde.com,,https://information.tv5monde.com/international/albanie-cinquieme-jour-de-manifestations-et-daffrontements-tirana-2842061,Violence,,
+FR,France,Brut Media,https://www.brut.media/fr,https://www.instagram.com/reels/DerjyFxgRpa/,https://www.brut.media/fr/international,Violence,,2026-10-20
 GE,Georgia,Agenda.ge,https://agenda.ge,,,,,
 GE,Georgia,Civil.ge,https://civil.ge,,,,,
 GE,Georgia,Formula TV,https://formulanews.ge,,,,,
@@ -214,8 +215,9 @@ DE,Germany,RND,https://rnd.de/,,,,,
 DE,Germany,Süddeutsche Zeitung,https://sueddeutsche.de/,https://www.instagram.com/sz/,,,,
 DE,Germany,Tagesschau,https://www.tagesschau.de,,https://www.tagesschau.de/ausland/europa/unruhen-albanien-102.html,Violence,,
 DE,Germany,Tagesschau / ARD,https://tagesschau.de/,https://www.instagram.com/tagesschau/,,,,
+DE,Germany,Tagesspiegel,https://www.tagesspiegel.de/,https://www.instagram.com/reel/DekAqu_FaAa/?cplk=MTZzejlxeW5pc25sbQ%3D%3D,https://www.tagesspiegel.de/internationales/dpa-unruhen-proteste-gegen-regierung-in-albanien-weiten-sich-aus-16166071.html,Protests,,2026-10-15
 DE,Germany,taz,https://taz.de,,https://taz.de/Studentenproteste-in-Albanien/!6221920/,Protests,,
-DE,Germany,Welt,https://welt.de/,https://www.instagram.com/welt/,https://www.welt.de/article6ad0bcaa199dc15f1abd4de8,,,
+DE,Germany,Welt,https://welt.de/,https://www.instagram.com/welt/;https://www.instagram.com/reels/DehQnNYTPX1/,https://www.welt.de/article6ad0bcaa199dc15f1abd4de8;https://www.welt.de/politik/article6ad395e0199dc15f1abd785c/tirana-gewalt-bei-demos-in-albanien-ministerpraesident-macht-auslaendische-haende-verantwortlich.html;,,,2026-10-15; 2026-10-17
 DE,Germany,ZDF heute,https://zdfheute.de/,https://www.instagram.com/zdfheute/,,,,
 DE,Germany,ZDFheute,https://www.zdfheute.de,,https://www.zdfheute.de/politik/ausland/albanien-studentenproteste-unruhen-tirana-100.html,Protests; Violence,,
 GR,Greece,Alpha TV Greece,https://www.alphatv.gr,,,,,
@@ -255,7 +257,7 @@ IS,Iceland,Morgunblaðið,https://www.mbl.is,,,,,
 IS,Iceland,RÚV,https://www.ruv.is,,,,,
 IS,Iceland,Vísir,https://www.visir.is,,,,,
 IN,India,Hindustan Times,https://www.hindustantimes.com,,,,,
-IN,India,India Today,https://www.indiatoday.in,,,,,
+IN,India,India Today,https://www.indiatoday.in,https://www.instagram.com/reel/DemQnzHusRf/?mdxt=bTc3bjR2OXRtNHhs,https://www.indiatoday.in/world/story/edi-rama-albania-students-protest-europe-violence-education-ministry-prime-minister-resign-demand-itspc-3020642-2026-10-19,Protests; Violence; Police,,2026-10-17; 2026-10-19
 IN,India,NDTV,https://www.ndtv.com,,,,,
 IN,India,The Hindu,https://www.thehindu.com,,,,,
 IN,India,The Indian Express,https://indianexpress.com/,,,,,
@@ -278,25 +280,25 @@ IE,Ireland,The Irish Times,https://irishtimes.com/,https://www.instagram.com/iri
 IE,Ireland,The Journal,https://thejournal.ie/,,,,,
 IE,Ireland,TheJournal.ie,https://thejournal.ie/,https://www.instagram.com/thejournal_ie/,,,,
 IE,Ireland,Virgin Media News,https://virginmediatelevision.ie/,https://www.instagram.com/virginmedianews/,,,,
-IT,Italy,Adnkronos,https://adnkronos.com/,,,,,
+IT,Italy,Adnkronos,https://adnkronos.com/,,https://www.adnkronos.com/internazionale/esteri/albania-studenti-scontri-edi-rama-tirana-video_4BMuf8f69DpohnJTb71ZAI,Protests; Violence,,2026-10-19
 IT,Italy,agenzianova,https://agenzianova.com/,,https://www.agenzianova.com/news/albania-annullata-la-seduta-del-parlamento-dopo-i-disordini-nuove-proteste-davanti-allassemblea-video/,Government; Video,,
-IT,Italy,AGI,https://agi.it/,,,,,
+IT,Italy,AGI,https://agi.it/,,https://www.agi.it/estero/news/2026-10-16/albania-scontri-governo-39568171/;https://www.agi.it/estero/news/2026-10-19/scontri-tirana-rivoluzione-fenicotteri-39615737/,Protests; Violence,,2026-10-16; 2026-10-20
 IT,Italy,ANSA,https://ansa.it/,https://www.instagram.com/agenzia_ansa/,https://www.ansa.it/sito/notizie/mondo/2026/10/13/caos-a-tirana-roghi-sulle-strade-assalto-anche-a-municipio_743fccd5-5166-4669-b58b-d61e0fe719d4.html; https://www.ansa.it/nuova_europa/it/notizie/nazioni/albania/2026/10/13/a-tirana-protesta-di-studenti-sfocia-in-violenti-scontri_4a4c13fc-629a-4977-8689-d0c16155bbee.html,Protests; Violence,,2026-10-13; 2026-10-13
 IT,Italy,ANSA Nuova Europa,https://ansa.it/,,https://www.ansa.it/nuova_europa/en/news/countries/albania/2026/10/13/student-protest-in-tirana-erupts-into-violent-clashes_5a2b6d84-edc3-414a-a5f9-98497e656caa.html,Protests; Violence,,2026-10-13
-IT,Italy,Corriere della Sera,https://corriere.it/,https://www.instagram.com/corriere/,,,,
+IT,Italy,Corriere della Sera,https://corriere.it/,https://www.instagram.com/corriere/;https://www.instagram.com/reels/DepnQWTgPu7/;,https://video.corriere.it/esteri/video-verticali/lanci-di-pietre-lacrimogeni-e-idranti-in-azione-anche-in-albania-scontri-tra-studenti-e-polizia/e4dabcff-ba1f-4a1c-bf35-904c7aa32xlk; https://video.corriere.it/video-virali/albania-agente-di-polizia-avvolto-dalle-fiamme-dopo-una-molotov-lanciata-dai-manifestanti-il-video/587f144b-fb19-452c-a2cc-93c601585xlk,Protests; Violence,,2026-10-19
 IT,Italy,Domani,https://editorialedomani.it/,,https://www.editorialedomani.it/politica/mondo/albania-studenti-proteste-manifestazione-edi-rama-repressione-polizia-du8my9f1,Protests; Violence; Police; Government,,
 IT,Italy,Euronews Italia,https://it.euronews.com/,,https://it.euronews.com/video/2026/10/14/albania-proteste-studentesche-a-tirana-si-radicalizza-la-flamingo-revolution,Protests; Environment; Video,,2026-10-14
-IT,Italy,Il Fatto Quotidiano,https://ilfattoquotidiano.it/,https://www.instagram.com/ilfattoquotidiano/,,,,
+IT,Italy,Il Fatto Quotidiano,https://ilfattoquotidiano.it/,https://www.instagram.com/ilfattoquotidiano/,https://www.ilfattoquotidiano.it/2026/10/15/proteste-albania-tirana-studenti-rama-notizie/8539444/,Protests; Government,,2026-10-16
 IT,Italy,il manifesto,https://ilmanifesto.it/,,https://ilmanifesto.it/dagli-studenti-ai-nazionalisti-tirana-in-piazza-contro-rama,Protests; Government,,
-IT,Italy,Il Post,https://ilpost.it/,,https://www.ilpost.it/2026/10/15/proteste-studenti-albania/,Protests,,2026-10-15
-IT,Italy,Il Sole 24 Ore,https://ilsole24ore.com/,https://www.instagram.com/ilsole24ore/,,,,
+IT,Italy,Il Post,https://ilpost.it/,,https://www.ilpost.it/2026/10/15/proteste-studenti-albania/,rts,,2026-10-15
+IT,Italy,Il Sole 24 Ore,https://ilsole24ore.com/,https://www.instagram.com/ilsole24ore/,https://www.ilsole24ore.com/art/tirana-brucia-e-rama-accusa-dietro-proteste-mosca-e-teheran-AJvgyynB;https://www.ilsole24ore.com/art/tirana-brucia-e-rama-accusa-dietro-proteste-mosca-e-teheran-AJvgyynB,Protests; Violence; Government; Russia;Iran,,2026-10-20
 IT,Italy,ilfattoquotidiano,https://ilfattoquotidiano.it/,,https://www.ilfattoquotidiano.it/2026/10/15/proteste-albania-tirana-studenti-rama-notizie/8539444/,Protests; Government,,2026-10-15
 IT,Italy,Internazionale,https://internazionale.it/,https://www.instagram.com/internazionale/,https://www.internazionale.it/ultime-notizie-reuters/2026/10/13/albanian-students-protest-over-education-jobs-clash-with-police,Protests; Violence; Police,,2026-10-13
-IT,Italy,la Repubblica,https://repubblica.it/,,https://www.repubblica.it/esteri/2026/10/15/news/albania_proteste_studenti_edi_rama_tirana_durazzo_repressioni-425650834/,Protests; Violence; Government,,2026-10-15
-IT,Italy,La Stampa,https://lastampa.it/,https://www.instagram.com/lastampa/,,,,
+IT,Italy,la Repubblica,https://repubblica.it/,https://www.instagram.com/reels/DerZWbsj_xw/,https://www.repubblica.it/esteri/2026/10/15/news/albania_proteste_studenti_edi_rama_tirana_durazzo_repressioni-425650834/; https://www.repubblica.it/esteri/2026/10/19/news/albania_proteste_contro_premier_rama-425656966/,Protests; Violence; Government,,2026-10-15; 2026-10-19
+IT,Italy,La Stampa,https://lastampa.it/,https://www.instagram.com/lastampa/,https://www.lastampa.it/esteri/2026/10/19/news/proteste_in_albania_rama_invoca_le_interferenze_russe_e_promette_un_premio_ai_poliziotti-15770855/,Protests; Violence; Government;Russia,,2026-10-20
 IT,Italy,lapresse,https://lapresse.it/,,https://www.lapresse.it/video/2026/10/14/albania-scontri-a-tirana-tra-manifestanti-e-polizia-fiamme-in-strada,Violence; Police; Video,,2026-10-14
 IT,Italy,Osservatorio Balcani Caucaso Transeuropa,https://balcanicaucaso.org/,,https://www.balcanicaucaso.org/cp_article/albania-la-protesta-studentesca-degenera-in-violenza/,Protests,,
-IT,Italy,Rai News,https://rainews.it/,https://www.instagram.com/rainewsofficial/,,,,
+IT,Italy,Rai News,https://rainews.it/,https://www.instagram.com/rainewsofficial/,https://www.rainews.it/video/2026/10/albania-nel-caos-le-piazze-contro-edi-rama-proteste-carboni-a865fb06-1003-4211-8fec-f44d25cfbbae.html,Protests; Violence; Government;,,2026-10-19
 IT,Italy,RaiNews,https://rainews.it/,,https://www.rainews.it/video/2026/10/albania-i-video-dellincendio-al-ministero-dellistruzione-durante-la-protesta-degli-studenti-12097d38-855f-4ca8-be22-997162705673.html; https://www.rainews.it/amp/articoli/2026/10/albania-esplode-la-rabbia-studentesca-a-fuoco-il-ministro-dellistruzione-7ef7e3a3-c4d2-4b73-abeb-f2a000f2b185.html,Protests; Violence; Government; Video,,
 IT,Italy,Sky TG24,https://tg24.sky.it/,,https://tg24.sky.it/mondo/2026/10/16/proteste-albania-scontri-tirana,Violence,,2026-10-16
 IT,Italy,stream24,https://stream24.ilsole24ore.com/,,https://stream24.ilsole24ore.com/video/mondo/albania-scontri-tirana-studenti-piazza-contro-governo-edi-rama/AJX27elB,Protests; Violence; Government; Video,,
@@ -505,9 +507,11 @@ SI,Slovenia,N1 Slovenija,https://n1info.si,,,,,
 SI,Slovenia,RTV Slovenija,https://www.rtvslo.si,,,,,
 SI,Slovenia,Siol.net,https://siol.net,,https://siol.net/novice/svet/protesti-v-tirani-policija-nad-ljudi-z-gumijastimi-naboji-704232; https://siol.net/novice/svet/nasilje-na-ulicah-stopnjujejo-naj-odstopi-preden-vse-zgori-video-foto-704174,Protests; Violence; Police; Government; Video,,
 SI,Slovenia,STA,https://www.sta.si,,,,,
+ZA,South Africa,Times Live,https://www.timeslive.co.za/,,https://www.timeslive.co.za/news/world/2026-10-14-buildings-ablaze-in-albanian-capital-as-violent-student-protests-erupt/,Protests; Violence,,2026-10-14
 ES,Spain,20minutos,https://20minutos.es/,https://www.instagram.com/20m/,,,,
 ES,Spain,ABC,https://abc.es/,,,,,
 ES,Spain,Cadena SER,https://cadenaser.com/,https://www.instagram.com/la_ser/,,,,
+ES,Spain,DW Espanol,https://www.dw.com/es/actualidad/s-30684,https://www.instagram.com/reel/DekAqu_FaAa/?cplk=MTZzejlxeW5pc25sbQ%3D%3D,,"Protests, Violence; Police",,2026-10-17
 ES,Spain,EFE,https://efe.com/,https://www.instagram.com/efenoticias/,,,,
 ES,Spain,El Mundo,https://elmundo.es/,https://www.instagram.com/elmundo_es/,,,,
 ES,Spain,El País,https://elpais.com/,https://www.instagram.com/el_pais/,https://elpais.com/internacional/2026-10-15/el-presidente-de-albania-culpa-a-la-oposicion-de-los-disturbios-en-las-protestas-estudiantiles.html,Protests,,2026-10-15
@@ -536,7 +540,7 @@ CH,Switzerland,Le Temps,https://letemps.ch/,https://www.instagram.com/letemps/,,
 CH,Switzerland,Neue Zürcher Zeitung,https://nzz.ch/,,,,,
 CH,Switzerland,NZZ,https://nzz.ch/,https://www.instagram.com/nzz/,,,,
 CH,Switzerland,RSI,https://rsi.ch/,,,,,
-CH,Switzerland,RTS,https://rts.ch/,,,,,
+CH,Switzerland,RTS,https://rts.ch/,https://www.instagram.com/p/DerNdiHl3N3/?mdxt=d3VtMWM0Z3JqM29r,https://www.rts.ch/info/monde/2026/article/albanie-plus-de-150-blesses-dans-de-violents-heurts-a-tirana-29388423.html,Violence; Government; Environment,,2026-10-19
 CH,Switzerland,SRF,https://www.srf.ch,,https://www.srf.ch/news/international/flamingo-revolution-proteste-in-albanien-eskalieren-bildungsministerium-brennt,Violence; Government; Environment,,
 CH,Switzerland,SWI swissinfo.ch (Portuguese),https://swissinfo.ch/,https://www.instagram.com/swissinfo.ch/,https://www.swissinfo.ch/por/novos-confrontos-entre-manifestantes-e-policiais-na-alb%C3%A2nia/92217693,Protests; Police,,
 CH,Switzerland,SWI swissinfo.ch (Spanish),https://swissinfo.ch/,https://www.instagram.com/swissinfo.ch/,https://www.swissinfo.ch/spa/una-veintena-de-detenidos-en-protesta-ante-el-ministerio-de-educaci%C3%B3n-de-albania/92210687,Police; Government,,
@@ -563,6 +567,7 @@ TR,Turkey,Sozcu,https://www.sozcu.com.tr,,https://www.sozcu.com.tr/arnavutlukta-
 TR,Turkey,T24,https://t24.com.tr,,,,,
 TR,Turkey,TRT Haber,https://www.trthaber.com,,,,,
 TR,Turkey,TRT World,https://www.trtworld.com,,,,,
+AE,UAE,Al Khaleej,https://www.alkhaleej.ae/,,https://www.alkhaleej.ae/2026-10-16/%D8%B9%D8%B1%D8%A8-%D9%88%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%B9%D8%A7%D8%B5%D9%81%D8%A9-%D8%AA%D8%B6%D8%B1%D8%A8-%D8%A3%D9%84%D8%A8%D8%A7%D9%86%D9%8A%D8%A7-%D9%84%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8,Protest; Violence,,2026-10-16
 UA,Ukraine,Kyiv Independent,https://kyivindependent.com/,,,,,
 UA,Ukraine,Suspilne,https://suspilne.media/,,,,,
 UA,Ukraine,UA News,https://ua.news,,https://ua.news/pl/world/v-albaniyi-pereviriaiut-diyi-politsiyi-pid-chas-studentskikh-protestiv-anadolu-agency,Protests,,
@@ -571,18 +576,18 @@ UA,Ukraine,Ukrinform,https://www.ukrinform.net/,,,,,
 UA,Ukraine,UNIAN,https://www.unian.net/,,,,,
 GB,United Kingdom,Al Jazeera,https://aljazeera.com/,https://www.instagram.com/aljazeeraenglish/,https://www.aljazeera.com/news/2026/10/15/albanias-pm-dismisses-calls-to-resign-as-student-protests-spread,Protests,,2026-10-15
 GB,United Kingdom,BBC,https://bbc.com/,https://www.instagram.com/bbcnews/,,,,
-GB,United Kingdom,BBC News,https://bbc.com/news/,https://www.instagram.com/bbcnews/,https://www.bbc.co.uk/news/articles/crwydey50xeno,Protests; Violence; Police,,
+GB,United Kingdom,BBC News,https://bbc.com/news/,https://www.instagram.com/bbcnews/;https://www.instagram.com/reels/DepfOUnAS9P/,https://www.bbc.co.uk/news/articles/crwydey50xeno,Protests; Violence; Police,,
 GB,United Kingdom,BBC World Service,,,https://wspartners.bbc.com/episode/p0pgs2z7,,,
 GB,United Kingdom,Channel 4 News,https://channel4.com/news/,https://www.instagram.com/channel4news/,,,,
 GB,United Kingdom,Daily Mail,https://www.dailymail.co.uk,,,,,
-GB,United Kingdom,Euronews,https://euronews.com/,https://www.instagram.com/euronews/,https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates,Protests; Violence; Environment; Video,,2026-10-14
+GB,United Kingdom,Euronews,https://euronews.com/,https://www.instagram.com/euronews/;https://www.instagram.com/reels/Deea61KiMeS/,https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates;https://www.euronews.com/2026/10/19/albanian-pm-rama-accuses-anti-government-protesters-of-crossing-red-line-amid-violent-demo;https://www.euronews.com/video/2026/10/19/albanian-police-clash-with-protesters-in-tirana-as-unrest-enters-sixth-day,Protests; Violence; Environment; Video,,2026-10-14; 2026-10-19
 GB,United Kingdom,Financial Times,https://ft.com/,https://www.instagram.com/financialtimes/,,,,
 GB,United Kingdom,GB News,https://www.gbnews.com,,,,,
 GB,United Kingdom,ITV News,https://itv.com/news/,https://www.instagram.com/itvnews/,,,,
 GB,United Kingdom,LBC,https://www.lbc.co.uk,,,,,
 GB,United Kingdom,Metro UK,https://metro.co.uk,,,,,
 GB,United Kingdom,PA Media,https://pa.media/,,,,,
-GB,United Kingdom,Reuters,https://reuters.com/; https://www.reuters.com,https://www.instagram.com/reuters/,https://www.reuters.com/world/albanian-students-protest-over-education-jobs-clash-with-police-2026-10-13/; https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/,Protests; Violence; Police; Government,,2026-10-13; 2026-10-18
+GB,United Kingdom,Reuters,https://reuters.com/; https://www.reuters.com,https://www.instagram.com/reuters/;https://www.instagram.com/reels/DeqoVVUkY2h/,https://www.reuters.com/world/albanian-students-protest-over-education-jobs-clash-with-police-2026-10-13/; https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/,Protests; Violence; Police; Government,,2026-10-13; 2026-10-18
 GB,United Kingdom,Sky News,https://news.sky.com/,https://www.instagram.com/skynews/,https://news.sky.com/story/violent-protests-a-threat-to-eu-membership-not-government-albanian-pm-says-13600589,Protests; Violence; Government,,
 GB,United Kingdom,The Economist,https://economist.com/,https://www.instagram.com/theeconomist/,,,,
 GB,United Kingdom,The Guardian,https://theguardian.com/,https://www.instagram.com/guardian/,https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes; https://www.theguardian.com/world/2026/oct/15/albania-prime-minister-edi-rama-vows-not-to-resign-student-led-protests; https://www.theguardian.com/world/video/2026/oct/14/anti-government-student-protests-in-albania-turn-violent-video; https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer,Protests; Violence; Police; Government; Video,,2026-10-14; 2026-10-15; 2026-10-14; 2026-10-18
@@ -609,3 +614,4 @@ VA,Vatican City,L’Osservatore Romano,https://www.osservatoreromano.va,,,,,
 VA,Vatican City,Sala Stampa della Santa Sede,https://press.vatican.va,,,,,
 VA,Vatican City,Vatican Media,https://www.vatican.va,,,,,
 VA,Vatican City,Vatican Radio,https://www.vaticannews.va,,,,,
+CN,China,CGTN Europe,https://www.cgtn.com/europe,https://www.instagram.com/reel/Depi4SmkR2T/?exln=MXFtbXo3M2xpMmwydg==,,,,

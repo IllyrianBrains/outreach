@@ -117,7 +117,19 @@ function renderPartyList(data, order, filterSummary) {
   const root = document.getElementById('parties-priority-list');
   const summary = document.getElementById('parties-summary');
   if (!root) return;
-  const countries = sortPartyCountries(classifyPartyCountries(data), order); root.replaceChildren();
+  const countries = sortPartyCountries(classifyPartyCountries(data), order);
+  const responded = data.filter(item => (item.response_link || '').trim()).length;
+  const mapStats = {
+    'parties-stat-countries': countries.length,
+    'parties-stat-parties': data.length,
+    'parties-stat-responded': responded,
+    'parties-stat-pending': data.length - responded
+  };
+  Object.entries(mapStats).forEach(([id, value]) => {
+    const target = document.getElementById(id);
+    if (target) target.textContent = value.toLocaleString();
+  });
+  root.replaceChildren();
   countries.forEach((item, index) => {
     const row = document.createElement('li'); row.className = 'coverage-priority-item'; row.style.setProperty('--status-color', PARTY_LEVELS[item.level].color);
     const details = document.createElement('details'); details.className = 'directory-country coverage-country-details'; details.id = partyCountryId(item.country);

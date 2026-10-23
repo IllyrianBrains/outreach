@@ -8,6 +8,55 @@ hide:
 
 Choose a ready-to-personalize letter, find an organization that still needs outreach, and record the result so others do not duplicate your work.
 
+<div class="protest-duration" aria-label="Duration of the Albanian protest movement">
+  <div class="protest-duration__row">
+    <article>
+      <strong>140+</strong>
+      <span>days of protests in Albania</span>
+    </article>
+    <article>
+      <strong>480+</strong>
+      <span>days of protests with the diaspora</span>
+    </article>
+    <article>
+      <strong>8+</strong>
+      <span>days with reported violent incidents</span>
+    </article>
+  </div>
+  <div class="protest-duration__row" aria-label="Evidence figures covering 13 to 20 October">
+    <article>
+      <strong>124</strong>
+      <span>evidence items reviewed for the Amnesty submission</span>
+    </article>
+    <article>
+      <strong>32</strong>
+      <span>reported cases catalogued in the police open-letter annex</span>
+    </article>
+    <article>
+      <strong>31</strong>
+      <span>new evidence-log entries covering 18–20 October</span>
+    </article>
+  </div>
+  <div class="protest-duration__row" aria-label="Earlier Ombudsman monitoring figures cited in the police open letter">
+    <article>
+      <strong>214</strong>
+      <span>detained people met during earlier Ombudsman monitoring</span>
+    </article>
+    <article>
+      <strong>26</strong>
+      <span>records noting signs of violence or mistreatment allegations</span>
+    </article>
+    <article>
+      <strong>~12</strong>
+      <span>minors reportedly held in isolation whose cases were under review</span>
+    </article>
+  </div>
+</div>
+
+<p class="protest-duration-note"><strong>Evidence figures are overlapping, not additive totals.</strong> The 32 cases and earlier Ombudsman figures come from the Res Publica open letter; the 124-item collection and 31 newly submitted entries are described in the lawyers' cover letter to Amnesty International. <a href="background/evidence/">Read the documents, dates and verification limits →</a></p>
+
+## Take action { .home-section-heading .home-section-heading--first }
+
 <div class="steps-grid">
 <a class="step-card" href="messages/"><span class="step-num">01</span><strong>Choose a letter →</strong><span>Select a media, institution, or representative template in your language.</span></a>
 <a class="step-card" href="media-coverage/"><span class="step-num">02</span><strong>Find a target →</strong><span>Open Media, Institutions, or Parties and choose an entry that has not been contacted.</span></a>
@@ -55,6 +104,6 @@ Choose a ready-to-personalize letter, find an organization that still needs outr
 - Check dates and context, and protect minors and vulnerable people.
 - Personalize every letter and send it through a verified channel.
 
-[Evidence brief (PDF)](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf) · [Background](background/index.md) · [Evidence](background/evidence.md) · [Sources and verification](background/sources.md) · [Protest safety guide](background/safety.md)
+[Evidence documents and figures](background/evidence.md) · [Background](background/index.md) · [Sources and verification](background/sources.md) · [Protest safety guide](background/safety.md)
 
 This independent outreach resource does not speak for the Flamingo Revolution or ADCN, endorse a political party, or determine responsibility for any incident.

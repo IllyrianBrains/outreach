@@ -19,3 +19,12 @@ Browse the reporting, public documents, civil-society publications and movement 
 
 Avoid describing an entire assembly as violent or peaceful from isolated footage. Do not treat a statement, arrest or disciplinary action as proof of guilt.
 
+## Local document references
+
+- [ADCN public-source evidence brief — 14 October 2026](../assets/evidence/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf)
+- [Qendra Res Publica open letter and evidence annex — 17 October 2026](../assets/evidence/Leter-e-hapur-Policia-e-Shtetit-dhuna-13-17-tetor-2026.pdf)
+- [Lawyers' cover letter requesting an Amnesty International research mission — 20 October 2026](../assets/evidence/Amnesty_Cover_Letter_Group.pdf)
+- [Albanian Ombudsman 24-hour monitoring statement — 20 October 2026](../assets/evidence/Avokati%20i%20popullit.pdf)
+
+The last file refers to an enclosed confidential report, visual annex and evidence log. Those enclosures are not in this repository; only the cover letter can be cited as a local document.
+

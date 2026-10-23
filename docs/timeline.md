@@ -13,7 +13,7 @@ This timeline combines the Flamingo Revolution's published chronology with indep
 <p id="timeline-count" role="status"></p>
 <div id="timeline-results" class="timeline-list">Loading timeline…</div>
 
-[Download the timeline CSV](assets/protest_timeline.csv) · [Read the ADCN evidence brief](assets/ADCN_Tirana_13_October_2026_Evidence_Brief.pdf)
+[Download the timeline CSV](assets/protest_timeline.csv) · [Read the evidence documents and figures](background/evidence.md)
 
 ## About the sources
 

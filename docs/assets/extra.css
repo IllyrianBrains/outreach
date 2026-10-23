@@ -1,5 +1,28 @@
 .md-header {box-shadow:0 1px 0 rgba(100,100,100,.16)} .md-tabs__link {font-weight:600} .steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:14px;margin:22px 0}.step-card{display:flex;flex-direction:column;gap:9px;padding:22px;border:1px solid var(--md-default-fg-color--lightest);border-radius:12px;color:inherit!important;text-decoration:none!important;transition:border-color .15s,transform .15s}.step-card:hover{border-color:var(--md-accent-fg-color);transform:translateY(-2px)}.step-num{font-size:.8rem;color:var(--md-primary-fg-color);font-weight:700}.step-card strong{font-size:1.05rem}.step-card span:last-child{font-size:.8rem;color:var(--md-default-fg-color--light)}.home-actions{display:flex;flex-wrap:wrap;gap:.65rem}.home-actions .md-button{margin:0}.home-section-heading{margin-top:5.5rem!important;padding-top:.5rem}@media(max-width:600px){.steps-grid{grid-template-columns:1fr;gap:12px;margin:18px 0}.step-card{padding:18px;min-width:0}.home-section-heading{margin-top:4rem!important}.home-actions{display:grid;grid-template-columns:1fr;gap:.55rem}.home-actions .md-button{display:block;width:100%;padding:.65rem .8rem;text-align:center;white-space:normal}.md-content h1{font-size:1.7rem;line-height:1.2;overflow-wrap:anywhere}.home-section-heading{font-size:1.3rem;line-height:1.25}.md-content ol,.md-content ul{padding-left:1.25rem}.md-content__inner{overflow-wrap:anywhere}}
 
+.home-section-heading--first{margin-top:2.5rem!important}
+.protest-duration{display:flex;flex-direction:column;gap:.8rem;margin:1.5rem 0 2rem}
+.protest-duration__row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.protest-duration article{display:flex;align-items:center;gap:1rem;min-height:6.5rem;padding:1rem 1.25rem;border:1px solid color-mix(in srgb,#d94f70 30%,var(--md-default-fg-color--lightest));border-radius:.8rem;background:linear-gradient(135deg,color-mix(in srgb,#d94f70 12%,var(--md-default-bg-color)),color-mix(in srgb,#7b61a8 7%,var(--md-default-bg-color)))}
+.protest-duration strong{flex:0 0 auto;color:#d94f70;font-size:clamp(2rem,5vw,3rem);font-variant-numeric:tabular-nums;line-height:1}
+.protest-duration span{max-width:12rem;font-size:.82rem;font-weight:750;line-height:1.35}
+.protest-duration-note{margin:-1rem 0 2.5rem!important;color:var(--md-default-fg-color--light);font-size:.72rem;line-height:1.55}
+.protest-duration-note strong{color:var(--md-default-fg-color)}
+.ombudsman-findings{overflow:hidden;margin:1rem 0 2.5rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.9rem;background:var(--md-default-bg-color);box-shadow:0 8px 24px rgba(20,30,50,.08)}
+.ombudsman-findings__header{display:flex;flex-direction:column;gap:.35rem;padding:1.15rem 1.25rem;border-bottom:1px solid color-mix(in srgb,#d94f70 22%,var(--md-default-fg-color--lightest));background:color-mix(in srgb,#d94f70 8%,var(--md-default-bg-color))}
+.ombudsman-findings__header span{color:#d94f70;font-size:.67rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.ombudsman-findings__header strong{font-size:1rem;line-height:1.4}
+.ombudsman-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.ombudsman-stats article{min-height:7.2rem;padding:1rem;border-right:1px solid var(--md-default-fg-color--lightest);border-bottom:1px solid var(--md-default-fg-color--lightest)}
+.ombudsman-stats article:nth-child(4n){border-right:0}
+.ombudsman-stats strong{display:block;margin-bottom:.45rem;color:var(--md-accent-fg-color);font-size:2rem;font-variant-numeric:tabular-nums;line-height:1}
+.ombudsman-stats span{display:block;color:var(--md-default-fg-color--light);font-size:.7rem;font-weight:650;line-height:1.4}
+.ombudsman-findings__note{margin:0!important;padding:1rem 1.25rem .6rem;color:var(--md-default-fg-color--light);font-size:.73rem;line-height:1.55}
+.ombudsman-findings__note strong{color:var(--md-default-fg-color)}
+.ombudsman-findings__source{display:inline-block;margin:0 1.25rem 1.15rem;font-size:.72rem;font-weight:750}
+@media(max-width:800px){.ombudsman-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.ombudsman-stats article:nth-child(4n){border-right:1px solid var(--md-default-fg-color--lightest)}.ombudsman-stats article:nth-child(2n){border-right:0}}
+@media(max-width:520px){.protest-duration__row{grid-template-columns:1fr}.protest-duration article{min-height:5.5rem}.ombudsman-stats{grid-template-columns:1fr}.ombudsman-stats article,.ombudsman-stats article:nth-child(4n),.ombudsman-stats article:nth-child(2n){min-height:auto;border-right:0}.ombudsman-stats strong{font-size:1.75rem}}
+
 .letter-timeline {
   position: relative;
   margin: 2rem 0;
@@ -1058,6 +1081,41 @@
 .coverage-chart-card h3 { margin: 0 0 .7rem; font-size: 1rem; }
 .coverage-chart-card--map { margin-top: 1.5rem; }
 .coverage-chart-card--map h2 { margin: 0 0 .8rem; font-size: 1.15rem; }
+.status-map-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .65rem;
+  margin: 0 0 1rem;
+}
+.status-map-stats article {
+  --stat-accent: var(--md-primary-fg-color);
+  min-width: 0;
+  padding: .8rem .9rem;
+  border: 1px solid color-mix(in srgb, var(--stat-accent) 22%, var(--md-default-fg-color--lightest));
+  border-top: 3px solid var(--stat-accent);
+  border-radius: .55rem;
+  background: color-mix(in srgb, var(--stat-accent) 6%, var(--md-default-bg-color));
+}
+.status-map-stats .status-map-stat--positive { --stat-accent: #2e7d32; }
+.status-map-stats .status-map-stat--attention { --stat-accent: #c62828; }
+.status-map-stats strong {
+  display: block;
+  color: var(--md-default-fg-color);
+  font-size: clamp(1.45rem, 4vw, 2rem);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.status-map-stats span {
+  display: block;
+  margin-top: .35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: .67rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (max-width: 620px) {
+  .status-map-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 .coverage-chart-card .chart-wrap { position: relative; width: 100%; }
 #coverage-by-country-wrap { height: 560px; }
 #coverage-over-time-wrap { height: 260px; }

@@ -180,6 +180,17 @@ function renderInstitutionList(data, sortMode, activeCategory) {
   const summary = document.getElementById('institutions-summary');
   if (!root) return;
   const countries = sortInstitutionCountries(classifyInstitutionCountries(data), sortMode);
+  const responded = data.filter(item => (item.response_link || '').trim()).length;
+  const mapStats = {
+    'institutions-stat-countries': countries.length,
+    'institutions-stat-organizations': data.length,
+    'institutions-stat-responded': responded,
+    'institutions-stat-pending': data.length - responded
+  };
+  Object.entries(mapStats).forEach(([id, value]) => {
+    const target = document.getElementById(id);
+    if (target) target.textContent = value.toLocaleString();
+  });
   root.replaceChildren();
   countries.forEach((item, index) => {
     const row = document.createElement('li'); row.className = 'coverage-priority-item'; row.style.setProperty('--status-color', INSTITUTION_LEVELS[item.level].color);

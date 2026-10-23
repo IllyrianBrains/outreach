@@ -268,6 +268,17 @@ function renderPriorityList(data, sortMode = 'coverage-low', activeTag = '') {
   if (!root) return;
 
   const priorities = sortCoverageCountries(classifyCountries(data), sortMode);
+  const published = data.filter(item => (item.article_urls || '').trim()).length;
+  const mapStats = {
+    'coverage-stat-countries': priorities.length,
+    'coverage-stat-outlets': data.length,
+    'coverage-stat-published': published,
+    'coverage-stat-uncovered': data.length - published
+  };
+  Object.entries(mapStats).forEach(([id, value]) => {
+    const target = document.getElementById(id);
+    if (target) target.textContent = value.toLocaleString();
+  });
   renderMap(priorities);
   root.replaceChildren();
 

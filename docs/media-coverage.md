@@ -8,6 +8,12 @@ hide:
 See where the protests are being reported and which outlets still need checking. Select a country on the map to see which outlets have posts and which do not.
 
 <div class="coverage-chart-card coverage-chart-card--map">
+  <div class="status-map-stats" id="coverage-map-stats" aria-label="Media coverage statistics" aria-live="polite">
+    <article><strong id="coverage-stat-countries">—</strong><span>countries tracked</span></article>
+    <article><strong id="coverage-stat-outlets">—</strong><span>media outlets</span></article>
+    <article class="status-map-stat--positive"><strong id="coverage-stat-published">—</strong><span>outlets with coverage</span></article>
+    <article class="status-map-stat--attention"><strong id="coverage-stat-uncovered">—</strong><span>outlets to check</span></article>
+  </div>
   <div id="coverage-map" aria-label="Map of international media coverage by country"></div>
   <div class="coverage-map-legend" id="coverage-map-legend"></div>
 </div>

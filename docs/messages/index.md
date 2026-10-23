@@ -19,15 +19,17 @@ hide:
 
     I am asking your newsroom to urgently examine reported human-rights abuses during the student-led demonstrations that began in Tirana on 13 October 2026 and have since spread. The protests involve students, including high school pupils, and the allegations deserve wider public attention.
 
-    These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+
+    On 20 October, the Albanian Ombudsman published preliminary findings from its monitoring of the 19 October demonstrations. It reported that **50 people were taken to police stations, including 18 minors**. During an inspection, **109 people were being held in Tirana's Security Block**; monitors contacted 193 people in total, including hospital patients, and formally recorded 11 complaints. At Police Station No. 1, **five minors alleged physical or verbal violence and two had visible physical injuries**.
 
     Source-linked reporting raises concerns about:
 
     - **Crowd-control weapons:** police use of tear gas, water cannon, batons, irritant spray and, according to international reporting on 17 October, rubber bullets against protesters and bystanders.
     - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
     - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
-    - **Detention safeguards:** possible violations of procedural rights amid arrests and detentions reported across several days.
-    - **Treatment of minors:** high school students reportedly participated and may have been exposed to police force or detention; available sources do not yet establish how many affected people were minors.
+    - **Detention safeguards:** the Ombudsman documented missing rights-information forms, incomplete detention registers and allegations that personal phones were searched without appropriate authorization.
+    - **Treatment of minors:** 18 minors were among those taken to police stations on 19 October; at Police Station No. 1, five alleged physical or verbal violence and two had visible injuries.
     - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
     These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
@@ -44,6 +46,7 @@ hide:
 
     Primary and local documentation for specific allegations:
 
+    - Albanian Ombudsman, 20 October — preliminary monitoring findings on detention conditions and the treatment of minors: <https://www.avokatipopullit.gov.al/sq/articles-layout-1/home/news/commissioner-ahmet-preni-communication-with-the-media-regarding-findings-from-the-monitoring-of-the-october-19-2026-protest-1382/>
     - Euronews Albania — hospital interview concerning the alleged serious leg injury: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
     - Association of Journalists of Albania — documented incidents affecting journalists and media workers: <https://agsh.al/2026/10/14/alb-eng-agsh-dy-dite-protestash-ne-tirane-te-pakten-10-incidente-ndaj-gazetareve-dhe-punonjesve-te-medias-dhuna-dhe-pengimi-i-raportimit-jane-te-papranueshme/>
     - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
@@ -70,15 +73,17 @@ hide:
 
     I am writing to alert your institution to serious reported human-rights concerns during student-led demonstrations that began in Tirana on 13 October 2026 and have since spread. Students, journalists, bystanders and detainees may be affected, and high school participation raises particular child-protection concerns.
 
-    These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+
+    On 20 October, the Albanian Ombudsman published preliminary findings from its monitoring of the 19 October demonstrations. It reported that **50 people were taken to police stations, including 18 minors**. During an inspection, **109 people were being held in Tirana's Security Block**; monitors contacted 193 people in total, including hospital patients, and formally recorded 11 complaints. At Police Station No. 1, **five minors alleged physical or verbal violence and two had visible physical injuries**.
 
     Source-linked reporting raises concerns about:
 
     - **Crowd-control weapons:** police use of tear gas, water cannon, batons, irritant spray and, according to international reporting on 17 October, rubber bullets against protesters and bystanders.
     - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
     - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
-    - **Detention safeguards:** possible violations of procedural rights amid arrests and detentions reported across several days.
-    - **Treatment of minors:** high school students reportedly participated and may have been exposed to police force or detention; available sources do not yet establish how many affected people were minors.
+    - **Detention safeguards:** the Ombudsman documented missing rights-information forms, incomplete detention registers and allegations that personal phones were searched without appropriate authorization.
+    - **Treatment of minors:** 18 minors were among those taken to police stations on 19 October; at Police Station No. 1, five alleged physical or verbal violence and two had visible injuries.
     - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
     These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
@@ -102,6 +107,7 @@ hide:
 
     Primary and local documentation for specific allegations:
 
+    - Albanian Ombudsman, 20 October — preliminary monitoring findings on detention conditions and the treatment of minors: <https://www.avokatipopullit.gov.al/sq/articles-layout-1/home/news/commissioner-ahmet-preni-communication-with-the-media-regarding-findings-from-the-monitoring-of-the-october-19-2026-protest-1382/>
     - Euronews Albania — hospital interview concerning the alleged serious leg injury: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
     - Association of Journalists of Albania — documented incidents affecting journalists and media workers: <https://agsh.al/2026/10/14/alb-eng-agsh-dy-dite-protestash-ne-tirane-te-pakten-10-incidente-ndaj-gazetareve-dhe-punonjesve-te-medias-dhuna-dhe-pengimi-i-raportimit-jane-te-papranueshme/>
     - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
@@ -128,15 +134,17 @@ hide:
 
     I am writing as [a constituent / a member of the Albanian diaspora / a concerned resident] to ask you to draw urgent attention to reported human-rights abuses during student-led demonstrations that began in Tirana on 13 October 2026 and have since spread. Watching the reports has been frightening, and I want everyone protesting, passing by or reporting the news to come home safely.
 
-    These demonstrations form part of more than 130 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+
+    On 20 October, the Albanian Ombudsman published preliminary findings from its monitoring of the 19 October demonstrations. It reported that **50 people were taken to police stations, including 18 minors**. During an inspection, **109 people were being held in Tirana's Security Block**; monitors contacted 193 people in total, including hospital patients, and formally recorded 11 complaints. At Police Station No. 1, **five minors alleged physical or verbal violence and two had visible physical injuries**.
 
     Source-linked reporting raises concerns about:
 
     - **Crowd-control weapons:** police use of tear gas, water cannon, batons, irritant spray and, according to international reporting on 17 October, rubber bullets against protesters and bystanders.
     - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
     - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
-    - **Detention safeguards:** possible violations of procedural rights amid arrests and detentions reported across several days.
-    - **Treatment of minors:** high school students reportedly participated and may have been exposed to police force or detention; available sources do not yet establish how many affected people were minors.
+    - **Detention safeguards:** the Ombudsman documented missing rights-information forms, incomplete detention registers and allegations that personal phones were searched without appropriate authorization.
+    - **Treatment of minors:** 18 minors were among those taken to police stations on 19 October; at Police Station No. 1, five alleged physical or verbal violence and two had visible injuries.
     - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
     These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
@@ -160,6 +168,7 @@ hide:
 
     Primary and local documentation for specific allegations:
 
+    - Albanian Ombudsman, 20 October — preliminary monitoring findings on detention conditions and the treatment of minors: <https://www.avokatipopullit.gov.al/sq/articles-layout-1/home/news/commissioner-ahmet-preni-communication-with-the-media-regarding-findings-from-the-monitoring-of-the-october-19-2026-protest-1382/>
     - Euronews Albania — hospital interview concerning the alleged serious leg injury: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
     - Association of Journalists of Albania — documented incidents affecting journalists and media workers: <https://agsh.al/2026/10/14/alb-eng-agsh-dy-dite-protestash-ne-tirane-te-pakten-10-incidente-ndaj-gazetareve-dhe-punonjesve-te-medias-dhuna-dhe-pengimi-i-raportimit-jane-te-papranueshme/>
     - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>

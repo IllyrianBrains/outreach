@@ -91,6 +91,7 @@ COUNTRY_CODES = {
     "Portugal": "PT",
     "Romania": "RO",
     "Russia": "RU",
+    "Saudi Arabia": "SA",
     "San Marino": "SM",
     "Serbia": "RS",
     "Slovakia": "SK",

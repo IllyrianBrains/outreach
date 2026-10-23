@@ -8,6 +8,12 @@ hide:
 See which institutions, civil-society actors, and diplomatic representations have responded and which still need outreach. Select a country on the map to inspect its organizations.
 
 <div class="coverage-chart-card coverage-chart-card--map">
+  <div class="status-map-stats" id="institutions-map-stats" aria-label="Institution outreach statistics" aria-live="polite">
+    <article><strong id="institutions-stat-countries">—</strong><span>countries tracked</span></article>
+    <article><strong id="institutions-stat-organizations">—</strong><span>organizations</span></article>
+    <article class="status-map-stat--positive"><strong id="institutions-stat-responded">—</strong><span>responses recorded</span></article>
+    <article class="status-map-stat--attention"><strong id="institutions-stat-pending">—</strong><span>awaiting response</span></article>
+  </div>
   <div id="institutions-map" aria-label="Map of institutions and actors by country"></div>
   <div class="coverage-map-legend" id="institutions-map-legend"></div>
 </div>

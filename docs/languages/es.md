@@ -12,11 +12,11 @@ hide:
 === "Medios"
     **Asunto:** Protestas Flamingo en Albania: presuntos abusos policiales en las manifestaciones de Tirana
 
-    Estimado/a [editor/a o periodista]:
+    A quien corresponda:
 
     Le pido que su redacción investigue los presuntos abusos de derechos humanos durante las manifestaciones estudiantiles de Tirana que comenzaron el 13 de octubre de 2026 y desde entonces se han extendido.
 
-    Estas manifestaciones forman parte de más de 130 días de protestas Flamingo en Albania. Según el relato publicado por el movimiento, comenzaron contra proyectos que afectan al paisaje costero protegido de Vjosë–Nartë y se ampliaron a la rendición de cuentas pública, denuncias de corrupción, educación y sanidad, emigración juvenil, presión económica, representación democrática y Estado de derecho.
+    Estas manifestaciones forman parte de más de 140 días de protestas Flamingo en Albania. Según el relato publicado por el movimiento, comenzaron contra proyectos que afectan al paisaje costero protegido de Vjosë–Nartë y se ampliaron a la rendición de cuentas pública, denuncias de corrupción, educación y sanidad, emigración juvenil, presión económica, representación democrática y Estado de derecho.
 
     Los abusos denunciados incluyen:
 
@@ -47,8 +47,6 @@ hide:
 
     Atentamente,
 
-    [Nombre, función, contacto]
-
 === "Institución internacional"
     !!! warning "¿Quién está en mejor posición para enviar esto?"
         Remitentes sugeridos, por orden de prioridad:
@@ -62,11 +60,11 @@ hide:
 
     **Asunto:** Protestas Flamingo en Albania: alerta urgente sobre presuntas vulneraciones de derechos
 
-    Estimado/a [Institución / Oficina de país]:
+    A quien corresponda:
 
     Le escribo para alertar a su institución sobre graves preocupaciones de derechos humanos durante las manifestaciones de Tirana que comenzaron el 13 de octubre de 2026 y desde entonces se han extendido.
 
-    Estas manifestaciones forman parte de más de 130 días de protestas Flamingo en Albania. Según el relato publicado por el movimiento, comenzaron contra proyectos que afectan al paisaje costero protegido de Vjosë–Nartë y se ampliaron a la rendición de cuentas pública, denuncias de corrupción, educación y sanidad, emigración juvenil, presión económica, representación democrática y Estado de derecho.
+    Estas manifestaciones forman parte de más de 140 días de protestas Flamingo en Albania. Según el relato publicado por el movimiento, comenzaron contra proyectos que afectan al paisaje costero protegido de Vjosë–Nartë y se ampliaron a la rendición de cuentas pública, denuncias de corrupción, educación y sanidad, emigración juvenil, presión económica, representación democrática y Estado de derecho.
 
     Los abusos denunciados incluyen:
 
@@ -97,8 +95,6 @@ hide:
 
     Atentamente,
 
-    [Nombre, organización si corresponde, contacto]
-
 === "Representante internacional"
     !!! warning "¿Quién está en mejor posición para enviar esto?"
         Remitentes sugeridos, por orden de prioridad:
@@ -112,11 +108,11 @@ hide:
 
     **Asunto:** Protestas Flamingo en Albania: plantee los presuntos abusos de derechos humanos
 
-    Estimado/a [nombre del representante]:
+    A quien corresponda:
 
     Le escribo como [elector/a / integrante de la diáspora albanesa / residente preocupado/a] para pedirle que plantee los presuntos abusos durante las manifestaciones de Tirana que comenzaron el 13 de octubre de 2026 y desde entonces se han extendido. Seguir las noticias ha sido aterrador, y quiero que todas las personas que protestan, pasan por allí o informan sobre ello regresen a salvo a casa.
 
-    Estas manifestaciones forman parte de más de 130 días de protestas Flamingo en Albania. Según el relato publicado por el movimiento, comenzaron contra proyectos que afectan al paisaje costero protegido de Vjosë–Nartë y se ampliaron a la rendición de cuentas pública, denuncias de corrupción, educación y sanidad, emigración juvenil, presión económica, representación democrática y Estado de derecho.
+    Estas manifestaciones forman parte de más de 140 días de protestas Flamingo en Albania. Según el relato publicado por el movimiento, comenzaron contra proyectos que afectan al paisaje costero protegido de Vjosë–Nartë y se ampliaron a la rendición de cuentas pública, denuncias de corrupción, educación y sanidad, emigración juvenil, presión económica, representación democrática y Estado de derecho.
 
     Los abusos denunciados incluyen:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — base probatoria: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Atentamente,
-
-    [Nombre completo, dirección, país, correo]
 
 ## Credits and acknowledgements
 

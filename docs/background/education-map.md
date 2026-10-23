@@ -30,7 +30,7 @@ Explore higher-education institutions and Albanian upper-secondary schools (*gji
 !!! note "About the data"
     This map is extracted from the Albania OpenStreetMap PBF. It includes named features tagged as universities and named schools containing “gjimnaz”. “Directly reported” means a source named students from that institution. “Assumed from city report” applies the working assumption that mapped institutions in the supplied active-city list are active, using an OSM address or proximity to the city centre. Neither status implies official institutional endorsement. Select a marker to inspect the basis for its status. The circles drawn around each institution (6 km for universities, 3 km for gymnasiums) are a visualization aid showing where catchments overlap, not a measured or reported area of effect.
 
-[Download the map data as CSV](../assets/albania_education.csv)
+[Download the map data as CSV](../assets/data/albania_education.csv)
 
 ## Estimated students affected
 

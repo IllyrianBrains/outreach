@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# Violence against Protesters
+# Help report violence against protesters
 
-Choose a ready-to-personalize letter, find an organization that still needs outreach, and record the result so others do not duplicate your work.
+Choose a letter, contact a media outlet or organization, and record what happened. This helps avoid duplicate work.
 
 <div class="protest-duration" aria-label="Duration of the Albanian protest movement">
   <div class="protest-duration__row">
@@ -20,48 +20,48 @@ Choose a ready-to-personalize letter, find an organization that still needs outr
     </article>
     <article>
       <strong>8+</strong>
-      <span>days with reported violent incidents</span>
+      <span>protest days with reported violence</span>
     </article>
   </div>
-  <div class="protest-duration__row" aria-label="Evidence figures covering 13 to 20 October">
+  <div class="protest-duration__row" aria-label="Reported cumulative arrest, prosecution and injury figures">
     <article>
-      <strong>124</strong>
-      <span>evidence items reviewed for the Amnesty submission</span>
+      <strong>1,067</strong>
+      <span>reported arrests</span>
     </article>
     <article>
-      <strong>32</strong>
-      <span>reported cases catalogued in the police open-letter annex</span>
+      <strong>388</strong>
+      <span>reported criminal cases</span>
     </article>
     <article>
-      <strong>31</strong>
-      <span>new evidence-log entries covering 18–20 October</span>
+      <strong>310</strong>
+      <span>people reported injured by 19 October</span>
     </article>
   </div>
   <div class="protest-duration__row" aria-label="Earlier Ombudsman monitoring figures cited in the police open letter">
     <article>
       <strong>214</strong>
-      <span>detained people met during earlier Ombudsman monitoring</span>
+      <span>detained people visited by Ombudsman monitors</span>
     </article>
     <article>
       <strong>26</strong>
-      <span>records noting signs of violence or mistreatment allegations</span>
+      <span>records of visible injuries or alleged mistreatment</span>
     </article>
     <article>
       <strong>~12</strong>
-      <span>minors reportedly held in isolation whose cases were under review</span>
+      <span>minors reportedly held alone</span>
     </article>
   </div>
 </div>
 
-<p class="protest-duration-note"><strong>Evidence figures are overlapping, not additive totals.</strong> The 32 cases and earlier Ombudsman figures come from the Res Publica open letter; the 124-item collection and 31 newly submitted entries are described in the lawyers' cover letter to Amnesty International. <a href="background/evidence/">Read the documents, dates and verification limits →</a></p>
+<p class="protest-duration-note"><strong>Do not add these figures together.</strong> They come from different sources and cover different dates and groups. Reuters reported 1,067 arrests and 388 criminal cases, based on figures from the authorities. El País reported 310 injured by 19 October: 191 police officers, 88 protesters and 31 bystanders. The Ombudsman figures come from the Res Publica open letter. <a href="background/evidence-comparison/">Compare the sources and dates →</a></p>
 
 ## Take action { .home-section-heading .home-section-heading--first }
 
 <div class="steps-grid">
-<a class="step-card" href="messages/"><span class="step-num">01</span><strong>Choose a letter →</strong><span>Select a media, institution, or representative template in your language.</span></a>
-<a class="step-card" href="media-coverage/"><span class="step-num">02</span><strong>Find a target →</strong><span>Open Media, Institutions, or Parties and choose an entry that has not been contacted.</span></a>
-<a class="step-card" href="background/sources/"><span class="step-num">03</span><strong>Check the evidence →</strong><span>Verify the latest source, date, recipient, and contact channel before sending.</span></a>
-<a class="step-card" href="https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing"><span class="step-num">04</span><strong>Record the result →</strong><span>Update the shared workbook with coverage, contact status, dates, and direct links.</span></a>
+<a class="step-card" href="messages/"><span class="step-num">01</span><strong>Choose a letter →</strong><span>Pick a letter for the media, an institution, or a representative.</span></a>
+<a class="step-card" href="media-coverage/"><span class="step-num">02</span><strong>Choose who to contact →</strong><span>Find an outlet or organization that has not been contacted.</span></a>
+<a class="step-card" href="background/sources/"><span class="step-num">03</span><strong>Check the facts →</strong><span>Check the source, date, recipient, and contact details.</span></a>
+<a class="step-card" href="https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing"><span class="step-num">04</span><strong>Record what happened →</strong><span>Add the status, date, and direct link to the shared workbook.</span></a>
 </div>
 
 ## Reporting on Instagram { .home-section-heading }
@@ -90,20 +90,20 @@ Choose a ready-to-personalize letter, find an organization that still needs outr
 
 ## Update the shared tracker { .home-section-heading }
 
-1. Find a media outlet, institution, or political party in the relevant workbook sheet.
-2. Visit its official website or social account and check whether it has published anything about the protests.
-3. If it has, mark it `Covered` and add the direct article or post URL.
-4. If it has not, record the check, send the appropriate [letter](messages/index.md), and update its outreach status.
+1. Choose a media outlet, institution, or political party in the workbook.
+2. Check its website or social media for coverage of the protests.
+3. If you find coverage, mark it `Covered` and add the direct link.
+4. If you do not, record your check, send a [letter](messages/index.md), and update the status.
 
 [**Open the shared Excel workbook →**](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing){ .md-button .md-button--primary }
 
 ## Use the material responsibly { .home-section-heading }
 
-- Do not mark coverage without a direct source link.
-- Distinguish reported allegations from verified findings.
-- Check dates and context, and protect minors and vulnerable people.
-- Personalize every letter and send it through a verified channel.
+- Add a direct link for every item marked as covered.
+- Say clearly when something is an allegation, not a proven fact.
+- Check dates and context. Protect minors and vulnerable people.
+- Personalize each letter and use a verified contact address.
 
 [Evidence documents and figures](background/evidence.md) · [Background](background/index.md) · [Sources and verification](background/sources.md) · [Protest safety guide](background/safety.md)
 
-This independent outreach resource does not speak for the Flamingo Revolution or ADCN, endorse a political party, or determine responsibility for any incident.
+This is an independent outreach resource. It does not speak for the Flamingo Revolution or ADCN, support any political party, or decide who is responsible for an incident.

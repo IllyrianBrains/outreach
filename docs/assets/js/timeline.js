@@ -1,4 +1,4 @@
-const timelineAssetsBase = new URL('.', document.currentScript.src);
+const timelineAssetsBase = new URL('../data/', document.currentScript.src);
 
 function setupTimeline() {
   const root = document.getElementById('timeline-results');
@@ -62,7 +62,7 @@ function setupTimeline() {
           const source = document.createElement('a');
           source.href = item.source_url.startsWith('http')
             ? item.source_url
-            : new URL(item.source_url, new URL('../', timelineAssetsBase)).href;
+            : new URL(item.source_url, new URL('../../', document.currentScript.src)).href;
           source.target = '_blank';
           source.rel = 'noopener noreferrer';
           source.textContent = `${item.source_name} ↗`;

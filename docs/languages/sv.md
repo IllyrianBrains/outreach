@@ -12,11 +12,11 @@ hide:
 === "Media"
     **Ämne:** Flamingoprotesterna i Albanien: påstådda polisövergrepp vid demonstrationer i Tirana
 
-    Hej [redaktör/journalist],
+    Till den det berör,
 
     Jag ber er redaktion granska påstådda människorättskränkningar under studentdemonstrationerna i Tirana som inleddes den 13 oktober 2026 och sedan dess har spridits.
 
-    Demonstrationerna ingår i mer än 130 dagar av Flamingoprotester i Albanien. Enligt rörelsens publicerade redogörelse började protesterna som motstånd mot exploatering som påverkar det skyddade kustlandskapet Vjosë–Nartë och breddades till offentlig ansvarsskyldighet, korruptionsanklagelser, utbildning och sjukvård, ungdomsutvandring, ekonomisk press, demokratisk representation och rättsstatens principer.
+    Demonstrationerna ingår i mer än 140 dagar av Flamingoprotester i Albanien. Enligt rörelsens publicerade redogörelse började protesterna som motstånd mot exploatering som påverkar det skyddade kustlandskapet Vjosë–Nartë och breddades till offentlig ansvarsskyldighet, korruptionsanklagelser, utbildning och sjukvård, ungdomsutvandring, ekonomisk press, demokratisk representation och rättsstatens principer.
 
     De rapporterade övergreppen gäller:
 
@@ -47,8 +47,6 @@ hide:
 
     Med vänliga hälsningar,
 
-    [Namn, roll, kontakt]
-
 === "Internationell institution"
     !!! warning "Vem är bäst lämpad att skicka detta?"
         Föreslagna avsändare, i prioritetsordning:
@@ -62,11 +60,11 @@ hide:
 
     **Ämne:** Flamingoprotesterna i Albanien: brådskande varning om påstådda rättighetskränkningar
 
-    Hej [Institution / landsavdelning],
+    Till den det berör,
 
     Jag uppmärksammar er institution på allvarliga människorättsfrågor under protesterna i Tirana som inleddes den 13 oktober 2026 och sedan dess har spridits.
 
-    Demonstrationerna ingår i mer än 130 dagar av Flamingoprotester i Albanien. Enligt rörelsens publicerade redogörelse började protesterna som motstånd mot exploatering som påverkar det skyddade kustlandskapet Vjosë–Nartë och breddades till offentlig ansvarsskyldighet, korruptionsanklagelser, utbildning och sjukvård, ungdomsutvandring, ekonomisk press, demokratisk representation och rättsstatens principer.
+    Demonstrationerna ingår i mer än 140 dagar av Flamingoprotester i Albanien. Enligt rörelsens publicerade redogörelse började protesterna som motstånd mot exploatering som påverkar det skyddade kustlandskapet Vjosë–Nartë och breddades till offentlig ansvarsskyldighet, korruptionsanklagelser, utbildning och sjukvård, ungdomsutvandring, ekonomisk press, demokratisk representation och rättsstatens principer.
 
     De rapporterade övergreppen gäller:
 
@@ -97,8 +95,6 @@ hide:
 
     Med vänliga hälsningar,
 
-    [Namn, organisation om tillämpligt, kontakt]
-
 === "Internationell representant"
     !!! warning "Vem är bäst lämpad att skicka detta?"
         Föreslagna avsändare, i prioritetsordning:
@@ -112,11 +108,11 @@ hide:
 
     **Ämne:** Flamingoprotesterna i Albanien: ta upp de påstådda människorättskränkningarna
 
-    Hej [representantens namn],
+    Till den det berör,
 
     Jag skriver som [väljare / medlem av den albanska diasporan / oroad invånare] och ber er ta upp de påstådda övergreppen under protesterna i Tirana som inleddes den 13 oktober 2026 och sedan dess har spridits. Att följa rapporteringen har varit skrämmande, och jag vill att alla som protesterar, passerar förbi eller rapporterar om händelserna kommer hem säkert.
 
-    Demonstrationerna ingår i mer än 130 dagar av Flamingoprotester i Albanien. Enligt rörelsens publicerade redogörelse började protesterna som motstånd mot exploatering som påverkar det skyddade kustlandskapet Vjosë–Nartë och breddades till offentlig ansvarsskyldighet, korruptionsanklagelser, utbildning och sjukvård, ungdomsutvandring, ekonomisk press, demokratisk representation och rättsstatens principer.
+    Demonstrationerna ingår i mer än 140 dagar av Flamingoprotester i Albanien. Enligt rörelsens publicerade redogörelse började protesterna som motstånd mot exploatering som påverkar det skyddade kustlandskapet Vjosë–Nartë och breddades till offentlig ansvarsskyldighet, korruptionsanklagelser, utbildning och sjukvård, ungdomsutvandring, ekonomisk press, demokratisk representation och rättsstatens principer.
 
     De rapporterade övergreppen gäller:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — faktaunderlag: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Med vänliga hälsningar,
-
-    [Fullständigt namn, adress, land, e-post]
 
 ## Credits and acknowledgements
 

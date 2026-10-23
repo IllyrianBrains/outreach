@@ -39,15 +39,15 @@ jobs:
           git config user.name "flamingo-outreach-bot"
           git config user.email "flamingo-outreach-bot@users.noreply.github.com"
 
-          git add docs/assets/media_coverage.csv \
-            docs/assets/institutions.csv \
-            docs/assets/political_parties.csv \
-            docs/assets/issues_gallery.csv \
-            docs/assets/embassies.csv \
+          git add docs/assets/data/media_coverage.csv \
+            docs/assets/data/institutions.csv \
+            docs/assets/data/political_parties.csv \
+            docs/assets/data/issues_gallery.csv \
+            docs/assets/data/embassies.csv \
             docs/assets/examples/sources-example.csv \
             docs/assets/examples/incidents-example.csv \
             docs/assets/examples/incident-evidence-example.csv \
-            docs/assets/protest_timeline.csv
+            docs/assets/data/protest_timeline.csv
 
           if git diff --cached --quiet; then
             echo "No outreach data changes."

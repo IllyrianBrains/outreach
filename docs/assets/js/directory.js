@@ -21,8 +21,8 @@ function csvRows(text) {
   return rows.map(values => Object.fromEntries(headers.map((header, index) => [header, values[index] || ''])));
 }
 
-const directoryAssetsBase = new URL('.', document.currentScript.src);
-const directorySiteBase = new URL('../', directoryAssetsBase);
+const directoryAssetsBase = new URL('../data/', document.currentScript.src);
+const directorySiteBase = new URL('../../', document.currentScript.src);
 
 function renderSourceFeed(root, items) {
   root.replaceChildren();
@@ -111,7 +111,14 @@ function renderIncidentCards(root, items) {
     const note = document.createElement('small');
     note.className = 'source-feed-verification';
     note.textContent = [item.evidence_status, item.source_ids && `Sources: ${item.source_ids}`, item.adcn_reference].filter(Boolean).join(' · ');
-    body.append(heading, meta, summary, note);
+    body.append(heading, meta, summary);
+    if (item.reported_count && item.reported_count.toLocaleLowerCase() !== 'unknown') {
+      const count = document.createElement('p');
+      count.className = 'source-feed-count';
+      count.textContent = `People affected or involved: ${item.reported_count}`;
+      body.append(count);
+    }
+    body.append(note);
     if (item.adcn_brief_url) {
       const link = document.createElement('a');
       link.className = 'source-feed-actions';

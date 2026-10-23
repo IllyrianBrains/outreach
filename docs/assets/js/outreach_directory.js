@@ -1,4 +1,4 @@
-const outreachAssetsBase = new URL('.', document.currentScript.src);
+const outreachAssetsBase = new URL('../data/', document.currentScript.src);
 
 const outreachConfigs = {
   institutions: {

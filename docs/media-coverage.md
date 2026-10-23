@@ -40,4 +40,4 @@ See where the protests are being reported and which outlets still need checking.
 
 ## Download the data
 
-[Download the CSV](assets/media_coverage.csv). This is a snapshot, so coverage may change between checks.
+[Download the CSV](assets/data/media_coverage.csv). This is a snapshot, so coverage may change between checks.

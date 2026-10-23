@@ -18,7 +18,7 @@ from xml.etree import ElementTree as ET
 
 
 DEFAULT_WORKBOOK_URL = "https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit"
-ASSETS_DIR = Path("docs/assets")
+ASSETS_DIR = Path("docs/assets/data")
 
 MEDIA_HEADERS = [
     "Country",
@@ -29,6 +29,7 @@ MEDIA_HEADERS = [
     "Tags",
     "Email",
     "Date",
+    "Evidence (numbers and source)",
 ]
 
 OUTPUT_HEADERS = [
@@ -41,6 +42,7 @@ OUTPUT_HEADERS = [
     "tags",
     "contact_email",
     "dates",
+    "evidence",
 ]
 
 COUNTRY_CODES = {
@@ -62,6 +64,7 @@ COUNTRY_CODES = {
     "Czechia": "CZ",
     "Denmark": "DK",
     "Estonia": "EE",
+    "European Union": "EU",
     "Finland": "FI",
     "France": "FR",
     "Georgia": "GE",
@@ -118,10 +121,10 @@ CSV_SHEETS = {
     "Embassies by Country": "embassies.csv",
     "Political Parties": "political_parties.csv",
     "Issues Gallery": "issues_gallery.csv",
-    "Sources": "examples/sources-example.csv",
-    "Incidents": "examples/incidents-example.csv",
-    "Evidence": "examples/incident-evidence-example.csv",
-    "Incident Evidence": "examples/incident-evidence-example.csv",
+    "Sources": "../examples/sources-example.csv",
+    "Incidents": "../examples/incidents-example.csv",
+    "Evidence": "../examples/incident-evidence-example.csv",
+    "Incident Evidence": "../examples/incident-evidence-example.csv",
     "Protest Timeline": "protest_timeline.csv",
     "Timeline": "protest_timeline.csv",
 }
@@ -258,6 +261,7 @@ def normalize_media_coverage(rows: list[list[str]]) -> list[dict[str, str]]:
                 "tags": source["Tags"],
                 "contact_email": source["Email"],
                 "dates": normalize_dates(source["Date"]),
+                "evidence": source["Evidence (numbers and source)"],
             }
         )
     return output

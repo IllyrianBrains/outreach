@@ -165,9 +165,36 @@
 .source-feed-domain { color: var(--md-default-fg-color--light); font-size: .62rem; font-weight: 400; }
 .source-feed-meta { margin: .25rem 0 0!important; color: var(--md-default-fg-color--light); font-size: .67rem; }
 .source-feed-topic { margin: .45rem 0 0!important; font-size: .77rem; font-weight: 600; }
+.source-feed-count { display: inline-block; margin: .45rem 0 0!important; padding: .3rem .55rem; border-radius: .35rem; background: color-mix(in srgb,#d94f70 10%,var(--md-default-bg-color)); color: var(--md-default-fg-color); font-size: .7rem; font-weight: 750; line-height: 1.35; }
 .source-feed-verification { margin: .3rem 0 0!important; color: var(--md-default-fg-color--light); font-size: .7rem; line-height: 1.45; }
 .source-feed-actions { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin-top: .55rem; font-size: .65rem; font-weight: 700; }
 .source-feed-actions a { color: var(--md-accent-fg-color)!important; }
+.coverage-outlet-evidence { margin: .4rem 0 0!important; color: var(--md-default-fg-color--light); font-size: .7rem; line-height: 1.45; white-space: pre-line; }
+.comparison-summary { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .8rem; margin: 1.25rem 0 2rem; }
+.comparison-summary article { padding: 1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .7rem; background: color-mix(in srgb,#d94f70 7%,var(--md-default-bg-color)); }
+.comparison-summary strong { display: block; color: #d94f70; font-size: 2rem; font-variant-numeric: tabular-nums; line-height: 1; }
+.comparison-summary span { display: block; margin-top: .45rem; color: var(--md-default-fg-color--light); font-size: .7rem; font-weight: 700; line-height: 1.35; }
+.evidence-comparison-controls { grid-template-columns: minmax(13rem,2fr) minmax(10rem,1fr) minmax(10rem,1fr); }
+.evidence-comparison-list { overflow: hidden; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .75rem; }
+.evidence-comparison-card { padding: 1rem 1.1rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.evidence-comparison-card:last-child { border-bottom: 0; }
+.evidence-comparison-card:hover { background: color-mix(in srgb,var(--md-primary-fg-color) 4%,var(--md-default-bg-color)); }
+.evidence-comparison-card h3 { margin: 0; font-size: .92rem; }
+.evidence-comparison-card header p { margin: .2rem 0 0!important; color: var(--md-default-fg-color--light); font-size: .67rem; }
+.evidence-comparison-claims { margin: .75rem 0 .35rem!important; padding-left: 1.15rem!important; }
+.evidence-comparison-claims li { margin: .35rem 0; font-size: .76rem; line-height: 1.5; }
+.evidence-comparison-links { display: flex; flex-wrap: wrap; gap: .45rem 1rem; margin-top: .7rem; font-size: .66rem; font-weight: 750; }
+@media(max-width:700px){.comparison-summary{grid-template-columns:1fr}.evidence-comparison-controls{grid-template-columns:1fr}}
+.email-attachment-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .9rem; margin: 1.1rem 0 1.4rem; }
+.email-attachment-grid article { overflow: hidden; display: flex; flex-direction: column; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .7rem; background: var(--md-default-bg-color); }
+.email-attachment-grid article > a:first-child { display: block; aspect-ratio: 16/9; overflow: hidden; background: var(--md-default-fg-color--lightest); }
+.email-attachment-grid img { width: 100%; height: 100%; object-fit: cover; transition: transform .2s ease; }
+.email-attachment-grid article:hover img { transform: scale(1.025); }
+.email-attachment-grid strong,.email-attachment-grid span,.email-attachment-grid article > div { margin-right: .85rem; margin-left: .85rem; }
+.email-attachment-grid strong { margin-top: .75rem; font-size: .8rem; line-height: 1.35; }
+.email-attachment-grid span { margin-top: .4rem; color: var(--md-default-fg-color--light); font-size: .68rem; line-height: 1.45; }
+.email-attachment-grid article > div { margin-top: auto; padding: .7rem 0 .85rem; font-size: .65rem; font-weight: 750; }
+@media(max-width:760px){.email-attachment-grid{grid-template-columns:1fr}}
 .source-feed-actions span { color: var(--md-default-fg-color--light); font-weight: 500; }
 @media (max-width: 600px) {
   .source-feed-row { grid-template-columns: 3rem minmax(0, 1fr); }

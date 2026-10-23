@@ -12,11 +12,11 @@ hide:
 === "Media"
     **Oggetto:** Proteste Flamingo in Albania: presunti abusi della polizia durante le manifestazioni a Tirana
 
-    Gentile [Redattore/Giornalista],
+    A chi di competenza,
 
     Le chiedo di esaminare i presunti abusi dei diritti umani durante le manifestazioni studentesche a Tirana iniziate il 13 ottobre 2026 e da allora estesesi.
 
-    Queste manifestazioni fanno parte di oltre 130 giorni di proteste Flamingo in Albania. Secondo il resoconto pubblicato dal movimento, sono iniziate contro progetti che interessano il paesaggio costiero protetto di Vjosë–Nartë e si sono estese a responsabilità pubblica, accuse di corruzione, istruzione e sanità, emigrazione giovanile, pressione economica, rappresentanza democratica e Stato di diritto.
+    Queste manifestazioni fanno parte di oltre 140 giorni di proteste Flamingo in Albania. Secondo il resoconto pubblicato dal movimento, sono iniziate contro progetti che interessano il paesaggio costiero protetto di Vjosë–Nartë e si sono estese a responsabilità pubblica, accuse di corruzione, istruzione e sanità, emigrazione giovanile, pressione economica, rappresentanza democratica e Stato di diritto.
 
     Gli abusi segnalati riguardano:
 
@@ -47,8 +47,6 @@ hide:
 
     Cordiali saluti,
 
-    [Nome, ruolo, contatto]
-
 === "Istituzione internazionale"
     !!! warning "Chi è nella posizione migliore per inviare questo?"
         Mittenti suggeriti, in ordine di priorità:
@@ -62,11 +60,11 @@ hide:
 
     **Oggetto:** Proteste Flamingo in Albania: allerta urgente su presunte violazioni dei diritti
 
-    Gentile [Istituzione / Ufficio Paese],
+    A chi di competenza,
 
     Segnalo gravi preoccupazioni per i diritti umani durante le manifestazioni a Tirana iniziate il 13 ottobre 2026 e da allora estesesi.
 
-    Queste manifestazioni fanno parte di oltre 130 giorni di proteste Flamingo in Albania. Secondo il resoconto pubblicato dal movimento, sono iniziate contro progetti che interessano il paesaggio costiero protetto di Vjosë–Nartë e si sono estese a responsabilità pubblica, accuse di corruzione, istruzione e sanità, emigrazione giovanile, pressione economica, rappresentanza democratica e Stato di diritto.
+    Queste manifestazioni fanno parte di oltre 140 giorni di proteste Flamingo in Albania. Secondo il resoconto pubblicato dal movimento, sono iniziate contro progetti che interessano il paesaggio costiero protetto di Vjosë–Nartë e si sono estese a responsabilità pubblica, accuse di corruzione, istruzione e sanità, emigrazione giovanile, pressione economica, rappresentanza democratica e Stato di diritto.
 
     Gli abusi segnalati riguardano:
 
@@ -97,8 +95,6 @@ hide:
 
     Cordiali saluti,
 
-    [Nome, organizzazione se applicabile, contatto]
-
 === "Rappresentante internazionale"
     !!! warning "Chi è nella posizione migliore per inviare questo?"
         Mittenti suggeriti, in ordine di priorità:
@@ -112,11 +108,11 @@ hide:
 
     **Oggetto:** Proteste Flamingo in Albania: sollevi la questione dei presunti abusi dei diritti umani
 
-    Gentile [Nome del rappresentante],
+    A chi di competenza,
 
     Le scrivo come [elettore/elettrice / membro della diaspora albanese / residente preoccupato/a] per chiederLe di sollevare la questione dei presunti abusi durante le manifestazioni a Tirana iniziate il 13 ottobre 2026 e da allora estesesi. Seguire le notizie è stato spaventoso, e desidero che chiunque stia protestando, passando di lì o facendo cronaca torni a casa sano e salvo.
 
-    Queste manifestazioni fanno parte di oltre 130 giorni di proteste Flamingo in Albania. Secondo il resoconto pubblicato dal movimento, sono iniziate contro progetti che interessano il paesaggio costiero protetto di Vjosë–Nartë e si sono estese a responsabilità pubblica, accuse di corruzione, istruzione e sanità, emigrazione giovanile, pressione economica, rappresentanza democratica e Stato di diritto.
+    Queste manifestazioni fanno parte di oltre 140 giorni di proteste Flamingo in Albania. Secondo il resoconto pubblicato dal movimento, sono iniziate contro progetti che interessano il paesaggio costiero protetto di Vjosë–Nartë e si sono estese a responsabilità pubblica, accuse di corruzione, istruzione e sanità, emigrazione giovanile, pressione economica, rappresentanza democratica e Stato di diritto.
 
     Gli abusi segnalati riguardano:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — base probatoria: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Cordiali saluti,
-
-    [Nome completo, indirizzo, Paese, email]
 
 ## Credits and acknowledgements
 

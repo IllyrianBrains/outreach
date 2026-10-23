@@ -16,7 +16,7 @@ hide:
 
     Proszę redakcję o zbadanie domniemanych naruszeń praw człowieka podczas protestów studenckich w Tiranie, które rozpoczęły się 13 października 2026 r. i od tego czasu się rozprzestrzeniły.
 
-    Demonstracje te są częścią ponad 130 dni protestów Flamingo w Albanii. Według opublikowanego opisu ruchu rozpoczęły się one od sprzeciwu wobec inwestycji wpływających na chroniony krajobraz wybrzeża Vjosë–Nartë, a następnie objęły odpowiedzialność władz, zarzuty korupcji, edukację i ochronę zdrowia, emigrację młodzieży, presję ekonomiczną, reprezentację demokratyczną oraz praworządność.
+    Demonstracje te są częścią ponad 140 dni protestów Flamingo w Albanii. Według opublikowanego opisu ruchu rozpoczęły się one od sprzeciwu wobec inwestycji wpływających na chroniony krajobraz wybrzeża Vjosë–Nartë, a następnie objęły odpowiedzialność władz, zarzuty korupcji, edukację i ochronę zdrowia, emigrację młodzieży, presję ekonomiczną, reprezentację demokratyczną oraz praworządność.
 
     Zgłaszane nadużycia dotyczą:
 
@@ -47,8 +47,6 @@ hide:
 
     Z poważaniem,
 
-    [Imię i nazwisko, rola, kontakt]
-
 === "Instytucja międzynarodowa"
     !!! warning "Kto jest w najlepszej sytuacji, aby to wysłać?"
         Sugerowani nadawcy, w porządku priorytetowym:
@@ -66,7 +64,7 @@ hide:
 
     Zwracam uwagę Państwa instytucji na poważne obawy dotyczące praw człowieka podczas protestów w Tiranie, które rozpoczęły się 13 października 2026 r. i od tego czasu się rozprzestrzeniły.
 
-    Demonstracje te są częścią ponad 130 dni protestów Flamingo w Albanii. Według opublikowanego opisu ruchu rozpoczęły się one od sprzeciwu wobec inwestycji wpływających na chroniony krajobraz wybrzeża Vjosë–Nartë, a następnie objęły odpowiedzialność władz, zarzuty korupcji, edukację i ochronę zdrowia, emigrację młodzieży, presję ekonomiczną, reprezentację demokratyczną oraz praworządność.
+    Demonstracje te są częścią ponad 140 dni protestów Flamingo w Albanii. Według opublikowanego opisu ruchu rozpoczęły się one od sprzeciwu wobec inwestycji wpływających na chroniony krajobraz wybrzeża Vjosë–Nartë, a następnie objęły odpowiedzialność władz, zarzuty korupcji, edukację i ochronę zdrowia, emigrację młodzieży, presję ekonomiczną, reprezentację demokratyczną oraz praworządność.
 
     Zgłaszane nadużycia dotyczą:
 
@@ -97,8 +95,6 @@ hide:
 
     Z poważaniem,
 
-    [Imię i nazwisko, organizacja jeśli dotyczy, kontakt]
-
 === "Przedstawiciel międzynarodowy"
     !!! warning "Kto jest w najlepszej sytuacji, aby to wysłać?"
         Sugerowani nadawcy, w porządku priorytetowym:
@@ -112,11 +108,11 @@ hide:
 
     **Temat:** Protesty Flamingo w Albanii: proszę poruszyć sprawę domniemanych naruszeń praw człowieka
 
-    Szanowna Pani / Szanowny Panie [nazwisko],
+    Szanowni Państwo,
 
     Piszę jako [wyborca/wyborczyni / członek diaspory albańskiej / zaniepokojony mieszkaniec] z prośbą o poruszenie sprawy domniemanych nadużyć podczas protestów w Tiranie, które rozpoczęły się 13 października 2026 r. i od tego czasu się rozprzestrzeniły. Śledzenie tych doniesień było przerażające i chcę, aby wszyscy, którzy protestują, przechodzą w pobliżu lub relacjonują wydarzenia, bezpiecznie wrócili do domu.
 
-    Demonstracje te są częścią ponad 130 dni protestów Flamingo w Albanii. Według opublikowanego opisu ruchu rozpoczęły się one od sprzeciwu wobec inwestycji wpływających na chroniony krajobraz wybrzeża Vjosë–Nartë, a następnie objęły odpowiedzialność władz, zarzuty korupcji, edukację i ochronę zdrowia, emigrację młodzieży, presję ekonomiczną, reprezentację demokratyczną oraz praworządność.
+    Demonstracje te są częścią ponad 140 dni protestów Flamingo w Albanii. Według opublikowanego opisu ruchu rozpoczęły się one od sprzeciwu wobec inwestycji wpływających na chroniony krajobraz wybrzeża Vjosë–Nartë, a następnie objęły odpowiedzialność władz, zarzuty korupcji, edukację i ochronę zdrowia, emigrację młodzieży, presję ekonomiczną, reprezentację demokratyczną oraz praworządność.
 
     Zgłaszane nadużycia dotyczą:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — podstawa dowodowa: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Z poważaniem,
-
-    [Imię i nazwisko, adres, kraj, e-mail]
 
 ## Credits and acknowledgements
 

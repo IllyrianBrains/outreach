@@ -39,4 +39,4 @@ See which institutions, civil-society actors, and diplomatic representations hav
 
 ## Download the data
 
-[Download the CSV](assets/institutions.csv) or [update the shared workbook](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing). This is a snapshot, so responses may change between checks.
+[Download the CSV](assets/data/institutions.csv) or [update the shared workbook](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing). This is a snapshot, so responses may change between checks.

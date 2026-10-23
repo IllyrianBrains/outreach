@@ -15,13 +15,21 @@ hide:
 
     **Subject:** Flamingo Protests in Albania: reported police abuses during Tirana student demonstrations
 
-    Dear [Editor/Journalist],
+    To whom it may concern,
 
     I am asking your newsroom to urgently examine reported human-rights abuses during the student-led demonstrations that began in Tirana on 13 October 2026 and have since spread. The protests involve students, including high school pupils, and the allegations deserve wider public attention.
 
-    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the [movement's published protest chronology](https://www.flamingorevolution.eu/protestat/), the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
 
-    On 20 October, the Albanian Ombudsman published preliminary findings from its monitoring of the 19 October demonstrations. It reported that **50 people were taken to police stations, including 18 minors**. During an inspection, **109 people were being held in Tirana's Security Block**; monitors contacted 193 people in total, including hospital patients, and formally recorded 11 complaints. At Police Station No. 1, **five minors alleged physical or verbal violence and two had visible physical injuries**.
+    Key reported figures include:
+
+    - **1,067 arrests and 388 criminal proceedings:** reported by Reuters and attributed to the Albanian authorities at the time of publication.
+    - **310 injured through 19 October:** 191 police officers, 88 protesters and 31 bystanders, reported by *El País* citing Ministry of Health figures.
+    - **214 detained people met during earlier monitoring:** the Ombudsman's preliminary record, as cited in the Res Publica letter, noted visible signs of violence or mistreatment allegations for 26 people and reports concerning about 12 minors allegedly held in isolation.
+    - **32 reported police-violence cases:** catalogued in the Res Publica open-letter annex covering 13–17 October; these are reported cases, not final legal findings.
+    - **124 evidence items reviewed:** described in the lawyers' cover letter to Amnesty International, including 31 newly submitted log entries covering 18–20 October; the underlying confidential log is not public in this repository.
+
+    These figures have different periods, populations and definitions. They overlap and should not be added together as a single total.
 
     Source-linked reporting raises concerns about:
 
@@ -29,7 +37,7 @@ hide:
     - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
     - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
     - **Detention safeguards:** the Ombudsman documented missing rights-information forms, incomplete detention registers and allegations that personal phones were searched without appropriate authorization.
-    - **Treatment of minors:** 18 minors were among those taken to police stations on 19 October; at Police Station No. 1, five alleged physical or verbal violence and two had visible injuries.
+    - **Treatment of minors:** reports include questioning without guardians or psychologists, alleged isolation and possible exposure to force or detention.
     - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
     These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
@@ -38,11 +46,12 @@ hide:
 
     Selected international reporting, newest first:
 
-    - Reuters, 18 October — latest developments and government response: <https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/>
-    - Associated Press, 17 October — fifth day of protests, arrests, injuries and police suspensions: <https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14>
-    - Al Jazeera, 17 October — rubber bullets and widening unrest: <https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate>
+    - El País, 22 October — reporting from Tirana on the continuing student protests, police–protester violence and the government's offer of dialogue: <https://elpais.com/internacional/2026-10-22/la-violencia-se-instala-entre-policia-y-manifestantes-en-albania-es-legitima-cuando-el-estado-te-ignora-y-agrede.html>
+    - OCCRP / SHTEG, 20 October — the protests' second week, reported mass arrests and the Ombudsman's detention findings: <https://www.occrp.org/en/news/albanian-pm-offers-dialogue-amid-crackdown-on-violent-protests>
+    - Associated Press, 20 October — eighth consecutive day of clashes, tear gas and water cannon: <https://apnews.com/article/76658d03cf1d00656c27ceabb7151b0a>
+    - Reuters, 18 October — arrests, criminal proceedings and the government's response: <https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/>
+    - Al Jazeera, 18 October — sixth consecutive day of unrest and continuing demonstrations in Tirana: <https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily>
     - Le Monde, 17 October — police-violence allegations and civic response: <https://www.lemonde.fr/en/international/article/2026/10/17/in-albania-the-flamingo-revolution-radicalizes-in-response-to-the-prime-minister-s-contempt-and-indifference_6758697_4.html>
-    - BBC News — overview of the protests, violence and police response: <https://www.bbc.co.uk/news/articles/crwydey50xeno>
 
     Primary and local documentation for specific allegations:
 
@@ -50,10 +59,14 @@ hide:
     - Euronews Albania — hospital interview concerning the alleged serious leg injury: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
     - Association of Journalists of Albania — documented incidents affecting journalists and media workers: <https://agsh.al/2026/10/14/alb-eng-agsh-dy-dite-protestash-ne-tirane-te-pakten-10-incidente-ndaj-gazetareve-dhe-punonjesve-te-medias-dhuna-dhe-pengimi-i-raportimit-jane-te-papranueshme/>
     - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+    - Hajde n’Shesh — video collection documenting reported police violence: <https://hajdenshesh.com/dhuna>
 
     Kind regards,
 
-    [Name, role, contact]
+    - [Flamingo Revolution](https://www.flamingorevolution.eu/) — protest documentation and civic projects.
+    - [Flamingo Revolution Diaspora](https://flamingo-berlin.github.io/) — diaspora updates and outreach.
+    - [Albanian Diaspora Civic Network](https://albaniandiasporacivicnetwork.com/) — research and evidence-based civic work.
+    - [Illyrian Brains Network](https://illyrianbrains.org/) — a global network of Albanian professionals.
 
 === "International institution"
 
@@ -69,13 +82,21 @@ hide:
 
     **Subject:** Flamingo Protests in Albania: urgent alert on reported rights abuses
 
-    Dear [Institution / Country Desk],
+    To whom it may concern,
 
     I am writing to alert your institution to serious reported human-rights concerns during student-led demonstrations that began in Tirana on 13 October 2026 and have since spread. Students, journalists, bystanders and detainees may be affected, and high school participation raises particular child-protection concerns.
 
-    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the [movement's published protest chronology](https://www.flamingorevolution.eu/protestat/), the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
 
-    On 20 October, the Albanian Ombudsman published preliminary findings from its monitoring of the 19 October demonstrations. It reported that **50 people were taken to police stations, including 18 minors**. During an inspection, **109 people were being held in Tirana's Security Block**; monitors contacted 193 people in total, including hospital patients, and formally recorded 11 complaints. At Police Station No. 1, **five minors alleged physical or verbal violence and two had visible physical injuries**.
+    Key reported figures include:
+
+    - **1,067 arrests and 388 criminal proceedings:** reported by Reuters and attributed to the Albanian authorities at the time of publication.
+    - **310 injured through 19 October:** 191 police officers, 88 protesters and 31 bystanders, reported by *El País* citing Ministry of Health figures.
+    - **214 detained people met during earlier monitoring:** the Ombudsman's preliminary record, as cited in the Res Publica letter, noted visible signs of violence or mistreatment allegations for 26 people and reports concerning about 12 minors allegedly held in isolation.
+    - **32 reported police-violence cases:** catalogued in the Res Publica open-letter annex covering 13–17 October; these are reported cases, not final legal findings.
+    - **124 evidence items reviewed:** described in the lawyers' cover letter to Amnesty International, including 31 newly submitted log entries covering 18–20 October; the underlying confidential log is not public in this repository.
+
+    These figures have different periods, populations and definitions. They overlap and should not be added together as a single total.
 
     Source-linked reporting raises concerns about:
 
@@ -83,7 +104,7 @@ hide:
     - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
     - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
     - **Detention safeguards:** the Ombudsman documented missing rights-information forms, incomplete detention registers and allegations that personal phones were searched without appropriate authorization.
-    - **Treatment of minors:** 18 minors were among those taken to police stations on 19 October; at Police Station No. 1, five alleged physical or verbal violence and two had visible injuries.
+    - **Treatment of minors:** reports include questioning without guardians or psychologists, alleged isolation and possible exposure to force or detention.
     - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
     These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
@@ -99,11 +120,12 @@ hide:
 
     Selected international reporting, newest first:
 
-    - Reuters, 18 October — latest developments and government response: <https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/>
-    - Associated Press, 17 October — fifth day of protests, arrests, injuries and police suspensions: <https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14>
-    - Al Jazeera, 17 October — rubber bullets and widening unrest: <https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate>
+    - El País, 22 October — reporting from Tirana on the continuing student protests, police–protester violence and the government's offer of dialogue: <https://elpais.com/internacional/2026-10-22/la-violencia-se-instala-entre-policia-y-manifestantes-en-albania-es-legitima-cuando-el-estado-te-ignora-y-agrede.html>
+    - OCCRP / SHTEG, 20 October — the protests' second week, reported mass arrests and the Ombudsman's detention findings: <https://www.occrp.org/en/news/albanian-pm-offers-dialogue-amid-crackdown-on-violent-protests>
+    - Associated Press, 20 October — eighth consecutive day of clashes, tear gas and water cannon: <https://apnews.com/article/76658d03cf1d00656c27ceabb7151b0a>
+    - Reuters, 18 October — arrests, criminal proceedings and the government's response: <https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/>
+    - Al Jazeera, 18 October — sixth consecutive day of unrest and continuing demonstrations in Tirana: <https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily>
     - Le Monde, 17 October — police-violence allegations and civic response: <https://www.lemonde.fr/en/international/article/2026/10/17/in-albania-the-flamingo-revolution-radicalizes-in-response-to-the-prime-minister-s-contempt-and-indifference_6758697_4.html>
-    - BBC News — overview of the protests, violence and police response: <https://www.bbc.co.uk/news/articles/crwydey50xeno>
 
     Primary and local documentation for specific allegations:
 
@@ -111,10 +133,14 @@ hide:
     - Euronews Albania — hospital interview concerning the alleged serious leg injury: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
     - Association of Journalists of Albania — documented incidents affecting journalists and media workers: <https://agsh.al/2026/10/14/alb-eng-agsh-dy-dite-protestash-ne-tirane-te-pakten-10-incidente-ndaj-gazetareve-dhe-punonjesve-te-medias-dhuna-dhe-pengimi-i-raportimit-jane-te-papranueshme/>
     - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+    - Hajde n’Shesh — video collection documenting reported police violence: <https://hajdenshesh.com/dhuna>
 
-    Sincerely,
+    Kind regards,
 
-    [Name, organization if applicable, contact]
+    - [Flamingo Revolution](https://www.flamingorevolution.eu/) — protest documentation and civic projects.
+    - [Flamingo Revolution Diaspora](https://flamingo-berlin.github.io/) — diaspora updates and outreach.
+    - [Albanian Diaspora Civic Network](https://albaniandiasporacivicnetwork.com/) — research and evidence-based civic work.
+    - [Illyrian Brains Network](https://illyrianbrains.org/) — a global network of Albanian professionals.
 
 === "International representative"
 
@@ -130,13 +156,21 @@ hide:
 
     **Subject:** Flamingo Protests in Albania: please raise reported human-rights abuses
 
-    Dear [Representative name],
+    To whom it may concern,
 
     I am writing as [a constituent / a member of the Albanian diaspora / a concerned resident] to ask you to draw urgent attention to reported human-rights abuses during student-led demonstrations that began in Tirana on 13 October 2026 and have since spread. Watching the reports has been frightening, and I want everyone protesting, passing by or reporting the news to come home safely.
 
-    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the movement's published account, the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
+    These demonstrations form part of more than 140 days of Flamingo protests in Albania. According to the [movement's published protest chronology](https://www.flamingorevolution.eu/protestat/), the protests began over development affecting the protected Vjosë–Nartë coastal landscape and broadened to concerns about public accountability, corruption allegations, education and healthcare, youth emigration, economic pressure, democratic representation and the rule of law.
 
-    On 20 October, the Albanian Ombudsman published preliminary findings from its monitoring of the 19 October demonstrations. It reported that **50 people were taken to police stations, including 18 minors**. During an inspection, **109 people were being held in Tirana's Security Block**; monitors contacted 193 people in total, including hospital patients, and formally recorded 11 complaints. At Police Station No. 1, **five minors alleged physical or verbal violence and two had visible physical injuries**.
+    Key reported figures include:
+
+    - **1,067 arrests and 388 criminal proceedings:** reported by Reuters and attributed to the Albanian authorities at the time of publication.
+    - **310 injured through 19 October:** 191 police officers, 88 protesters and 31 bystanders, reported by *El País* citing Ministry of Health figures.
+    - **214 detained people met during earlier monitoring:** the Ombudsman's preliminary record, as cited in the Res Publica letter, noted visible signs of violence or mistreatment allegations for 26 people and reports concerning about 12 minors allegedly held in isolation.
+    - **32 reported police-violence cases:** catalogued in the Res Publica open-letter annex covering 13–17 October; these are reported cases, not final legal findings.
+    - **124 evidence items reviewed:** described in the lawyers' cover letter to Amnesty International, including 31 newly submitted log entries covering 18–20 October; the underlying confidential log is not public in this repository.
+
+    These figures have different periods, populations and definitions. They overlap and should not be added together as a single total.
 
     Source-linked reporting raises concerns about:
 
@@ -144,7 +178,7 @@ hide:
     - **Physical force and restraint:** potentially excessive force, including people reportedly held on the ground.
     - **Serious injury:** a hospital interviewee alleged that police caused a serious leg injury.
     - **Detention safeguards:** the Ombudsman documented missing rights-information forms, incomplete detention registers and allegations that personal phones were searched without appropriate authorization.
-    - **Treatment of minors:** 18 minors were among those taken to police stations on 19 October; at Police Station No. 1, five alleged physical or verbal violence and two had visible injuries.
+    - **Treatment of minors:** reports include questioning without guardians or psychologists, alleged isolation and possible exposure to force or detention.
     - **Freedom of the press:** assaults, threats, injuries, obstruction and forced removal affecting journalists and media workers.
 
     These are attributed reports and allegations requiring independent verification, not established legal findings. Some participants reportedly threw stones and lit fires; that does not justify the use of force against people who did not. As the Albanian Helsinki Committee said on 13 October, the acts of individuals cannot make an entire assembly violent, and police force must remain lawful, necessary and proportionate.
@@ -160,11 +194,12 @@ hide:
 
     Selected international reporting, newest first:
 
-    - Reuters, 18 October — latest developments and government response: <https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/>
-    - Associated Press, 17 October — fifth day of protests, arrests, injuries and police suspensions: <https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14>
-    - Al Jazeera, 17 October — rubber bullets and widening unrest: <https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate>
+    - El País, 22 October — reporting from Tirana on the continuing student protests, police–protester violence and the government's offer of dialogue: <https://elpais.com/internacional/2026-10-22/la-violencia-se-instala-entre-policia-y-manifestantes-en-albania-es-legitima-cuando-el-estado-te-ignora-y-agrede.html>
+    - OCCRP / SHTEG, 20 October — the protests' second week, reported mass arrests and the Ombudsman's detention findings: <https://www.occrp.org/en/news/albanian-pm-offers-dialogue-amid-crackdown-on-violent-protests>
+    - Associated Press, 20 October — eighth consecutive day of clashes, tear gas and water cannon: <https://apnews.com/article/76658d03cf1d00656c27ceabb7151b0a>
+    - Reuters, 18 October — arrests, criminal proceedings and the government's response: <https://www.reuters.com/world/albanian-pm-says-mass-protests-threat-eu-membership-not-government-2026-10-18/>
+    - Al Jazeera, 18 October — sixth consecutive day of unrest and continuing demonstrations in Tirana: <https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily>
     - Le Monde, 17 October — police-violence allegations and civic response: <https://www.lemonde.fr/en/international/article/2026/10/17/in-albania-the-flamingo-revolution-radicalizes-in-response-to-the-prime-minister-s-contempt-and-indifference_6758697_4.html>
-    - BBC News — overview of the protests, violence and police response: <https://www.bbc.co.uk/news/articles/crwydey50xeno>
 
     Primary and local documentation for specific allegations:
 
@@ -172,14 +207,50 @@ hide:
     - Euronews Albania — hospital interview concerning the alleged serious leg injury: <https://euronews.al/protestuesi-i-lenduar-tek-trauma-policet-me-keputen-kemben-video/>
     - Association of Journalists of Albania — documented incidents affecting journalists and media workers: <https://agsh.al/2026/10/14/alb-eng-agsh-dy-dite-protestash-ne-tirane-te-pakten-10-incidente-ndaj-gazetareve-dhe-punonjesve-te-medias-dhuna-dhe-pengimi-i-raportimit-jane-te-papranueshme/>
     - ADCN — evidence base: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
+    - Hajde n’Shesh — video collection documenting reported police violence: <https://hajdenshesh.com/dhuna>
 
-    Yours sincerely,
+    Kind regards,
 
-    [Full name, postal address, country, email]
+    - [Flamingo Revolution](https://www.flamingorevolution.eu/) — protest documentation and civic projects.
+    - [Flamingo Revolution Diaspora](https://flamingo-berlin.github.io/) — diaspora updates and outreach.
+    - [Albanian Diaspora Civic Network](https://albaniandiasporacivicnetwork.com/) — research and evidence-based civic work.
+    - [Illyrian Brains Network](https://illyrianbrains.org/) — a global network of Albanian professionals.
+
+## Optional image attachments and Flamingo resources
+
+Download only the images relevant to your message, keep the supplied credit, and link to the original publication. Do not imply that a photograph proves conduct outside what is visible in the frame. Image rights remain with the publisher; these files are provided for attributed outreach use and should be removed from an email if reuse permission is uncertain.
+
+<div class="email-attachment-grid">
+  <article>
+    <a href="../assets/images/evidence/citizens-13oct-tear-gas.jpg" download><img src="../assets/images/evidence/citizens-13oct-tear-gas.jpg" alt="Street scene during the 13 October protest in Tirana, with police vehicles, smoke and people in the roadway"></a>
+    <strong>13 October · Tirana street scene</strong>
+    <span>Credit: Citizens.al. Context includes police vehicles, smoke, people and street damage; it does not establish responsibility for any specific act.</span>
+    <div><a href="../assets/images/evidence/citizens-13oct-tear-gas.jpg" download>Download image</a> · <a href="https://citizens.al/2026/10/13/studentet-rizgjojne-protesten-policia-pergjigjet-me-dhune/" target="_blank" rel="noopener noreferrer">Original report ↗</a></div>
+  </article>
+  <article>
+    <a href="../assets/images/evidence/citizens-14oct-boycott.png" download><img src="../assets/images/evidence/citizens-14oct-boycott.png" alt="Citizens.al image accompanying reporting on the 14 October student boycott and march"></a>
+    <strong>14 October · Student boycott and march</strong>
+    <span>Credit: Citizens.al. Use with the publisher's description and do not infer institutional endorsement from participation.</span>
+    <div><a href="../assets/images/evidence/citizens-14oct-boycott.png" download>Download image</a> · <a href="https://citizens.al/2026/10/14/protesta-e-studenteve-nis-me-bojkot/" target="_blank" rel="noopener noreferrer">Original report ↗</a></div>
+  </article>
+  <article>
+    <a href="../assets/images/evidence/citizens-15oct-live.jpg" download><img src="../assets/images/evidence/citizens-15oct-live.jpg" alt="Citizens.al image accompanying live coverage of the 15 October protests"></a>
+    <strong>15 October · Live protest coverage</strong>
+    <span>Credit: Citizens.al. Verify the original caption and context before attaching or describing the image.</span>
+    <div><a href="../assets/images/evidence/citizens-15oct-live.jpg" download>Download image</a> · <a href="https://citizens.al/2026/10/15/protesta-e-studenteve-ore-pas-ore/" target="_blank" rel="noopener noreferrer">Original report ↗</a></div>
+  </article>
+</div>
+
+[Protest chronology and photographs ↗](https://www.flamingorevolution.eu/protestat/){ .md-button }
+[Flamingo Dossier ↗](https://www.flamingorevolution.eu/dosjet/){ .md-button }
+[Flamingo protest map ↗](https://www.flamingorevolution.eu/harta/){ .md-button }
+
+!!! note "Suggested attachment caption"
+    Attached photographs are credited to Citizens.al and are shared with links to the original reporting. They provide visual context only; captions distinguish what is visible from allegations that require independent verification. The Flamingo links above provide the movement's protest chronology and photographs, public-source dossier, and protest map.
 
 ## Translations
 
-The same three emails are available in [Albanian](../languages/sq.md), [German](../languages/de.md), [Italian](../languages/it.md), [French](../languages/fr.md), [Dutch](../languages/nl.md), [Spanish](../languages/es.md), [Swedish](../languages/sv.md) and [Polish](../languages/pl.md).
+The same three emails are available in [Albanian](../languages/sq.md), [Czech](../languages/cs.md), [Danish](../languages/da.md), [Dutch](../languages/nl.md), [Finnish](../languages/fi.md), [French](../languages/fr.md), [German](../languages/de.md), [Italian](../languages/it.md), [Norwegian](../languages/no.md), [Polish](../languages/pl.md), [Portuguese](../languages/pt.md), [Spanish](../languages/es.md) and [Swedish](../languages/sv.md).
 
 ## Credits and acknowledgements
 

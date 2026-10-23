@@ -12,11 +12,11 @@ hide:
 === "Media"
     **Subjekti:** Protestat Flamingo në Shqipëri: abuzime të raportuara policore gjatë demonstratave në Tiranë
 
-    I/E nderuar [Redaktor/Gazetar],
+    Për këdo që mund të jetë i interesuar,
 
     Ju kërkoj që redaksia juaj të shqyrtojë abuzimet e raportuara të të drejtave të njeriut gjatë demonstratave studentore në Tiranë që nisën më 13 tetor 2026 dhe që prej atëherë janë përhapur.
 
-    Këto demonstrata janë pjesë e më shumë se 130 ditëve të protestave Flamingo në Shqipëri. Sipas rrëfimit të publikuar nga lëvizja, protestat nisën kundër zhvillimit që prek peizazhin e mbrojtur bregdetar Vjosë–Nartë dhe u zgjeruan te llogaridhënia publike, pretendimet për korrupsion, arsimi dhe shëndetësia, emigrimi i të rinjve, presioni ekonomik, përfaqësimi demokratik dhe sundimi i ligjit.
+    Këto demonstrata janë pjesë e më shumë se 140 ditëve të protestave Flamingo në Shqipëri. Sipas rrëfimit të publikuar nga lëvizja, protestat nisën kundër zhvillimit që prek peizazhin e mbrojtur bregdetar Vjosë–Nartë dhe u zgjeruan te llogaridhënia publike, pretendimet për korrupsion, arsimi dhe shëndetësia, emigrimi i të rinjve, presioni ekonomik, përfaqësimi demokratik dhe sundimi i ligjit.
 
     Abuzimet e raportuara përfshijnë:
 
@@ -47,8 +47,6 @@ hide:
 
     Me respekt,
 
-    [Emri, roli, kontakti]
-
 === "Institucion ndërkombëtar"
     !!! warning "Kush është më i përshtatshëm për ta dërguar këtë?"
         Dërgues të sugjeruar, sipas përparësisë:
@@ -62,11 +60,11 @@ hide:
 
     **Subjekti:** Protestat Flamingo në Shqipëri: njoftim urgjent për shkelje të raportuara
 
-    I/E nderuar [Institucioni / Zyra për Shqipërinë],
+    Për këdo që mund të jetë i interesuar,
 
     Po ju njoftoj për shqetësime serioze të raportuara për të drejtat e njeriut gjatë demonstratave studentore në Tiranë që nisën më 13 tetor 2026 dhe që prej atëherë janë përhapur.
 
-    Këto demonstrata janë pjesë e më shumë se 130 ditëve të protestave Flamingo në Shqipëri. Sipas rrëfimit të publikuar nga lëvizja, protestat nisën kundër zhvillimit që prek peizazhin e mbrojtur bregdetar Vjosë–Nartë dhe u zgjeruan te llogaridhënia publike, pretendimet për korrupsion, arsimi dhe shëndetësia, emigrimi i të rinjve, presioni ekonomik, përfaqësimi demokratik dhe sundimi i ligjit.
+    Këto demonstrata janë pjesë e më shumë se 140 ditëve të protestave Flamingo në Shqipëri. Sipas rrëfimit të publikuar nga lëvizja, protestat nisën kundër zhvillimit që prek peizazhin e mbrojtur bregdetar Vjosë–Nartë dhe u zgjeruan te llogaridhënia publike, pretendimet për korrupsion, arsimi dhe shëndetësia, emigrimi i të rinjve, presioni ekonomik, përfaqësimi demokratik dhe sundimi i ligjit.
 
     Abuzimet e raportuara përfshijnë:
 
@@ -97,8 +95,6 @@ hide:
 
     Me respekt,
 
-    [Emri, organizata nëse ka, kontakti]
-
 === "Përfaqësues ndërkombëtar"
     !!! warning "Kush është më i përshtatshëm për ta dërguar këtë?"
         Dërgues të sugjeruar, sipas përparësisë:
@@ -112,11 +108,11 @@ hide:
 
     **Subjekti:** Protestat Flamingo në Shqipëri: ngrini çështjen e abuzimeve të raportuara
 
-    I/E nderuar [Emri i përfaqësuesit],
+    Për këdo që mund të jetë i interesuar,
 
     Po ju shkruaj si [zgjedhës/e / pjesëtar/e i diasporës shqiptare / banor/e i/e shqetësuar] për t'ju kërkuar të ngrini çështjen e abuzimeve të raportuara gjatë demonstratave në Tiranë që nisën më 13 tetor 2026 dhe që prej atëherë janë përhapur. Ndjekja e lajmeve ka qenë e frikshme dhe dua që të gjithë ata që protestojnë, kalojnë aty pranë ose raportojnë lajmet, të kthehen në shtëpi të sigurt.
 
-    Këto demonstrata janë pjesë e më shumë se 130 ditëve të protestave Flamingo në Shqipëri. Sipas rrëfimit të publikuar nga lëvizja, protestat nisën kundër zhvillimit që prek peizazhin e mbrojtur bregdetar Vjosë–Nartë dhe u zgjeruan te llogaridhënia publike, pretendimet për korrupsion, arsimi dhe shëndetësia, emigrimi i të rinjve, presioni ekonomik, përfaqësimi demokratik dhe sundimi i ligjit.
+    Këto demonstrata janë pjesë e më shumë se 140 ditëve të protestave Flamingo në Shqipëri. Sipas rrëfimit të publikuar nga lëvizja, protestat nisën kundër zhvillimit që prek peizazhin e mbrojtur bregdetar Vjosë–Nartë dhe u zgjeruan te llogaridhënia publike, pretendimet për korrupsion, arsimi dhe shëndetësia, emigrimi i të rinjve, presioni ekonomik, përfaqësimi demokratik dhe sundimi i ligjit.
 
     Abuzimet e raportuara përfshijnë:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — baza e provave: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Me respekt,
-
-    [Emri i plotë, adresa, shteti, emaili]
 
 ## Credits and acknowledgements
 

@@ -16,7 +16,7 @@ hide:
 
     Je demande à votre rédaction d'examiner les atteintes présumées aux droits humains lors des manifestations étudiantes à Tirana qui ont débuté le 13 octobre 2026 et se sont depuis étendues.
 
-    Ces manifestations s'inscrivent dans plus de 130 jours de mobilisations Flamingo en Albanie. Selon le récit publié par le mouvement, elles ont commencé contre des projets affectant le paysage côtier protégé de Vjosë–Nartë, puis se sont élargies à la responsabilité publique, aux allégations de corruption, à l'éducation et la santé, à l'émigration des jeunes, aux pressions économiques, à la représentation démocratique et à l'État de droit.
+    Ces manifestations s'inscrivent dans plus de 140 jours de mobilisations Flamingo en Albanie. Selon le récit publié par le mouvement, elles ont commencé contre des projets affectant le paysage côtier protégé de Vjosë–Nartë, puis se sont élargies à la responsabilité publique, aux allégations de corruption, à l'éducation et la santé, à l'émigration des jeunes, aux pressions économiques, à la représentation démocratique et à l'État de droit.
 
     Les atteintes signalées concernent :
 
@@ -47,8 +47,6 @@ hide:
 
     Cordialement,
 
-    [Nom, fonction, contact]
-
 === "Institution internationale"
     !!! warning "Qui est le mieux placé pour envoyer ceci ?"
         Expéditeurs suggérés, par ordre de priorité :
@@ -62,11 +60,11 @@ hide:
 
     **Objet :** Manifestations Flamingo en Albanie : alerte urgente sur des atteintes présumées aux droits
 
-    Madame, Monsieur [Institution / Bureau pays],
+    Madame, Monsieur,
 
     J'alerte votre institution sur de graves préoccupations relatives aux droits humains lors des manifestations à Tirana qui ont débuté le 13 octobre 2026 et se sont depuis étendues.
 
-    Ces manifestations s'inscrivent dans plus de 130 jours de mobilisations Flamingo en Albanie. Selon le récit publié par le mouvement, elles ont commencé contre des projets affectant le paysage côtier protégé de Vjosë–Nartë, puis se sont élargies à la responsabilité publique, aux allégations de corruption, à l'éducation et la santé, à l'émigration des jeunes, aux pressions économiques, à la représentation démocratique et à l'État de droit.
+    Ces manifestations s'inscrivent dans plus de 140 jours de mobilisations Flamingo en Albanie. Selon le récit publié par le mouvement, elles ont commencé contre des projets affectant le paysage côtier protégé de Vjosë–Nartë, puis se sont élargies à la responsabilité publique, aux allégations de corruption, à l'éducation et la santé, à l'émigration des jeunes, aux pressions économiques, à la représentation démocratique et à l'État de droit.
 
     Les atteintes signalées concernent :
 
@@ -97,8 +95,6 @@ hide:
 
     Cordialement,
 
-    [Nom, organisation le cas échéant, contact]
-
 === "Représentant international"
     !!! warning "Qui est le mieux placé pour envoyer ceci ?"
         Expéditeurs suggérés, par ordre de priorité :
@@ -112,11 +108,11 @@ hide:
 
     **Objet :** Manifestations Flamingo en Albanie : veuillez soulever les atteintes présumées aux droits humains
 
-    Madame, Monsieur [Nom],
+    Madame, Monsieur,
 
     Je vous écris en tant que [membre de votre circonscription / membre de la diaspora albanaise / résident préoccupé] pour vous demander de soulever la question des atteintes présumées lors des manifestations à Tirana qui ont débuté le 13 octobre 2026 et se sont depuis étendues. Suivre ces informations a été effrayant, et je souhaite que toutes les personnes qui manifestent, passent par là ou en rendent compte rentrent chez elles en sécurité.
 
-    Ces manifestations s'inscrivent dans plus de 130 jours de mobilisations Flamingo en Albanie. Selon le récit publié par le mouvement, elles ont commencé contre des projets affectant le paysage côtier protégé de Vjosë–Nartë, puis se sont élargies à la responsabilité publique, aux allégations de corruption, à l'éducation et la santé, à l'émigration des jeunes, aux pressions économiques, à la représentation démocratique et à l'État de droit.
+    Ces manifestations s'inscrivent dans plus de 140 jours de mobilisations Flamingo en Albanie. Selon le récit publié par le mouvement, elles ont commencé contre des projets affectant le paysage côtier protégé de Vjosë–Nartë, puis se sont élargies à la responsabilité publique, aux allégations de corruption, à l'éducation et la santé, à l'émigration des jeunes, aux pressions économiques, à la représentation démocratique et à l'État de droit.
 
     Les atteintes signalées concernent :
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — base factuelle: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Cordialement,
-
-    [Nom complet, adresse, pays, courriel]
 
 ## Credits and acknowledgements
 

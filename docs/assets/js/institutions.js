@@ -1,4 +1,4 @@
-const institutionsAssetsBase = new URL('.', document.currentScript.src);
+const institutionsAssetsBase = new URL('../data/', document.currentScript.src);
 
 const INSTITUTION_LEVELS = {
   green: { label: '76–100% responded', color: '#2e7d32' },

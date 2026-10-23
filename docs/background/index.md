@@ -33,6 +33,10 @@ The protests began around opposition to development affecting the **Vjosë–Nar
 
         Review sourced incident records, affected groups and documented issues.
 
+    -   :material-compare-horizontal: **[Evidence comparison](evidence-comparison.md)**
+
+        Compare figures and claims across sources without merging incompatible totals.
+
     -   :material-bookshelf: **[Sources and verification](sources.md)**
 
         Search the source directory and understand the verification standard.

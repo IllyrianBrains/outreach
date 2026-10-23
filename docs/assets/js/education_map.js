@@ -1,4 +1,4 @@
-const educationMapAssetsBase = new URL('.', document.currentScript.src);
+const educationMapAssetsBase = new URL('../data/', document.currentScript.src);
 
 function setupEducationMap() {
   const container = document.getElementById('education-map');

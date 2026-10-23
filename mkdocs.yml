@@ -33,14 +33,15 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js
-  - assets/directory.js
-  - assets/timeline.js
-  - assets/media_coverage.js
-  - assets/institutions.js
-  - assets/parties.js
-  - assets/outreach_directory.js
-  - assets/education_map.js
-  - assets/email_templates.js
+  - assets/js/directory.js
+  - assets/js/timeline.js
+  - assets/js/media_coverage.js
+  - assets/js/institutions.js
+  - assets/js/parties.js
+  - assets/js/outreach_directory.js
+  - assets/js/education_map.js
+  - assets/js/email_templates.js
+  - assets/js/evidence_comparison.js
 plugins:
   - search
 nav:
@@ -49,10 +50,15 @@ nav:
       - Overview: messages/index.md
       - Languages:
           - Albanian: languages/sq.md
+          - Czech: languages/cs.md
+          - Danish: languages/da.md
           - German: languages/de.md
+          - Finnish: languages/fi.md
           - Italian: languages/it.md
           - French: languages/fr.md
           - Dutch: languages/nl.md
+          - Norwegian: languages/no.md
+          - Portuguese: languages/pt.md
           - Spanish: languages/es.md
           - Swedish: languages/sv.md
           - Polish: languages/pl.md
@@ -77,6 +83,7 @@ nav:
           - Open Letter: actions/open-letters.md
       - Sources:
           - Evidence: background/evidence.md
+          - Evidence comparison: background/evidence-comparison.md
           - Verification: background/sources.md
       - External:
           - Flamingo protest map ↗: https://pomodoren.github.io/flamingo-map/

@@ -1,4 +1,4 @@
-const coverageAssetsBase = new URL('.', document.currentScript.src);
+const coverageAssetsBase = new URL('../data/', document.currentScript.src);
 
 const LEVEL_META = {
   green: { label: '76–100% of outlets', color: '#2e7d32' },
@@ -393,6 +393,13 @@ function renderPriorityList(data, sortMode = 'coverage-low', activeTag = '') {
             tags.append(tagButton);
           });
           outletInfo.append(tags);
+        }
+
+        if (outlet.evidence) {
+          const evidence = document.createElement('p');
+          evidence.className = 'coverage-outlet-evidence';
+          evidence.textContent = outlet.evidence;
+          outletInfo.append(evidence);
         }
 
         const links = document.createElement('div');

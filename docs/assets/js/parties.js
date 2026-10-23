@@ -1,4 +1,4 @@
-const partiesAssetsBase = new URL('.', document.currentScript.src);
+const partiesAssetsBase = new URL('../data/', document.currentScript.src);
 
 const PARTY_LEVELS = {
   green: { label: '76–100% responded', color: '#2e7d32' },

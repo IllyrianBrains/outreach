@@ -12,11 +12,11 @@ hide:
 === "Medien"
     **Betreff:** Flamingo-Proteste in Albanien: gemeldete Polizeigewalt bei Demonstrationen in Tirana
 
-    Sehr geehrte/r [Redakteur/in / Journalist/in],
+    Sehr geehrte Damen und Herren,
 
     ich bitte Ihre Redaktion, Berichte über Menschenrechtsverletzungen bei den studentisch geführten Demonstrationen in Tirana, die am 13. Oktober 2026 begannen und sich seitdem ausgeweitet haben, zu untersuchen.
 
-    Diese Demonstrationen sind Teil von mehr als 130 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
+    Diese Demonstrationen sind Teil von mehr als 140 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
 
     Zu den gemeldeten Übergriffen gehören:
 
@@ -47,8 +47,6 @@ hide:
 
     Mit freundlichen Grüßen
 
-    [Name, Funktion, Kontakt]
-
 === "Internationale Institution"
     !!! warning "Wer ist am besten geeignet, dies zu senden?"
         Empfohlene Absender, in dieser Reihenfolge:
@@ -66,7 +64,7 @@ hide:
 
     ich möchte Ihre Institution auf ernste Menschenrechtsbedenken bei den Demonstrationen in Tirana, die am 13. Oktober 2026 begannen und sich seitdem ausgeweitet haben, aufmerksam machen.
 
-    Diese Demonstrationen sind Teil von mehr als 130 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
+    Diese Demonstrationen sind Teil von mehr als 140 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
 
     Zu den gemeldeten Übergriffen gehören:
 
@@ -97,8 +95,6 @@ hide:
 
     Mit freundlichen Grüßen
 
-    [Name, Organisation falls zutreffend, Kontakt]
-
 === "Internationale Vertretung"
     !!! warning "Wer ist am besten geeignet, dies zu senden?"
         Empfohlene Absender, in dieser Reihenfolge:
@@ -112,11 +108,11 @@ hide:
 
     **Betreff:** Flamingo-Proteste in Albanien: Bitte sprechen Sie die gemeldeten Menschenrechtsverletzungen an
 
-    Sehr geehrte/r [Name],
+    Sehr geehrte Damen und Herren,
 
     ich schreibe als [Wähler/in / Mitglied der albanischen Diaspora / besorgte Person] und bitte Sie, die gemeldeten Menschenrechtsverletzungen bei den Demonstrationen in Tirana, die am 13. Oktober 2026 begannen und sich seitdem ausgeweitet haben, anzusprechen. Die Berichte aus Tirana zu verfolgen war erschreckend, und ich möchte, dass alle, die protestieren, vorbeigehen oder darüber berichten, sicher nach Hause kommen.
 
-    Diese Demonstrationen sind Teil von mehr als 130 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
+    Diese Demonstrationen sind Teil von mehr als 140 Tagen Flamingo-Protesten in Albanien. Nach der veröffentlichten Darstellung der Bewegung begannen die Proteste gegen Entwicklungen im geschützten Küstengebiet Vjosë–Nartë und weiteten sich auf öffentliche Rechenschaft, Korruptionsvorwürfe, Bildung und Gesundheit, Jugendauswanderung, wirtschaftlichen Druck, demokratische Vertretung und Rechtsstaatlichkeit aus.
 
     Zu den gemeldeten Übergriffen gehören:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — Beweisgrundlage: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Mit freundlichen Grüßen
-
-    [Vollständiger Name, Anschrift, Land, E-Mail]
 
 ## Credits and acknowledgements
 

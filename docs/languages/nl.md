@@ -12,11 +12,11 @@ hide:
 === "Media"
     **Onderwerp:** Flamingo-protesten in Albanië: vermeend politiegeweld bij demonstraties in Tirana
 
-    Geachte [redacteur/journalist],
+    Geachte heer/mevrouw,
 
     Ik vraag uw redactie onderzoek te doen naar vermeende mensenrechtenschendingen tijdens de studentenprotesten in Tirana die op 13 oktober 2026 begonnen en zich sindsdien hebben verspreid.
 
-    Deze demonstraties maken deel uit van meer dan 130 dagen Flamingo-protesten in Albanië. Volgens het gepubliceerde relaas van de beweging begonnen ze als verzet tegen ontwikkelingen in het beschermde kustlandschap Vjosë–Nartë en verbreedden ze zich naar publieke verantwoording, beschuldigingen van corruptie, onderwijs en gezondheidszorg, emigratie van jongeren, economische druk, democratische vertegenwoordiging en de rechtsstaat.
+    Deze demonstraties maken deel uit van meer dan 140 dagen Flamingo-protesten in Albanië. Volgens het gepubliceerde relaas van de beweging begonnen ze als verzet tegen ontwikkelingen in het beschermde kustlandschap Vjosë–Nartë en verbreedden ze zich naar publieke verantwoording, beschuldigingen van corruptie, onderwijs en gezondheidszorg, emigratie van jongeren, economische druk, democratische vertegenwoordiging en de rechtsstaat.
 
     De gemelde misstanden betreffen:
 
@@ -47,8 +47,6 @@ hide:
 
     Met vriendelijke groet,
 
-    [Naam, functie, contact]
-
 === "Internationale instelling"
     !!! warning "Wie kan dit het beste versturen?"
         Voorgestelde afzenders, in volgorde van prioriteit:
@@ -62,11 +60,11 @@ hide:
 
     **Onderwerp:** Flamingo-protesten in Albanië: dringende waarschuwing over vermeende rechtenschendingen
 
-    Geachte [instelling / landenbureau],
+    Geachte heer/mevrouw,
 
     Ik wijs uw instelling op ernstige mensenrechtenzorgen tijdens de protesten in Tirana die op 13 oktober 2026 begonnen en zich sindsdien hebben verspreid.
 
-    Deze demonstraties maken deel uit van meer dan 130 dagen Flamingo-protesten in Albanië. Volgens het gepubliceerde relaas van de beweging begonnen ze als verzet tegen ontwikkelingen in het beschermde kustlandschap Vjosë–Nartë en verbreedden ze zich naar publieke verantwoording, beschuldigingen van corruptie, onderwijs en gezondheidszorg, emigratie van jongeren, economische druk, democratische vertegenwoordiging en de rechtsstaat.
+    Deze demonstraties maken deel uit van meer dan 140 dagen Flamingo-protesten in Albanië. Volgens het gepubliceerde relaas van de beweging begonnen ze als verzet tegen ontwikkelingen in het beschermde kustlandschap Vjosë–Nartë en verbreedden ze zich naar publieke verantwoording, beschuldigingen van corruptie, onderwijs en gezondheidszorg, emigratie van jongeren, economische druk, democratische vertegenwoordiging en de rechtsstaat.
 
     De gemelde misstanden betreffen:
 
@@ -97,8 +95,6 @@ hide:
 
     Met vriendelijke groet,
 
-    [Naam, organisatie indien van toepassing, contact]
-
 === "Internationale vertegenwoordiger"
     !!! warning "Wie kan dit het beste versturen?"
         Voorgestelde afzenders, in volgorde van prioriteit:
@@ -112,11 +108,11 @@ hide:
 
     **Onderwerp:** Flamingo-protesten in Albanië: stel de vermeende mensenrechtenschendingen aan de orde
 
-    Geachte [naam vertegenwoordiger],
+    Geachte heer/mevrouw,
 
     Ik schrijf als [kiezer / lid van de Albanese diaspora / bezorgde inwoner] met het verzoek de vermeende schendingen tijdens de protesten in Tirana die op 13 oktober 2026 begonnen en zich sindsdien hebben verspreid aan de orde te stellen. De berichten volgen was beangstigend, en ik wil dat iedereen die protesteert, voorbijkomt of erover berichtgeeft veilig thuiskomt.
 
-    Deze demonstraties maken deel uit van meer dan 130 dagen Flamingo-protesten in Albanië. Volgens het gepubliceerde relaas van de beweging begonnen ze als verzet tegen ontwikkelingen in het beschermde kustlandschap Vjosë–Nartë en verbreedden ze zich naar publieke verantwoording, beschuldigingen van corruptie, onderwijs en gezondheidszorg, emigratie van jongeren, economische druk, democratische vertegenwoordiging en de rechtsstaat.
+    Deze demonstraties maken deel uit van meer dan 140 dagen Flamingo-protesten in Albanië. Volgens het gepubliceerde relaas van de beweging begonnen ze als verzet tegen ontwikkelingen in het beschermde kustlandschap Vjosë–Nartë en verbreedden ze zich naar publieke verantwoording, beschuldigingen van corruptie, onderwijs en gezondheidszorg, emigratie van jongeren, economische druk, democratische vertegenwoordiging en de rechtsstaat.
 
     De gemelde misstanden betreffen:
 
@@ -146,8 +142,6 @@ hide:
     - ADCN — feitelijke basis: <https://albaniandiasporacivicnetwork.com/sq/violence-appeal/>
 
     Met vriendelijke groet,
-
-    [Volledige naam, adres, land, e-mail]
 
 ## Credits and acknowledgements
 

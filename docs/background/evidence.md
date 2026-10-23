@@ -25,6 +25,19 @@ These are document-level figures: a "case," an "item," a person met in detention
 <div class="source-controls source-controls--directory"><input id="incident-search" type="search" placeholder="Search date, place, group or incident…" aria-label="Search evidence"><select id="incident-filter" aria-label="Affected group"><option value="">All affected groups</option></select></div>
 <p id="incident-count" role="status"></p><div id="incident-results" class="source-feed">Loading evidence…</div>
 
+## Affected-people figures in the documented issues
+
+- **26 detainees:** the Ombudsman's earlier monitoring recorded visible signs of violence or mistreatment allegations for 26 of the 214 detained people it met, as cited in the Res Publica letter.
+- **About 12 minors:** reports that they were held in isolation were under review in the same preliminary monitoring record.
+- **12 media workers:** the Association of Journalists of Albania documented at least 10 incidents affecting 12 media workers over 13–14 October.
+- **3 media workers:** the Committee to Protect Journalists reported that three required hospital treatment following incidents on 13 October.
+- **6 police officers:** a State Police injury figure reported by Citizens.al for 13 October; the individual injury mechanisms were not established in this dataset.
+- **23 people:** a police figure reported by Citizens.al for people taken for police procedures after the 13 October protest; it is not a finding that those detentions were unlawful.
+
+These figures overlap and describe different groups, dates and evidentiary statuses. They must not be added together as a total number of victims.
+
+[Compare figures and claims across sources →](evidence-comparison.md)
+
 ## Recording standard
 
 !!! tip "How records are handled"
@@ -34,15 +47,15 @@ These are document-level figures: a "case," an "item," a person met in detention
 
 <div class="grid cards" markdown>
 
--   :material-download: **[Incident records](../assets/incidents.csv)**
+-   :material-download: **[Incident records](../assets/data/incidents.csv)**
 
     Download the incident-level CSV.
 
--   :material-link-variant: **[Linked evidence](../assets/incident_evidence.csv)**
+-   :material-link-variant: **[Linked evidence](../assets/data/incident_evidence.csv)**
 
     Download records connecting incidents to individual sources.
 
--   :material-clipboard-text-outline: **[Documented issues](../assets/issues_gallery.csv)**
+-   :material-clipboard-text-outline: **[Documented issues](../assets/data/issues_gallery.csv)**
 
     Download the broader issues dataset.
 

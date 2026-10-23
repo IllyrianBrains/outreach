@@ -103,8 +103,8 @@ def find_municipality(lon: float, lat: float, municipalities: list[dict]) -> str
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("pbf", nargs="?", type=Path, default=Path("data/albania-latest.osm.pbf"))
-    parser.add_argument("output", nargs="?", type=Path, default=Path("docs/assets/albania_education.csv"))
-    parser.add_argument("--municipalities-output", type=Path, default=Path("docs/assets/education_municipality_boundaries.geojson"))
+    parser.add_argument("output", nargs="?", type=Path, default=Path("docs/assets/data/albania_education.csv"))
+    parser.add_argument("--municipalities-output", type=Path, default=Path("docs/assets/data/education_municipality_boundaries.geojson"))
     args = parser.parse_args()
 
     rows: list[dict] = []

@@ -40,4 +40,4 @@ See which political parties and parliamentary groups have responded and which st
 
 ## Download the data
 
-[Download the CSV](assets/political_parties.csv) or [update the shared workbook](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing).
+[Download the CSV](assets/data/political_parties.csv) or [update the shared workbook](https://docs.google.com/spreadsheets/d/19qp5A7qB5DwoKEF6WlYKy_GSWNOxTgMX/edit?usp=sharing).
